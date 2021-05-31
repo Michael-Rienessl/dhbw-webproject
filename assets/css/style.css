@@ -1,0 +1,9 @@
+body {
+    font-family: Calibri, sans-serif;
+}
+
+#mapid {
+    width: auto;
+    height: 800px;
+    margin: 50px;
+}
