@@ -1,0 +1,113 @@
+[
+  {
+    "STATION": "ASN00084027",
+    "LONGITUDE": "149.15",
+    "ELEVATION": "88.4",
+    "LATITUDE": "-37.5333",
+    "DATA": [
+      {
+        "DATE": "1952",
+        "DP01_ATTRIBUTES": "a",
+        "PRCP_ATTRIBUTES": " ,a",
+        "PRCP": "   1372.2",
+        "DP10": "        89",
+        "DP10_ATTRIBUTES": "a",
+        "DP01": "       176"
+      },
+      {
+        "DATE": "1953",
+        "DP01_ATTRIBUTES": "a",
+        "PRCP_ATTRIBUTES": " ,a",
+        "PRCP": "    862.2",
+        "DP10": "        72",
+        "DP10_ATTRIBUTES": "a",
+        "DP01": "       143"
+      },
+      {
+        "DATE": "1954",
+        "DP01_ATTRIBUTES": "a",
+        "PRCP_ATTRIBUTES": " ,a",
+        "PRCP": "    896.4",
+        "DP10": "        63",
+        "DP10_ATTRIBUTES": "a",
+        "DP01": "       114"
+      },
+      {
+        "DATE": "1955",
+        "DP01_ATTRIBUTES": "a",
+        "PRCP_ATTRIBUTES": " ,a",
+        "PRCP": "    875.7",
+        "DP10": "        83",
+        "DP10_ATTRIBUTES": "a",
+        "DP01": "       139"
+      },
+      {
+        "DATE": "1956",
+        "DP01_ATTRIBUTES": "a",
+        "PRCP_ATTRIBUTES": " ,a",
+        "PRCP": "   1331.8",
+        "DP10": "       102",
+        "DP10_ATTRIBUTES": "a",
+        "DP01": "       186"
+      },
+      {
+        "DATE": "1960",
+        "PRCP_ATTRIBUTES": " ,a",
+        "PRCP": "   1147.9"
+      },
+      {
+        "DATE": "1961",
+        "PRCP_ATTRIBUTES": " ,a",
+        "PRCP": "   1218.4"
+      },
+      {
+        "DATE": "1962",
+        "PRCP_ATTRIBUTES": " ,a",
+        "PRCP": "    872.6"
+      },
+      {
+        "DATE": "1963",
+        "PRCP_ATTRIBUTES": " ,a",
+        "PRCP": "   1173.3"
+      },
+      {
+        "DATE": "1964",
+        "PRCP_ATTRIBUTES": " ,a",
+        "PRCP": "    888.4"
+      },
+      {
+        "DATE": "1966",
+        "PRCP_ATTRIBUTES": " ,a",
+        "PRCP": "   1252.9"
+      },
+      {
+        "DATE": "1967",
+        "DP01_ATTRIBUTES": "a",
+        "PRCP_ATTRIBUTES": " ,a",
+        "PRCP": "    776.2",
+        "DP10": "        57",
+        "DP10_ATTRIBUTES": "a",
+        "DP01": "       127"
+      },
+      {
+        "DATE": "1968",
+        "PRCP_ATTRIBUTES": " ,a",
+        "PRCP": "    752.8"
+      },
+      {
+        "DATE": "1969",
+        "DP01_ATTRIBUTES": "a",
+        "PRCP_ATTRIBUTES": " ,a",
+        "PRCP": "   1032.5",
+        "DP10": "        76",
+        "DP10_ATTRIBUTES": "a",
+        "DP01": "       136"
+      },
+      {
+        "DATE": "1970",
+        "PRCP_ATTRIBUTES": " ,a",
+        "PRCP": "   1193.2"
+      }
+    ]
+  }
+]
