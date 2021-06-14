@@ -1,3 +1,5 @@
+//TODO fix for XML
+
 function get_url_param( name )
 {
     name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
