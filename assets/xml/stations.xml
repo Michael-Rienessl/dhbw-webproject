@@ -31,9 +31,13 @@
     </station>
     <station>
         <name>ASN0008345</name>
-        <lat>47.32</lat>
-        <lon>-8.32</lon>
+        <lat>49.02716</lat>
+        <lon>8.38568</lon>
         <data>
+            <set>
+                <temp>-69</temp>
+                <year>0</year>
+            </set>
             <set>
                 <temp>21</temp>
                 <year>1945</year>
@@ -45,6 +49,10 @@
             <set>
                 <temp>1000</temp>
                 <year>1947</year>
+            </set>
+            <set>
+                <temp>187</temp>
+                <year>69420</year>
             </set>
         </data>
     </station>
