@@ -1,5 +1,3 @@
-
-
 function get_url_param(name) {
     name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
 
@@ -32,8 +30,23 @@ function details(xml) {
     var stations = xml.getElementsByTagName("station");
     for (let i = 0; i < stations.length; i++) {
         if (stations[i].getElementsByTagName("name")[0].childNodes[0].nodeValue === stationName) {
-           console.log(stations[i].getElementsByTagName("name")[0].childNodes[0].nodeValue)
+            html = " <p>" + stationName + "</p><table id='detailsTable'><thead>" +
+                "  <tr>" +
+                "    <th>Year</th>" +
+                "    <th>Temp</th>" +
+                "  </tr></thead>"
+            let data = stations[i].getElementsByTagName("data")[0];
+            for (let j = 0; j < data.getElementsByTagName("set").length; j++) {
+                let set = data.getElementsByTagName("set")[j];
+                html += "<tr>\n" +
+                    "<td>" + set.getElementsByTagName("year")[0].childNodes[0].nodeValue + "</td>" +
+                    "<td>" + set.getElementsByTagName("temp")[0].childNodes[0].nodeValue + "</td>" +
+                    "</tr>"
+            }
             break;
         }
     }
+    html += "</table>"
+    document.getElementById("content").innerHTML = html;
+    document.title = "Details " + stationName;
 }
