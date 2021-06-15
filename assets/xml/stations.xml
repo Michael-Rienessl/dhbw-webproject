@@ -30,13 +30,21 @@
         </data>
     </station>
     <station>
-        <name>Station2</name>
+        <name>ASN0008345</name>
         <lat>47.32</lat>
         <lon>-8.32</lon>
         <data>
             <set>
                 <temp>21</temp>
                 <year>1945</year>
+            </set>
+            <set>
+                <temp>32</temp>
+                <year>1946</year>
+            </set>
+            <set>
+                <temp>1000</temp>
+                <year>1947</year>
             </set>
         </data>
     </station>
