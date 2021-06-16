@@ -1,11 +1,5 @@
 body {
-    font-family: Calibri, sans-serif;
-}
-
-#mapid {
-    width: auto;
-    height: 800px;
-    margin: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 #detailsTable {
