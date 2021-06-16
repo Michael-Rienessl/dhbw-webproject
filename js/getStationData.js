@@ -15,7 +15,7 @@ let stationName = get_url_param('station')
 let html = "";
 
 var xhr = new XMLHttpRequest();
-xhr.open('GET', './assets/xml/stations.xml');
+xhr.open('GET', './xml/stations.xml');
 xhr.overrideMimeType('text/xml');
 xhr.onload = function () {
     if (xhr.readyState === xhr.DONE && xhr.status === 200) {
