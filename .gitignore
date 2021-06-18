@@ -3,8 +3,6 @@ mocks/
 
 # Node stuff
 node_modules/
-package.json
-package-lock.json
 
 ### VisualStudioCode template
 .vscode/
