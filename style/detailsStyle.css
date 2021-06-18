@@ -12,7 +12,7 @@ body {
 }
 
 #detailsTable thead tr {
-    background-color: #009879;
+    background-color: #04AA6D;
     color: #ffffff;
     text-align: left;
 }
@@ -32,5 +32,5 @@ body {
 }
 
 #detailsTable tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
+    border-bottom: 2px solid #04AA6D;
 }
