@@ -43,7 +43,7 @@
     "no-mixed-operators": "error",
     "brace-style": "error",
     "template-curly-spacing": "warn",
-    "no-console": "error",
+    "no-console": "warn",
     "no-var": "error",
     "no-undef": "off",
     "no-restricted-syntax": [
