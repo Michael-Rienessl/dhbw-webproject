@@ -2,6 +2,7 @@
     "compilerOptions": {
       "module": "CommonJS",
       "target": "ES2020",
+      "allowJs": false,
       "removeComments": true,
       "noEmitOnError": false,
       "noFallthroughCasesInSwitch": false,
@@ -11,6 +12,6 @@
       "noUnusedParameters": true,
       "typeRoots": ["@types"],
       "esModuleInterop": true,
-      "outDir": "/dist/"
+      "outDir": "./js/"
     }
   }
