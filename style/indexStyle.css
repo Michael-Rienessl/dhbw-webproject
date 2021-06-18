@@ -1,10 +1,5 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
-
 #mapid {
     width: auto;
     height: 800px;
     margin: 50px;
 }
-
