@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>HowTo: Mini-Beispiel "Leaflet Karte mit Marker"</title>
+    <title>Placeholder: DHBW Webproject</title>
     <link rel="icon" href="assets/images/favicon.png">
     <!-- leaflet.css und leaflet.js von externer Quelle einbinden -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
@@ -10,6 +10,7 @@
     <!-- stylesheets -->
     <link rel="stylesheet" href="style/globalStyle.css">
     <link rel="stylesheet" href="style/indexStyle.css">
+    <link rel="stylesheet" href="style/detailsStyle.css">
 </head>
 <nav>
     <ul>
@@ -22,15 +23,9 @@
 <body>
 <h1>Lorem ipsum solor dir amet</h1>
 <div id='mapid'></div>
-<!-- OSM-Basiskarte einfügen und zentrieren -->
-<script type='text/javascript'>
-    var Karte = L.map('mapid').setView([49.011753, 8.403854], 12);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        'attribution':  'Kartendaten &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-        'useCache': true
-    }).addTo(Karte);
-</script>
-<!-- Marker einfügen -->
-<script type="text/javascript" src="js/markersXML.js"></script>
+<!-- OSM-Basiskarte einfügen und zentrieren + Marker einfügen -->
+<script type="text/javascript" src="src/markersXML.js"></script>
+<!-- Station Data -->
+<!-- <script src="dist/getStationData_bundle.js"></script> -->
 </body>
 </html>

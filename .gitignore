@@ -1,10 +1,12 @@
+# Bundled Production Script Output (remember: One-Time-Generating with 'npm run build' ^^)
+dist/
+js/
+
 # Mock data
 mocks/
 
 # Node stuff
 node_modules/
-package.json
-package-lock.json
 
 ### VisualStudioCode template
 .vscode/
