@@ -2,6 +2,6 @@
   "trailingComma": "none",
   "tabWidth": 4,
   "useTabs": true,
-  "endOfLine": "lf",
+  "endOfLine": "crlf",
   "proseWrap": "always"
 }
