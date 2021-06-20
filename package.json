@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc && browserify js/dev_placeholder.js -o dist/dev_placeholder_bundle.js && browserify js/getStationData.js -o dist/getStationData_bundle.js && copy .\\src\\markersXML.js .\\dist\\"
+    "build": "tsc && browserify js/getStationData.js -o dist/getStationData_bundle.js && copy .\\src\\map.js .\\dist\\"
   },
   "repository": {
     "type": "git",
