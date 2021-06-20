@@ -7,6 +7,7 @@ mocks/
 
 # Node stuff
 node_modules/
+package-lock.json
 
 ### VisualStudioCode template
 .vscode/
@@ -89,3 +90,4 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 .idea
+
