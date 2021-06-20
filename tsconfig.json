@@ -13,5 +13,9 @@
       "typeRoots": ["@types"],
       "esModuleInterop": true,
       "outDir": "./js/"
-    }
-  }
+    },
+  "exclude": [
+    "./src/dev_placeholder.ts",
+    "node_modules"
+  ]
+}
