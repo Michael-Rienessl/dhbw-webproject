@@ -1,5 +1,5 @@
 //Leaflet Map erstellen
-var Karte = L.map('mapid').setView([49.011753, 8.403854], 12);
+var Karte = L.map('mapid').setView([49.011753, 8.403854], 6);
 Karte.options.minZoom = 2;
 
 //Standard OpenStreet Map Aussehen
@@ -9,13 +9,17 @@ Karte.options.minZoom = 2;
 }).addTo(Karte);*/
 
 //DarkMode komatibel mit leaflet. Ist allerdings unscharf. Ggf. noch nach Configs suchen
-/*L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png', {
+/*
+L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png', {
         'attribution':  'Kartendaten &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
         'useCache': true
-}).addTo(Karte);*/
+}).addTo(Karte);
+
+ */
 
 //MapBox Styles. Nutzt WebGL zur Darstellung. Es können Auch andere Style z.B. von https://openmaptiles.org/styles/ genommen werden
 //MapBox DarkMode
+
 var glVecTilesMap = L.mapboxGL({
   accessToken: 'pk.eyJ1IjoiaGFubmVsb3JlMSIsImEiOiJja3E1aTNuNHUwcGVlMnBxejlzOTFyeDQ1In0._2lBK8UGU28XwJjLsrh41w',
   style: 'mapbox://styles/mapbox/dark-v10', 
