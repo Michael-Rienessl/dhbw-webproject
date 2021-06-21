@@ -10,7 +10,7 @@ async function main() {
 	console.time('fetching')
 	
 	//request lat, lon, name and write into xml
-	const uriPart = "https://www.ncei.noaa.gov/access/services/data/v1?dataset=daily-summaries&startDate=2020-01-01&endDate=2020-01-01&includeStationLocation=1&includeStationName=true&format=json&stations="
+	const uriPart = "https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-summary-of-the-year&startDate=2020-01-01&endDate=2020-12-31&includeStationLocation=1&includeStationName=true&format=json&stations="
 	let stationJSON = [];
 	let errorStations = []
 
