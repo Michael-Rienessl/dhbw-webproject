@@ -14,8 +14,9 @@ async function main() {
 	let stationJSON = [];
 	let errorStations = []
 
-	let counter = 0;
 	const request_count = german_station_id_list.length;
+	const cooldownMs = 3000;
+	let counter = 0;
 	myInterval = setInterval(async () => {
 
 		if (counter == request_count) {
@@ -26,7 +27,8 @@ async function main() {
 		}
 
 		let station_id = german_station_id_list[counter]
-		console.log(`[${Math.floor(counter / request_count*100)}/100%] Requesting station data for: ${station_id}`);
+		console.log(`[${(counter / request_count*100).toFixed(1)}/100%] Requesting station data for: ${station_id}, ETA: ${((((request_count-counter) * cooldownMs) /1000) / 60).toFixed(1)} mins`);
+		// TODO: ETA
 		
 		try {
 			var response = await rp(uriPart + station_id, { json: true });
@@ -49,7 +51,7 @@ async function main() {
 		fs.writeFileSync('errorStationIDs.json', JSON.stringify(errorStations))
 
 		counter++;
-	}, 3000)
+	}, cooldownMs)
 
 }
 
