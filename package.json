@@ -20,6 +20,8 @@
   "dependencies": {
     "@types/leaflet": "^1.7.2",
     "miniget": "^4.2.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
     "typescript": "^4.3.4"
   },
   "devDependencies": {
