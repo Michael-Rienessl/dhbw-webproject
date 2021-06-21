@@ -1,5 +1,5 @@
 //Leaflet Map erstellen
-var Karte = L.map("mapid").setView([49.011753, 8.403854], 6);
+var Karte = L.map("mapid").setView([51, 10.3], 6);
 Karte.options.minZoom = 2;
 
 //Standard OpenStreet Map Aussehen
