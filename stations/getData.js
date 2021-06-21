@@ -7,22 +7,33 @@ const german_station_id_list = JSON.parse(fs.readFileSync("german_station_id_lis
 
 
 async function main() {
+	console.time('fetching')
+	
 	//request lat, lon, name and write into xml
 	const uriPart = "https://www.ncei.noaa.gov/access/services/data/v1?dataset=daily-summaries&startDate=2020-01-01&endDate=2020-01-01&includeStationLocation=1&includeStationName=true&format=json&stations="
 	let stationJSON = [];
+	let errorStations = []
 
 	let counter = 0;
+	const request_count = german_station_id_list.length;
 	myInterval = setInterval(async () => {
 
-		if (counter == german_station_id_list.length) {
+		if (counter == request_count) {
 			fs.writeFileSync('stationData.json', JSON.stringify(stationJSON))
+			fs.writeFileSync('errorStationIDs.json', JSON.stringify(errorStations))
+			console.timeEnd('fetching')
 			clearInterval(myInterval)
 		}
 
 		let station_id = german_station_id_list[counter]
-		console.log(`Requesting station data for: ${station_id}`);
-		var response = await rp(uriPart + station_id, { json: true });
-
+		console.log(`[${Math.floor(counter / request_count*100)}/100%] Requesting station data for: ${station_id}`);
+		
+		try {
+			var response = await rp(uriPart + station_id, { json: true });
+		} catch (error) {
+			errorStations.push(station_id)
+		}
+		
 		try {
 			stationJSON.push({
 				id: response[0].STATION,
@@ -36,8 +47,8 @@ async function main() {
 
 		counter++;
 	}, 3000)
-}
 
+}
 
 main()
 
