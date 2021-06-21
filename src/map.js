@@ -1,5 +1,5 @@
 //Leaflet Map erstellen
-var Karte = L.map('mapid').setView([49.011753, 8.403854], 6);
+var Karte = L.map("mapid").setView([49.011753, 8.403854], 6);
 Karte.options.minZoom = 2;
 
 //Standard OpenStreet Map Aussehen
@@ -21,34 +21,35 @@ L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}
 //MapBox DarkMode
 
 var glVecTilesMap = L.mapboxGL({
-  accessToken: 'pk.eyJ1IjoiaGFubmVsb3JlMSIsImEiOiJja3E1aTNuNHUwcGVlMnBxejlzOTFyeDQ1In0._2lBK8UGU28XwJjLsrh41w',
-  style: 'mapbox://styles/mapbox/dark-v10', 
+	accessToken: "pk.eyJ1IjoiaGFubmVsb3JlMSIsImEiOiJja3E1aTNuNHUwcGVlMnBxejlzOTFyeDQ1In0._2lBK8UGU28XwJjLsrh41w",
+	style: "mapbox://styles/mapbox/dark-v10"
 }).addTo(Karte);
 
 
 const xhr = new XMLHttpRequest();
-xhr.open("GET", "./xml/stations.xml");
+xhr.open("GET", "./BACKUP/stationsGer.xml");
 xhr.overrideMimeType("text/xml");
 xhr.onload = function () {
-  if (xhr.readyState === xhr.DONE && xhr.status === 200) {
-    console.log(xhr.responseXML);
-    markers(xhr.responseXML);
-  }
+	if (xhr.readyState === xhr.DONE && xhr.status === 200) {
+		console.log(xhr.responseXML);
+		markers(xhr.responseXML);
+	}
 };
 
 xhr.send();
 
 function markers(xml) {
-  const stations = xml.getElementsByTagName("station");
-  console.log(stations);
-  const markArr = [];
-  for (let i = 0; i < stations.length; i++) {
-    const name =
-        stations[i].getElementsByTagName("name")[0].childNodes[0].nodeValue,
-      lat = stations[i].getElementsByTagName("lat")[0].childNodes[0].nodeValue,
-      lon = stations[i].getElementsByTagName("lon")[0].childNodes[0].nodeValue;
-    markArr[i] = L.marker([lat, lon]).addTo(Karte);
-    const linkText = `<a href=\x22details.html?station=${name}\x22>${name}</a>`;
-    markArr[i].bindPopup(`<b>Details:${linkText}</b>`);
-  }
+	const stations = xml.getElementsByTagName("station");
+	console.log(stations);
+	const markArr = [];
+	for (let i = 0; i < stations.length; i++) {
+		const
+			id = stations[i].getElementsByTagName("id")[0].childNodes[0].nodeValue,
+			lat = stations[i].getElementsByTagName("lat")[0].childNodes[0].nodeValue,
+			lon = stations[i].getElementsByTagName("lon")[0].childNodes[0].nodeValue,
+			name = stations[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+		markArr[i] = L.marker([lat, lon]).addTo(Karte);
+		const linkText = `<a href=\x22details.html?station=${id}\x22>${id}</a>`;
+		markArr[i].bindPopup(`<b>${name}</b> \n <b>Details: ${linkText}</b>`);
+	}
 }
