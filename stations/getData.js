@@ -45,6 +45,9 @@ async function main() {
 			console.log(`🚨 Some attributes for ${station_id} not available. --> Skipping this station`)
 		}
 
+		fs.writeFileSync('stationData.json', JSON.stringify(stationJSON))
+		fs.writeFileSync('errorStationIDs.json', JSON.stringify(errorStations))
+
 		counter++;
 	}, 3000)
 
