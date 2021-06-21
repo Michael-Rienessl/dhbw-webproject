@@ -1,6 +1,6 @@
 # Bundled Production Script Output (remember: One-Time-Generating with 'npm run build' ^^)
 dist/
-js/
+#js/
 
 # Mock data
 mocks/
