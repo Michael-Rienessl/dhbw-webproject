@@ -1,1 +1,3176 @@
-[{"id":"GM000001474","name":"BREMEN SEEFAHRTSCHULE, GM","lat":"53.1017","lon":"8.7842"},{"id":"GM000002288","name":"KAISERSLAUTERN, GM","lat":"49.4253","lon":"7.7367"},{"id":"GM000003038","name":"SCHWERIN, GM","lat":"53.6442","lon":"11.3883"},{"id":"GM000003319","name":"BERLIN DAHLEM, GM","lat":"52.4639","lon":"13.3017"},{"id":"GM000003342","name":"POTSDAM, GM","lat":"52.3833","lon":"13.0639"},{"id":"GM000004063","name":"BAMBERG, GM","lat":"49.8753","lon":"10.9217"},{"id":"GM000004199","name":"MUNCHEN NYMPHENBURG, GM","lat":"48.1667","lon":"11.5025"},{"id":"GM000004204","name":"JENA STERNWARTE, GM","lat":"50.9267","lon":"11.5842"},{"id":"GM000010147","name":"HAMBURG FUHLSBUETTEL, GM","lat":"53.635","lon":"9.99"},{"id":"GM000010393","name":"LINDENBERG, GM","lat":"52.2094","lon":"14.1203"},{"id":"GM000010962","name":"HOHENPEISSENBERG, GM","lat":"47.8017","lon":"11.0117"},{"id":"GME00102177","name":"HELGOLAND, GM","lat":"54.1764","lon":"7.8931"},{"id":"GME00102212","name":"ROSTOCK WARNEMUNDE, GM","lat":"54.1817","lon":"12.0819"},{"id":"GME00102220","name":"GREIFSWALD, GM","lat":"54.0978","lon":"13.4075"},{"id":"GME00102228","name":"EMDEN WOLTHUSEN, GM","lat":"53.3719","lon":"7.2242"},{"id":"GME00102244","name":"HANNOVER, GM","lat":"52.4656","lon":"9.6794"},{"id":"GME00102252","name":"MAGDEBURG, GM","lat":"52.1031","lon":"11.5842"},{"id":"GME00102268","name":"DUSSELDORF, GM","lat":"51.2969","lon":"6.77"},{"id":"GME00102284","name":"FRITZLAR, GM","lat":"51.1167","lon":"9.2831"},{"id":"GME00102292","name":"LEIPZIG SCHKEUDITZ, GM","lat":"51.4358","lon":"12.2414"},{"id":"GME00102324","name":"NURBURG BARWEILER, GM","lat":"50.3608","lon":"6.8703"},{"id":"GME00102332","name":"MEININGEN, GM","lat":"50.5625","lon":"10.3769"},{"id":"GME00102340","name":"ERFURT BINDERSLEBEN, GM","lat":"50.9844","lon":"10.9631"},{"id":"GME00102348","name":"FICHTELBERG, GM","lat":"50.4292","lon":"12.9553"},{"id":"GME00102356","name":"WURZBURG, GM","lat":"49.7714","lon":"9.9589"},{"id":"GME00102364","name":"HOF, GM","lat":"50.3131","lon":"11.8775"},{"id":"GME00102372","name":"SAARBRUCKEN ENSHEIM, GM","lat":"49.2142","lon":"7.1081"},{"id":"GME00102380","name":"NURNBERG, GM","lat":"49.5042","lon":"11.0567"},{"id":"GME00102388","name":"STRAUBING, GM","lat":"48.8283","lon":"12.5603"},{"id":"GME00102396","name":"AUGSBURG, GM","lat":"48.4264","lon":"10.9431"},{"id":"GME00102404","name":"KONSTANZ, GM","lat":"47.6781","lon":"9.1908"},{"id":"GME00102412","name":"KEMPTEN, GM","lat":"47.7242","lon":"10.3364"},{"id":"GME00111430","name":"MUENSTER OSNABRUECK AIRPORT, GM","lat":"52.1353","lon":"7.7"},{"id":"GME00111445","name":"BERLIN TEMPELHOF, GM","lat":"52.4683","lon":"13.4039"},{"id":"GME00111457","name":"ALTASTENBERG, GM","lat":"51.1903","lon":"8.4681"},{"id":"GME00111464","name":"DRESDEN KLOTZSCHE, GM","lat":"51.1292","lon":"13.7558"},{"id":"GME00111474","name":"TRIER PETRISBERG, GM","lat":"49.7492","lon":"6.6592"},{"id":"GME00111503","name":"RHEINSTETTEN, GM","lat":"48.9733","lon":"8.3308"},{"id":"GME00111512","name":"STUTTGART ECHTERDINGEN, GM","lat":"48.6892","lon":"9.2253"},{"id":"GME00114621","name":"BROCKEN, GM","lat":"51.8","lon":"10.62"},{"id":"GME00115771","name":"STUTTGART SCHNARRENBERG, GM","lat":"48.8292","lon":"9.2008"},{"id":"GME00120922","name":"LEUCHTTURM ALTE WESER, GM","lat":"53.8631","lon":"8.1275"},{"id":"GME00120934","name":"FELDBERG SCHWARZWALD, GM","lat":"47.8756","lon":"8.0044"},{"id":"GME00120946","name":"FREUDENSTADT, GM","lat":"48.4544","lon":"8.41"},{"id":"GME00120958","name":"AACHEN ORSBACH, GM","lat":"50.7992","lon":"6.025"},{"id":"GME00120970","name":"GERA LEUMNITZ, GM","lat":"50.8819","lon":"12.13"},{"id":"GME00120982","name":"GIESSEN WETTENBERG, GM","lat":"50.6008","lon":"8.6506"},{"id":"GME00120994","name":"ANGERMUNDE, GM","lat":"53.0331","lon":"13.9931"},{"id":"GME00121006","name":"GROSSER ARBER, GM","lat":"49.1139","lon":"13.1353"},{"id":"GME00121030","name":"KIEL HOLTENAU, GM","lat":"54.3756","lon":"10.1439"},{"id":"GME00121042","name":"KOLN BONN, GM","lat":"50.8658","lon":"7.1583"},{"id":"GME00121054","name":"LAHR, GM","lat":"48.3656","lon":"7.8289"},{"id":"GME00121066","name":"LEUCHTTURM KIEL, GM","lat":"54.5003","lon":"10.2744"},{"id":"GME00121078","name":"BAD LIPPSPRINGE, GM","lat":"51.7867","lon":"8.8394"},{"id":"GME00121090","name":"MARNITZ, GM","lat":"53.3242","lon":"11.9333"},{"id":"GME00121102","name":"NORDERNEY, GM","lat":"53.7139","lon":"7.1525"},{"id":"GME00121126","name":"OHRINGEN, GM","lat":"49.2081","lon":"9.5183"},{"id":"GME00121138","name":"REGENSBURG, GM","lat":"49.0433","lon":"12.1031"},{"id":"GME00121150","name":"BERLIN TEGEL, GM","lat":"52.5656","lon":"13.3106"},{"id":"GME00121162","name":"STOTTEN, GM","lat":"48.6667","lon":"9.8656"},{"id":"GME00121174","name":"WASSERKUPPE, GM","lat":"50.4978","lon":"9.9439"},{"id":"GME00121186","name":"WEIDEN, GM","lat":"49.6669","lon":"12.1856"},{"id":"GME00121210","name":"FURSTENZELL, GM","lat":"48.5458","lon":"13.3544"},{"id":"GME00121222","name":"HAHN, GM","lat":"49.9475","lon":"7.2644"},{"id":"GME00121246","name":"OFFENBACH WETTERPARK, GM","lat":"50.0892","lon":"8.7864"},{"id":"GME00121258","name":"COTTBUS, GM","lat":"51.7775","lon":"14.3183"},{"id":"GME00121270","name":"CUXHAVEN, GM","lat":"53.8731","lon":"8.7067"},{"id":"GME00121306","name":"DOBERLUG KIRCHHAIN, GM","lat":"51.6467","lon":"13.5767"},{"id":"GME00121354","name":"DRESDEN HOSTERWITZ, GM","lat":"51.0233","lon":"13.8494"},{"id":"GME00121366","name":"DRESDEN STREHLEN, GM","lat":"51.0253","lon":"13.7756"},{"id":"GME00121378","name":"DREWITZ BEI BURG, GM","lat":"52.2183","lon":"12.165"},{"id":"GME00121402","name":"BAD DURKHEIM, GM","lat":"49.4728","lon":"8.1939"},{"id":"GME00121510","name":"EBERSBERG HALBING, GM","lat":"48.1008","lon":"11.9883"},{"id":"GME00121534","name":"EBRACH, GM","lat":"49.8531","lon":"10.5003"},{"id":"GME00121582","name":"EICHSTATT LANDERSHOFEN, GM","lat":"48.8789","lon":"11.2358"},{"id":"GME00121654","name":"ELLWANGEN RINDELBACH, GM","lat":"48.9903","lon":"10.1317"},{"id":"GME00121666","name":"ELPERSBUTTEL, GM","lat":"54.0708","lon":"9.0114"},{"id":"GME00121702","name":"BAD SOHL ELSTER, GM","lat":"50.2717","lon":"12.2753"},{"id":"GME00121714","name":"ELZACH FISNACHT, GM","lat":"48.2019","lon":"8.1094"},{"id":"GME00121750","name":"EMMENDINGEN MUNDINGEN, GM","lat":"48.1383","lon":"7.8356"},{"id":"GME00121834","name":"ALTENSTADT, GM","lat":"47.8364","lon":"10.8719"},{"id":"GME00121846","name":"ERFDE, GM","lat":"54.3008","lon":"9.3169"},{"id":"GME00121882","name":"MOHRENDORF KLEINSEEBACH, GM","lat":"49.6506","lon":"11.0083"},{"id":"GME00121930","name":"ESCHWEGE, GM","lat":"51.1844","lon":"10.065"},{"id":"GME00121954","name":"ALTENTREPTOW, GM","lat":"53.6881","lon":"13.2631"},{"id":"GME00121966","name":"ESLOHE, GM","lat":"51.2553","lon":"8.1569"},{"id":"GME00121978","name":"ESSEN BREDENEY, GM","lat":"51.4056","lon":"6.9683"},{"id":"GME00121990","name":"ALTGERINGSWALDE, GM","lat":"51.0892","lon":"12.9342"},{"id":"GME00122002","name":"WEILERSWIST LOMMERSUM, GM","lat":"50.7131","lon":"6.7917"},{"id":"GME00122038","name":"KR.ROTTAL INN FALKENBERG, GM","lat":"48.4842","lon":"12.7256"},{"id":"GME00122050","name":"FASSBERG, GM","lat":"52.9192","lon":"10.1839"},{"id":"GME00122086","name":"FICHTELBERG OBERFRANKEN HUTTST, GM","lat":"49.9817","lon":"11.8392"},{"id":"GME00122098","name":"DUISBURG BAERL, GM","lat":"51.51","lon":"6.7019"},{"id":"GME00122122","name":"HAMELN HASTENBECK, GM","lat":"52.0831","lon":"9.4081"},{"id":"GME00122134","name":"WALTROP ABDINGHOF, GM","lat":"51.5981","lon":"7.4056"},{"id":"GME00122146","name":"GEVELSBERG OBERBROKING, GM","lat":"51.3342","lon":"7.3417"},{"id":"GME00122158","name":"LANDSHUT REITHOF, GM","lat":"48.5742","lon":"12.2589"},{"id":"GME00122170","name":"ROCKENDORF, GM","lat":"50.6825","lon":"11.5164"},{"id":"GME00122182","name":"MEINERZHAGEN REDLENDORF, GM","lat":"51.0908","lon":"7.6294"},{"id":"GME00122194","name":"FLADUNGEN HEUFURT, GM","lat":"50.5058","lon":"10.1681"},{"id":"GME00122218","name":"HELMSTEDT EMMERSTEDT, GM","lat":"52.2478","lon":"10.9603"},{"id":"GME00122290","name":"FLOSSENBURG, GM","lat":"49.7328","lon":"12.3506"},{"id":"GME00122326","name":"BIRX RHON, GM","lat":"50.5317","lon":"10.0492"},{"id":"GME00122362","name":"FRANKFURT MAIN WESTEND, GM","lat":"50.1281","lon":"8.6703"},{"id":"GME00122386","name":"FRANKFURT ODER, GM","lat":"52.3653","lon":"14.5378"},{"id":"GME00122410","name":"ALTOMUNSTER MAISBRUNN, GM","lat":"48.4067","lon":"11.3131"},{"id":"GME00122422","name":"HERSDORF WEISSENSEIFEN, GM","lat":"50.1517","lon":"6.5531"},{"id":"GME00122434","name":"FREIAMT OTTOSCHWANDEN, GM","lat":"48.2028","lon":"7.9342"},{"id":"GME00122446","name":"FREIBERG, GM","lat":"50.9281","lon":"13.3389"},{"id":"GME00122458","name":"FREIBURG, GM","lat":"48.0242","lon":"7.8353"},{"id":"GME00122482","name":"FREIBURG ELBE, GM","lat":"53.8292","lon":"9.2494"},{"id":"GME00122494","name":"FREYSTADT OBERNDORF, GM","lat":"49.1792","lon":"11.375"},{"id":"GME00122542","name":"FRIESOYTHE EDEWECHTERDAM, GM","lat":"53.0894","lon":"7.9425"},{"id":"GME00122566","name":"ALZEY, GM","lat":"49.7281","lon":"8.1167"},{"id":"GME00122602","name":"AMBERG UNTERAMMERSRICHT, GM","lat":"49.47","lon":"11.8558"},{"id":"GME00122626","name":"FULDA, GM","lat":"50.5344","lon":"9.6758"},{"id":"GME00122638","name":"GARDELEGEN, GM","lat":"52.5142","lon":"11.3978"},{"id":"GME00122650","name":"AMERANG PFAFFING, GM","lat":"48.0206","lon":"12.2939"},{"id":"GME00122698","name":"GEISENHEIM, GM","lat":"49.985","lon":"7.9544"},{"id":"GME00122710","name":"GEISINGEN, GM","lat":"47.925","lon":"8.6481"},{"id":"GME00122734","name":"GELBELSEE, GM","lat":"48.9489","lon":"11.43"},{"id":"GME00122746","name":"GELDERN WALBECK, GM","lat":"51.4956","lon":"6.2467"},{"id":"GME00122770","name":"OHLSBACH, GM","lat":"48.4339","lon":"7.9933"},{"id":"GME00122782","name":"GENTHIN, GM","lat":"52.3892","lon":"12.1633"},{"id":"GME00122806","name":"GERNSHEIM ALLMENDFELD, GM","lat":"49.7725","lon":"8.5306"},{"id":"GME00122842","name":"GILSERBERG MOISCHEID, GM","lat":"50.9664","lon":"9.0503"},{"id":"GME00122866","name":"GLUCKSTADT, GM","lat":"53.7983","lon":"9.4306"},{"id":"GME00122878","name":"ANKLAM, GM","lat":"53.8431","lon":"13.6856"},{"id":"GME00122890","name":"GOSSWEINSTEIN, GM","lat":"49.7667","lon":"11.3075"},{"id":"GME00122902","name":"GOTTINGEN, GM","lat":"51.5017","lon":"9.9528"},{"id":"GME00122938","name":"GRAFENBERG KASBERG, GM","lat":"49.665","lon":"11.2253"},{"id":"GME00122962","name":"GRAINET REHBERG, GM","lat":"48.7903","lon":"13.6306"},{"id":"GME00122974","name":"GRAMBEK, GM","lat":"53.5744","lon":"10.6806"},{"id":"GME00123058","name":"GROSS LUSEWITZ, GM","lat":"54.0731","lon":"12.3256"},{"id":"GME00123094","name":"FELDKIRCHEN WESTERHAM LENZMUHL, GM","lat":"47.9417","lon":"11.9014"},{"id":"GME00123130","name":"GRUNDAU BREITENBORN, GM","lat":"50.2675","lon":"9.1889"},{"id":"GME00123142","name":"GRUNOW, GM","lat":"53.3167","lon":"13.9358"},{"id":"GME00123178","name":"GUTERSLOH, GM","lat":"51.8889","lon":"8.3553"},{"id":"GME00123190","name":"ARNSTEIN MUDESHEIM, GM","lat":"49.9706","lon":"9.9125"},{"id":"GME00123226","name":"OLSDORF, GM","lat":"49.9325","lon":"6.3756"},{"id":"GME00123274","name":"HAMBURG NEUWIEDENTHAL, GM","lat":"53.4792","lon":"9.8983"},{"id":"GME00123310","name":"ARTERN, GM","lat":"51.3756","lon":"11.2931"},{"id":"GME00123370","name":"HANKENSBUTTEL, GM","lat":"52.7214","lon":"10.6"},{"id":"GME00123382","name":"HARBURG, GM","lat":"48.7928","lon":"10.7075"},{"id":"GME00123394","name":"ASCHAFFENBURG, GM","lat":"49.9789","lon":"9.1125"},{"id":"GME00123418","name":"HARZGERODE, GM","lat":"51.6531","lon":"11.1375"},{"id":"GME00123466","name":"HECHINGEN, GM","lat":"48.3758","lon":"8.9808"},{"id":"GME00123574","name":"HEINSBERG SCHLEIDEN, GM","lat":"51.0425","lon":"6.1044"},{"id":"GME00123586","name":"ASSLAR KLEIN ALTENSTADTEN, GM","lat":"50.5808","lon":"8.4692"},{"id":"GME00123646","name":"HERRENBERG, GM","lat":"48.5928","lon":"8.8553"},{"id":"GME00123694","name":"BAD HERSFELD, GM","lat":"50.8531","lon":"9.7383"},{"id":"GME00123718","name":"HERZBERG, GM","lat":"51.6267","lon":"10.3717"},{"id":"GME00123730","name":"ATTENKAM, GM","lat":"47.8781","lon":"11.3656"},{"id":"GME00123778","name":"HILGENROTH, GM","lat":"50.7381","lon":"7.6533"},{"id":"GME00123838","name":"AUE, GM","lat":"50.5917","lon":"12.7156"},{"id":"GME00123862","name":"BERTSDORF HORNITZ, GM","lat":"50.9006","lon":"14.7475"},{"id":"GME00123898","name":"HOFHEIM, GM","lat":"50.1364","lon":"10.5167"},{"id":"GME00123922","name":"HOHN, GM","lat":"54.3128","lon":"9.5392"},{"id":"GME00123934","name":"HOHWACHT, GM","lat":"54.3206","lon":"10.6742"},{"id":"GME00123946","name":"HOLZDORF FLUGPLATZ, GM","lat":"51.7683","lon":"13.1681"},{"id":"GME00123970","name":"HOLZKIRCHEN, GM","lat":"47.8831","lon":"11.6975"},{"id":"GME00123994","name":"KR. HOLZMINDEN BEVERN, GM","lat":"51.8553","lon":"9.4975"},{"id":"GME00124030","name":"HOMBURG SAAR, GM","lat":"49.3292","lon":"7.3567"},{"id":"GME00124102","name":"HUMMERICH, GM","lat":"50.5664","lon":"7.4844"},{"id":"GME00124126","name":"IDAR OBERSTEIN, GM","lat":"49.7","lon":"7.3331"},{"id":"GME00124138","name":"IHRINGEN, GM","lat":"48.0428","lon":"7.6328"},{"id":"GME00124186","name":"INGOLSTADT FLUGPLATZ, GM","lat":"48.7156","lon":"11.5333"},{"id":"GME00124222","name":"ITZEHOE, GM","lat":"53.9894","lon":"9.5694"},{"id":"GME00124234","name":"SCHLESWIG JAGEL, GM","lat":"54.4567","lon":"9.5206"},{"id":"GME00124306","name":"JUTERBOG, GM","lat":"52.0017","lon":"13.1039"},{"id":"GME00124318","name":"KAHL MAIN, GM","lat":"50.0656","lon":"8.9942"},{"id":"GME00124330","name":"KAISERSBACH CRONHUTTE, GM","lat":"48.9181","lon":"9.6881"},{"id":"GME00124366","name":"KALL SISTIG, GM","lat":"50.5028","lon":"6.5267"},{"id":"GME00124450","name":"KEHL ODELSHOFEN, GM","lat":"48.5583","lon":"7.8808"},{"id":"GME00124474","name":"KIRCHBERG JAGST HERBOLDSHAUSEN, GM","lat":"49.1814","lon":"9.9808"},{"id":"GME00124486","name":"KIRCHDORF POEL, GM","lat":"54.0008","lon":"11.4358"},{"id":"GME00124498","name":"BADEN BADEN GEROLDSAU, GM","lat":"48.7278","lon":"8.2467"},{"id":"GME00124510","name":"BAD KISSINGEN, GM","lat":"50.2256","lon":"10.0803"},{"id":"GME00124522","name":"MULLHEIM, GM","lat":"47.8069","lon":"7.6392"},{"id":"GME00124534","name":"KITZINGEN, GM","lat":"49.7369","lon":"10.1792"},{"id":"GME00124546","name":"KLEINER FELDBERG TAUNUS, GM","lat":"50.2225","lon":"8.4481"},{"id":"GME00124570","name":"KLEINER INSELSBERG, GM","lat":"50.8469","lon":"10.4814"},{"id":"GME00124594","name":"KLETTWITZ, GM","lat":"51.5567","lon":"13.8864"},{"id":"GME00124606","name":"KLEVE, GM","lat":"51.7625","lon":"6.0956"},{"id":"GME00124630","name":"KLITZSCHEN BEI TORGAU, GM","lat":"51.5203","lon":"12.9078"},{"id":"GME00124678","name":"BAD KONIGSHOFEN, GM","lat":"50.2853","lon":"10.4467"},{"id":"GME00124690","name":"KONIGSMOOR, GM","lat":"53.2292","lon":"9.6533"},{"id":"GME00124726","name":"KOSCHING, GM","lat":"48.8308","lon":"11.4883"},{"id":"GME00124762","name":"KOTHEN ANHALT, GM","lat":"51.7528","lon":"12.0092"},{"id":"GME00124774","name":"BAD KOHLGRUB ROSSHOF, GM","lat":"47.6658","lon":"11.0817"},{"id":"GME00124810","name":"KRONACH, GM","lat":"50.2533","lon":"11.3219"},{"id":"GME00124846","name":"KUMMERSBRUCK, GM","lat":"49.4289","lon":"11.9019"},{"id":"GME00124918","name":"LAAGE FLUGPLATZ, GM","lat":"53.9167","lon":"12.2831"},{"id":"GME00124930","name":"MERKLINGEN, GM","lat":"48.5131","lon":"9.7656"},{"id":"GME00125026","name":"LANGENLIPSDORF, GM","lat":"51.9183","lon":"13.0889"},{"id":"GME00125074","name":"BAD LAUCHSTADT, GM","lat":"51.3925","lon":"11.88"},{"id":"GME00125098","name":"LAUPHEIM, GM","lat":"48.2181","lon":"9.9094"},{"id":"GME00125122","name":"LECHFELD, GM","lat":"48.1864","lon":"10.8506"},{"id":"GME00125218","name":"LEIPZIG HOLZHAUSEN, GM","lat":"51.3164","lon":"12.4475"},{"id":"GME00125230","name":"LENNESTADT THETEN, GM","lat":"51.1344","lon":"8.0358"},{"id":"GME00125254","name":"BARSINGHAUSEN HOHENBOSTEL, GM","lat":"52.3208","lon":"9.4306"},{"id":"GME00125278","name":"LENZEN ELBE, GM","lat":"53.1025","lon":"11.4878"},{"id":"GME00125302","name":"KOLN STAMMHEIM, GM","lat":"50.9906","lon":"6.9783"},{"id":"GME00125314","name":"LICHTENHAIN MITTELNDORF, GM","lat":"50.9394","lon":"14.2108"},{"id":"GME00125326","name":"BARTH, GM","lat":"54.3406","lon":"12.7106"},{"id":"GME00125422","name":"LIPPSTADT BOKENFORDE, GM","lat":"51.6344","lon":"8.3953"},{"id":"GME00125434","name":"BAD LOBENSTEIN, GM","lat":"50.4519","lon":"11.6333"},{"id":"GME00125446","name":"BARUTH, GM","lat":"52.0619","lon":"13.5028"},{"id":"GME00125458","name":"LOHNBERG OBERSHAUSEN, GM","lat":"50.5633","lon":"8.24"},{"id":"GME00125530","name":"LUBBEN BLUMENFELDE, GM","lat":"51.9281","lon":"13.8819"},{"id":"GME00125554","name":"LUBECK BLANKENSEE, GM","lat":"53.8106","lon":"10.7067"},{"id":"GME00125602","name":"LUDENSCHEID, GM","lat":"51.2467","lon":"7.6431"},{"id":"GME00125638","name":"LUISENTHAL TALSPERRE, GM","lat":"50.7675","lon":"10.7214"},{"id":"GME00125662","name":"MAINZ LERCHENBERG ZDF, GM","lat":"49.9681","lon":"8.2117"},{"id":"GME00125686","name":"MALLERSDORF NIEDERBAYERN, GM","lat":"48.7781","lon":"12.2544"},{"id":"GME00125698","name":"KR. BAUTZEN KUBSCHUTZ, GM","lat":"51.1617","lon":"14.5056"},{"id":"GME00125710","name":"MANDERSCHEID SONNENHOF, GM","lat":"50.1028","lon":"6.8019"},{"id":"GME00125746","name":"KR. MARBURG BIEDENKOPF COLBE, GM","lat":"50.8503","lon":"8.7742"},{"id":"GME00125794","name":"MARTINRODA, GM","lat":"50.7344","lon":"10.8831"},{"id":"GME00125806","name":"HEINERSREUTH VOLLHOF, GM","lat":"49.9678","lon":"11.5208"},{"id":"GME00125818","name":"MAUTH FINSTERAU, GM","lat":"48.9367","lon":"13.5781"},{"id":"GME00125866","name":"MEHRINGEN, GM","lat":"51.7269","lon":"11.5125"},{"id":"GME00125890","name":"GARSEBACH BEI MEISSEN, GM","lat":"51.1306","lon":"13.4342"},{"id":"GME00125902","name":"MELLE, GM","lat":"52.2056","lon":"8.3392"},{"id":"GME00125914","name":"MEMMINGEN, GM","lat":"47.9831","lon":"10.1392"},{"id":"GME00125974","name":"BAD NEUNKIRCHEN MERGENTHEIM, GM","lat":"49.4781","lon":"9.7631"},{"id":"GME00126010","name":"METTEN, GM","lat":"48.8556","lon":"12.9203"},{"id":"GME00126022","name":"METZINGEN, GM","lat":"48.5383","lon":"9.2742"},{"id":"GME00126046","name":"MICHELSTADT, GM","lat":"49.67","lon":"9.0119"},{"id":"GME00126058","name":"MICHELSTADT VIELBRUNN, GM","lat":"49.7189","lon":"9.1006"},{"id":"GME00126070","name":"SCHMIERITZ WELTWITZ, GM","lat":"50.7294","lon":"11.7856"},{"id":"GME00126082","name":"MILTENBERG, GM","lat":"49.7131","lon":"9.2267"},{"id":"GME00126118","name":"BEERFELDEN, GM","lat":"49.5628","lon":"8.9689"},{"id":"GME00126154","name":"ROLLBACH, GM","lat":"49.7656","lon":"9.2542"},{"id":"GME00126178","name":"MONTABAUR, GM","lat":"50.4392","lon":"7.8064"},{"id":"GME00126226","name":"MUHLDORF, GM","lat":"48.28","lon":"12.5039"},{"id":"GME00126250","name":"MUNCHEBERG, GM","lat":"52.5189","lon":"14.125"},{"id":"GME00126322","name":"MUNSINGEN APFELSTETTEN, GM","lat":"48.3864","lon":"9.4842"},{"id":"GME00126358","name":"BAD MUSKAU, GM","lat":"51.5675","lon":"14.7006"},{"id":"GME00126370","name":"BELM, GM","lat":"52.3181","lon":"8.1706"},{"id":"GME00126382","name":"NAGOLD, GM","lat":"48.5675","lon":"8.7192"},{"id":"GME00126394","name":"BAD NAUHEIM, GM","lat":"50.3694","lon":"8.7656"},{"id":"GME00126418","name":"NEUBURG DONAU FLUGPLATZ, GM","lat":"48.7092","lon":"11.21"},{"id":"GME00126430","name":"NEUBURG KAMMEL LANGENHASLACH, GM","lat":"48.3125","lon":"10.3781"},{"id":"GME00126478","name":"MENZ, GM","lat":"53.1031","lon":"13.0439"},{"id":"GME00126490","name":"NEUHAUS AM RENNWEG, GM","lat":"50.5014","lon":"11.1356"},{"id":"GME00126514","name":"NEUHAUSEN OB ECK UNTERSCHWANDO, GM","lat":"47.9531","lon":"8.9942"},{"id":"GME00126526","name":"NEUKIRCHEN HAUPTSCHWENDA, GM","lat":"50.8933","lon":"9.4064"},{"id":"GME00126562","name":"NEUNKIRCHEN SEELSCHEID KRAWINK, GM","lat":"50.8456","lon":"7.3719"},{"id":"GME00126586","name":"NEUNKIRCHEN WELLESWEILER, GM","lat":"49.3444","lon":"7.2303"},{"id":"GME00126622","name":"NEUSTADT AM KULM FILCHENDORF, GM","lat":"49.8183","lon":"11.8653"},{"id":"GME00126670","name":"REGENSBURG BURGWEINTING, GM","lat":"48.9842","lon":"12.1456"},{"id":"GME00126694","name":"NIDEGGEN SCHMIDT, GM","lat":"50.6756","lon":"6.4242"},{"id":"GME00126718","name":"NIEDERSTETTEN, GM","lat":"49.3992","lon":"9.9653"},{"id":"GME00126730","name":"NIEDERSTOTZINGEN, GM","lat":"48.5342","lon":"10.2442"},{"id":"GME00126742","name":"NIENBURG, GM","lat":"52.6725","lon":"9.2242"},{"id":"GME00126754","name":"REIMLINGEN, GM","lat":"48.8264","lon":"10.5078"},{"id":"GME00126766","name":"NORVENICH FLUGPLATZ, GM","lat":"50.8289","lon":"6.6592"},{"id":"GME00126778","name":"NORDHOLZ FLUGPLATZ, GM","lat":"53.7644","lon":"8.6575"},{"id":"GME00126790","name":"NORDHORN, GM","lat":"52.4408","lon":"7.1056"},{"id":"GME00126838","name":"NURNBERG NETZSTALL, GM","lat":"49.4267","lon":"11.2553"},{"id":"GME00126874","name":"KIEFERSFELDEN GACH, GM","lat":"47.6192","lon":"12.1681"},{"id":"GME00126886","name":"BERGEN, GM","lat":"52.8167","lon":"9.9331"},{"id":"GME00126910","name":"OBERSCHLEISSHEIM, GM","lat":"48.2444","lon":"11.5539"},{"id":"GME00126922","name":"OBERSULM WILLSBACH, GM","lat":"49.1289","lon":"9.3533"},{"id":"GME00126946","name":"OBERVIECHTACH, GM","lat":"49.4531","lon":"12.4381"},{"id":"GME00127030","name":"BAD BERGZABERN, GM","lat":"49.1081","lon":"7.9969"},{"id":"GME00127090","name":"OSTERFELD, GM","lat":"51.0883","lon":"11.9314"},{"id":"GME00127114","name":"OSTHEIM V.D. RHON, GM","lat":"50.455","lon":"10.2219"},{"id":"GME00127138","name":"OY MITTELBERG PETERSTHAL, GM","lat":"47.6367","lon":"10.3903"},{"id":"GME00127150","name":"PAPENBURG, GM","lat":"53.0656","lon":"7.4819"},{"id":"GME00127174","name":"PARSBERG OBERPFALZ EGLWANG, GM","lat":"49.1517","lon":"11.6908"},{"id":"GME00127186","name":"PASSAU MAIERHOF, GM","lat":"48.5817","lon":"13.4167"},{"id":"GME00127222","name":"PELZERHAKEN, GM","lat":"54.0906","lon":"10.8783"},{"id":"GME00127246","name":"PERL NENNIG, GM","lat":"49.5367","lon":"6.3808"},{"id":"GME00127258","name":"BAD STUNZEL BERLEBURG, GM","lat":"50.985","lon":"8.3689"},{"id":"GME00127306","name":"PFORZHEIM ISPRINGEN, GM","lat":"48.9328","lon":"8.6967"},{"id":"GME00127318","name":"PFULLENDORF, GM","lat":"47.9353","lon":"9.2878"},{"id":"GME00127342","name":"PIRMASENS, GM","lat":"49.1919","lon":"7.5881"},{"id":"GME00127354","name":"PLAUEN, GM","lat":"50.4831","lon":"12.1317"},{"id":"GME00127390","name":"POMMELSBRUNN MITTELBURG, GM","lat":"49.4789","lon":"11.5367"},{"id":"GME00127438","name":"BERLIN BUCH, GM","lat":"52.6325","lon":"13.5039"},{"id":"GME00127462","name":"PUTBUS, GM","lat":"54.3656","lon":"13.4783"},{"id":"GME00127498","name":"QUEDLINBURG, GM","lat":"51.7967","lon":"11.1331"},{"id":"GME00127510","name":"QUERFURT MUHLE LODERSLEBEN, GM","lat":"51.3906","lon":"11.5428"},{"id":"GME00127534","name":"QUICKBORN, GM","lat":"53.7344","lon":"9.8783"},{"id":"GME00127546","name":"RADOLFZELL MARKELFINGEN, GM","lat":"47.7467","lon":"9.0017"},{"id":"GME00127558","name":"RAHDEN VARL, GM","lat":"52.4481","lon":"8.5731"},{"id":"GME00127582","name":"RASTATT, GM","lat":"48.8478","lon":"8.1869"},{"id":"GME00127618","name":"KR. RAVENSBURG WEINGARTEN, GM","lat":"47.8069","lon":"9.6217"},{"id":"GME00127678","name":"MARIENBERG REITZENHAIN, GM","lat":"50.5614","lon":"13.2239"},{"id":"GME00127726","name":"RENNINGEN IHINGER HOF, GM","lat":"48.7433","lon":"8.925"},{"id":"GME00127750","name":"RHEINAU MEMPRECHTSHOFEN, GM","lat":"48.6708","lon":"7.9956"},{"id":"GME00127786","name":"RHEINFELDEN, GM","lat":"47.5633","lon":"7.7942"},{"id":"GME00127810","name":"KREIS BIBERACH ALTHEIM, GM","lat":"48.1489","lon":"9.4606"},{"id":"GME00127822","name":"BERLIN MARZAHN, GM","lat":"52.5458","lon":"13.5617"},{"id":"GME00127894","name":"ROSENHEIM, GM","lat":"47.8758","lon":"12.1292"},{"id":"GME00127906","name":"ROTENBURG WUMME, GM","lat":"53.1303","lon":"9.3406"},{"id":"GME00127930","name":"BERLIN SCHONEFELD, GM","lat":"52.3819","lon":"13.5325"},{"id":"GME00127942","name":"ROTH, GM","lat":"49.2158","lon":"11.1025"},{"id":"GME00127954","name":"ROTHENBURG OB DER TAUBER, GM","lat":"49.3856","lon":"10.1742"},{"id":"GME00127966","name":"BAD ROTHENFELDE, GM","lat":"52.1053","lon":"8.1828"},{"id":"GME00127978","name":"ROTTENBURG KIEBINGEN, GM","lat":"48.4714","lon":"8.9694"},{"id":"GME00128002","name":"ROTTWEIL, GM","lat":"48.1819","lon":"8.6358"},{"id":"GME00128014","name":"BAD KREUZNACH, GM","lat":"49.8517","lon":"7.8725"},{"id":"GME00128038","name":"RUPPERTSECKEN, GM","lat":"49.6478","lon":"7.8842"},{"id":"GME00128110","name":"SACHSENHEIM, GM","lat":"48.9578","lon":"9.0719"},{"id":"GME00128134","name":"SALDENBURG ENTSCHENREUTH, GM","lat":"48.7842","lon":"13.3158"},{"id":"GME00128170","name":"SALZHEMMENDORF LAUENSTEIN, GM","lat":"52.0792","lon":"9.5531"},{"id":"GME00128182","name":"BAD SALZUFLEN, GM","lat":"52.1056","lon":"8.7531"},{"id":"GME00128194","name":"SALZWEDEL, GM","lat":"52.8581","lon":"11.1442"},{"id":"GME00128206","name":"SANDBERG, GM","lat":"50.3531","lon":"10.0042"},{"id":"GME00128218","name":"SANKT PETER ORDING, GM","lat":"54.3294","lon":"8.6028"},{"id":"GME00128266","name":"SCHAAFHEIM SCHLIERBACH, GM","lat":"49.9203","lon":"8.9681"},{"id":"GME00128350","name":"SCHIERKE, GM","lat":"51.7667","lon":"10.655"},{"id":"GME00128374","name":"SCHLEIZ, GM","lat":"50.5706","lon":"11.8056"},{"id":"GME00128374","name":"SCHLEIZ, GM","lat":"50.5706","lon":"11.8056"},{"id":"GME00128374","name":"SCHLEIZ, GM","lat":"50.5706","lon":"11.8056"},{"id":"GME00128374","name":"SCHLEIZ, GM","lat":"50.5706","lon":"11.8056"},{"id":"GME00128374","name":"SCHLEIZ, GM","lat":"50.5706","lon":"11.8056"},{"id":"GME00128374","name":"SCHLEIZ, GM","lat":"50.5706","lon":"11.8056"},{"id":"GME00128374","name":"SCHLEIZ, GM","lat":"50.5706","lon":"11.8056"},{"id":"GME00128374","name":"SCHLEIZ, GM","lat":"50.5706","lon":"11.8056"},{"id":"GME00128374","name":"SCHLEIZ, GM","lat":"50.5706","lon":"11.8056"},{"id":"GME00128374","name":"SCHLEIZ, GM","lat":"50.5706","lon":"11.8056"},{"id":"GME00128374","name":"SCHLEIZ, GM","lat":"50.5706","lon":"11.8056"},{"id":"GME00128374","name":"SCHLEIZ, GM","lat":"50.5706","lon":"11.8056"},{"id":"GME00128374","name":"SCHLEIZ, GM","lat":"50.5706","lon":"11.8056"},{"id":"GME00128374","name":"SCHLEIZ, GM","lat":"50.5706","lon":"11.8056"},{"id":"GME00128686","name":"SCHWARZBURG, GM","lat":"50.6456","lon":"11.1944"},{"id":"GME00128734","name":"SEEHAUSEN, GM","lat":"52.8928","lon":"11.7306"},{"id":"GME00128758","name":"SEESEN, GM","lat":"51.9056","lon":"10.19"},{"id":"GME00128818","name":"SIGMARINGEN LAIZ, GM","lat":"48.0728","lon":"9.1953"},{"id":"GME00128854","name":"SIMBACH INN, GM","lat":"48.2728","lon":"13.0289"},{"id":"GME00128866","name":"SIMMERN WAHLBACH, GM","lat":"50.0017","lon":"7.5969"},{"id":"GME00128902","name":"SOLINGEN HOHENSCHEID, GM","lat":"51.1408","lon":"7.0942"},{"id":"GME00128914","name":"SOLTAU, GM","lat":"52.9617","lon":"9.7967"},{"id":"GME00128962","name":"SONTRA, GM","lat":"51.0617","lon":"9.9275"},{"id":"GME00128974","name":"BAD SOODEN ALLENDORF, GM","lat":"51.2814","lon":"9.9858"},{"id":"GME00129010","name":"BIEDENKOPF, GM","lat":"50.9208","lon":"8.5278"},{"id":"GME00129022","name":"STAMMBACH QUERENBACH, GM","lat":"50.1542","lon":"11.7417"},{"id":"GME00129046","name":"KR. CUXHAVEN STEINAU, GM","lat":"53.6956","lon":"8.875"},{"id":"GME00129070","name":"MITTELNKIRCHEN HOHENFELDE, GM","lat":"53.5528","lon":"9.6092"},{"id":"GME00129082","name":"STIEGE, GM","lat":"51.6692","lon":"10.8833"},{"id":"GME00129094","name":"STOCKACH, GM","lat":"47.86","lon":"9.0164"},{"id":"GME00129166","name":"TANN RHON, GM","lat":"50.6394","lon":"10.0231"},{"id":"GME00129190","name":"TEGKWITZ, GM","lat":"50.9789","lon":"12.3444"},{"id":"GME00129202","name":"TETEROW, GM","lat":"53.7625","lon":"12.5581"},{"id":"GME00129214","name":"WORPSWEDE HUTTENBUSCH, GM","lat":"53.2775","lon":"8.9867"},{"id":"GME00129226","name":"TEUSCHNITZ, GM","lat":"50.4014","lon":"11.3903"},{"id":"GME00129250","name":"THOLEY, GM","lat":"49.4744","lon":"7.0392"},{"id":"GME00129274","name":"THUNGERSHEIM, GM","lat":"49.8819","lon":"9.8464"},{"id":"GME00129298","name":"TIRSCHENREUTH LODERMUHL, GM","lat":"49.8589","lon":"12.3556"},{"id":"GME00129346","name":"TONISVORST, GM","lat":"51.2908","lon":"6.445"},{"id":"GME00129418","name":"TRIBSEES, GM","lat":"54.0681","lon":"12.7689"},{"id":"GME00129430","name":"TRIER ZEWEN, GM","lat":"49.7325","lon":"6.6131"},{"id":"GME00129478","name":"TROSTBERG, GM","lat":"48.0317","lon":"12.5408"},{"id":"GME00129514","name":"TUTTLINGEN MOHRINGEN, GM","lat":"47.9558","lon":"8.7575"},{"id":"GME00129526","name":"TWISTETAL MUHLHAUSEN, GM","lat":"51.3356","lon":"8.9142"},{"id":"GME00129550","name":"UECKERMUNDE, GM","lat":"53.7458","lon":"14.0694"},{"id":"GME00129562","name":"UELZEN, GM","lat":"52.9428","lon":"10.53"},{"id":"GME00129574","name":"GOLLHOFEN, GM","lat":"49.5753","lon":"10.1928"},{"id":"GME00129598","name":"UMMENDORF, GM","lat":"52.1617","lon":"11.1767"},{"id":"GME00129634","name":"VILLINGEN SCHWENNINGEN, GM","lat":"48.0458","lon":"8.4617"},{"id":"GME00129718","name":"WAGHAUSEL KIRRLACH, GM","lat":"49.2456","lon":"8.5381"},{"id":"GME00129742","name":"WAHLSBURG LIPPOLDSBERG, GM","lat":"51.6194","lon":"9.5769"},{"id":"GME00129754","name":"WITTENBORN, GM","lat":"53.9214","lon":"10.2306"},{"id":"GME00129814","name":"WALDEMS REINBORN, GM","lat":"50.2608","lon":"8.3608"},{"id":"GME00129862","name":"WALTERSHAUSEN, GM","lat":"50.8975","lon":"10.5494"},{"id":"GME00129874","name":"WANGEROOGE, GM","lat":"53.7883","lon":"7.9075"},{"id":"GME00129886","name":"WARBURG, GM","lat":"51.5053","lon":"9.1128"},{"id":"GME00129898","name":"WAREN, GM","lat":"53.5214","lon":"12.6692"},{"id":"GME00129910","name":"BLANKENRATH, GM","lat":"50.0367","lon":"7.3056"},{"id":"GME00130018","name":"WEIMAR SCHONDORF, GM","lat":"51.0192","lon":"11.3556"},{"id":"GME00130054","name":"WEISKIRCHEN SAAR, GM","lat":"49.555","lon":"6.8125"},{"id":"GME00130078","name":"WEISSACH, GM","lat":"48.8467","lon":"8.9089"},{"id":"GME00130102","name":"WEISSENFELS, GM","lat":"51.2178","lon":"11.9725"},{"id":"GME00130114","name":"WEISSENSEE OTTENHAUSEN, GM","lat":"51.2131","lon":"10.9967"},{"id":"GME00130126","name":"WEISWEIL WALDECKHOF, GM","lat":"48.1892","lon":"7.6983"},{"id":"GME00130186","name":"WERNIGERODE, GM","lat":"51.8478","lon":"10.7694"},{"id":"GME00130210","name":"BOBECK, GM","lat":"50.9056","lon":"11.7992"},{"id":"GME00130234","name":"WIELENBACH DEMOLLSTR., GM","lat":"47.8833","lon":"11.1589"},{"id":"GME00130258","name":"WIESBADEN AURINGEN, GM","lat":"50.1331","lon":"8.3178"},{"id":"GME00130282","name":"WIESENBURG, GM","lat":"52.1219","lon":"12.46"},{"id":"GME00130294","name":"BOCHOLT, GM","lat":"51.8308","lon":"6.5358"},{"id":"GME00130306","name":"BAD CALMBACH WILDBAD, GM","lat":"48.7856","lon":"8.5769"},{"id":"GME00130330","name":"NEUBULACH OBERHAUGSTETT, GM","lat":"48.6525","lon":"8.6808"},{"id":"GME00130378","name":"REMS MURR KREIS WINTERBACH, GM","lat":"48.8042","lon":"9.4706"},{"id":"GME00130390","name":"WISMAR, GM","lat":"53.8944","lon":"11.4253"},{"id":"GME00130402","name":"WITTENBERG, GM","lat":"51.8903","lon":"12.6464"},{"id":"GME00130414","name":"WITTMUNDHAFEN, GM","lat":"53.55","lon":"7.6667"},{"id":"GME00130438","name":"WITTSTOCK ROTE MUHLE, GM","lat":"53.1875","lon":"12.4964"},{"id":"GME00130486","name":"WOLFACH, GM","lat":"48.2958","lon":"8.24"},{"id":"GME00130510","name":"WOLFSBURG SUDWEST, GM","lat":"52.3975","lon":"10.6908"},{"id":"GME00130534","name":"WORMS, GM","lat":"49.6056","lon":"8.3667"},{"id":"GME00130582","name":"WUPPERTAL BUCHENHOFEN, GM","lat":"51.2258","lon":"7.1058"},{"id":"GME00130618","name":"WUTOSCHINGEN OFTERINGEN, GM","lat":"47.6789","lon":"8.3806"},{"id":"GME00130642","name":"ZEHDENICK, GM","lat":"52.9681","lon":"13.3281"},{"id":"GME00130654","name":"ZEITZ, GM","lat":"51.0539","lon":"12.1442"},{"id":"GME00130702","name":"ZINNWALD GEORGENFELD, GM","lat":"50.7328","lon":"13.7531"},{"id":"GME00130726","name":"LICHTENTANNE, GM","lat":"50.6892","lon":"12.4342"},{"id":"GME00130738","name":"ZWIESEL, GM","lat":"49.0292","lon":"13.2403"},{"id":"GME00130786","name":"BERGE, GM","lat":"52.6206","lon":"12.7889"},{"id":"GME00130858","name":"MELSUNGEN BURSTOSS, GM","lat":"51.1331","lon":"9.52"},{"id":"GME00130858","name":"MELSUNGEN BURSTOSS, GM","lat":"51.1331","lon":"9.52"},{"id":"GME00130918","name":"REIT IM WINKL, GM","lat":"47.6758","lon":"12.4708"},{"id":"GME00130990","name":"BONN ROLEBER, GM","lat":"50.7364","lon":"7.1939"},{"id":"GME00131002","name":"BOOS, GM","lat":"48.0744","lon":"10.2014"},{"id":"GME00131026","name":"WENDISCH EVERN, GM","lat":"53.2153","lon":"10.4717"},{"id":"GME00131050","name":"OSTENFELD RENDSBURG, GM","lat":"54.3208","lon":"9.8058"},{"id":"GME00131062","name":"GRAMBOW SCHWENNENZ, GM","lat":"53.3856","lon":"14.3742"},{"id":"GME00131098","name":"SOHLAND SPREE, GM","lat":"51.0606","lon":"14.4281"},{"id":"GME00131122","name":"WANGERLAND HOOKSIEL, GM","lat":"53.6417","lon":"8.0828"},{"id":"GME00131134","name":"WEIDENBACH WEIHERSCHNEIDBACH, GM","lat":"49.2256","lon":"10.6094"},{"id":"GME00131146","name":"DORPEN, GM","lat":"52.9553","lon":"7.3192"},{"id":"GME00131158","name":"DORNICK, GM","lat":"54.1667","lon":"10.3539"},{"id":"GME00131170","name":"COSCHEN, GM","lat":"52.0206","lon":"14.7269"},{"id":"GME00131182","name":"BORKEN IN WESTFALEN, GM","lat":"51.8742","lon":"6.8867"},{"id":"GME00131242","name":"LUGDE PAENBRUCH, GM","lat":"51.8678","lon":"9.2719"},{"id":"GME00131254","name":"STEINHAGEN NEGAST, GM","lat":"54.2503","lon":"13.0431"},{"id":"GME00131290","name":"SAARBRUCKEN BURBACH, GM","lat":"49.2417","lon":"6.935"},{"id":"GME00131314","name":"FRIEDRICHSHAFEN UNTERRADERACH, GM","lat":"47.6853","lon":"9.4417"},{"id":"GME00131326","name":"GROSSERLACH MANNENWEILER, GM","lat":"49.0217","lon":"9.6042"},{"id":"GME00131338","name":"INGELFINGEN STACHENHAUSEN, GM","lat":"49.3333","lon":"9.705"},{"id":"GME00131350","name":"SCHWABISCH GMUND WEILER, GM","lat":"48.7706","lon":"9.875"},{"id":"GME00131362","name":"SINGEN, GM","lat":"47.7744","lon":"8.8228"},{"id":"GME00131374","name":"BRILON THULEN, GM","lat":"51.4156","lon":"8.6506"},{"id":"GME00131386","name":"WUSTERWITZ, GM","lat":"52.3625","lon":"12.3883"},{"id":"GME00131398","name":"PABSTORF, GM","lat":"52.0317","lon":"10.9639"},{"id":"GME00131410","name":"MOORGRUND GRAFEN NITZENDORF, GM","lat":"50.8433","lon":"10.2528"},{"id":"GME00131422","name":"DEMKER, GM","lat":"52.5083","lon":"11.8564"},{"id":"GME00131434","name":"NOTZINGEN, GM","lat":"48.6717","lon":"9.4633"},{"id":"GME00131458","name":"MUHLHAUSEN GORMAR, GM","lat":"51.2078","lon":"10.4958"},{"id":"GME00131470","name":"KARLSHAGEN, GM","lat":"54.1064","lon":"13.8258"},{"id":"GME00131482","name":"MARKT ERLBACH MOSBACH, GM","lat":"49.5325","lon":"10.6431"},{"id":"GME00131494","name":"NOSSEN, GM","lat":"51.0517","lon":"13.3025"},{"id":"GME00131506","name":"LOHR MAIN HALSBACH, GM","lat":"50.0142","lon":"9.655"},{"id":"GME00131518","name":"LUDINGHAUSEN BROCHTRUP, GM","lat":"51.7681","lon":"7.5203"},{"id":"GME00131530","name":"RUNKEL ENNERICH, GM","lat":"50.3956","lon":"8.1442"},{"id":"GME00131546","name":"MAISACH GALGEN, GM","lat":"48.2081","lon":"11.2044"},{"id":"GME00131554","name":"SCHONUNGEN MAINBERG, GM","lat":"50.0589","lon":"10.2983"},{"id":"GME00131590","name":"BRAMSCHE, GM","lat":"52.405","lon":"7.9731"},{"id":"GME00131674","name":"BRAUNSCHWEIG, GM","lat":"52.2903","lon":"10.4483"},{"id":"GME00131746","name":"BREMERVORDE, GM","lat":"53.4989","lon":"9.1731"},{"id":"GME00131782","name":"ELSENDORF HORNECK, GM","lat":"48.7031","lon":"11.8506"},{"id":"GME00131794","name":"LIEBENBURG OTHFRESEN, GM","lat":"52.0106","lon":"10.3956"},{"id":"GME00131818","name":"SIEGSDORF HOLL, GM","lat":"47.8356","lon":"12.6564"},{"id":"GME00131830","name":"BIELEFELD DEPPENDORF, GM","lat":"52.0728","lon":"8.4578"},{"id":"GME00131842","name":"BRETTEN, GM","lat":"49.0264","lon":"8.7164"},{"id":"GME00131866","name":"FREUDENBERG MAIN BOXTAL, GM","lat":"49.7644","lon":"9.4064"},{"id":"GME00131938","name":"DONAUWORTH OSTERWEILER, GM","lat":"48.7358","lon":"10.7428"},{"id":"GME00131950","name":"OLBERSLEBEN, GM","lat":"51.1519","lon":"11.3331"},{"id":"GME00131962","name":"TREUEN, GM","lat":"50.5467","lon":"12.2867"},{"id":"GME00131974","name":"ARNSBERG NEHEIM, GM","lat":"51.4644","lon":"7.9789"},{"id":"GME00131986","name":"HERMARINGEN ALLEWIND, GM","lat":"48.6106","lon":"10.2692"},{"id":"GME00131998","name":"DEUTSCHNEUDORF BRUDERWIESE, GM","lat":"50.6208","lon":"13.4831"},{"id":"GME00132022","name":"FELDBERG MECKLENBURG, GM","lat":"53.3175","lon":"13.4175"},{"id":"GME00132034","name":"JESSNITZ, GM","lat":"51.6831","lon":"12.3056"},{"id":"GME00132046","name":"ALFELD, GM","lat":"51.9669","lon":"9.8042"},{"id":"GME00132058","name":"EISENACH, GM","lat":"51.0025","lon":"10.3633"},{"id":"GME00132070","name":"FEUCHTWANGEN HEILBRONN, GM","lat":"49.1631","lon":"10.3669"},{"id":"GME00132094","name":"WALDMUNCHEN, GM","lat":"49.3919","lon":"12.6853"},{"id":"GME00132106","name":"BORKUM FLUGPLATZ, GM","lat":"53.6","lon":"6.7031"},{"id":"GME00132130","name":"HECKELBERG, GM","lat":"52.7458","lon":"13.8419"},{"id":"GME00132154","name":"HOYERSWERDA, GM","lat":"51.4506","lon":"14.2542"},{"id":"GME00132166","name":"WUNSIEDEL SCHONBRUNN, GM","lat":"50.0317","lon":"11.9742"},{"id":"GME00132178","name":"GOTTFRIEDING, GM","lat":"48.6606","lon":"12.5403"},{"id":"GME00132190","name":"HOHERODSKOPF VOGELSBERG, GM","lat":"50.5083","lon":"9.2244"},{"id":"GME00132202","name":"ALDERSBACH KRIESTORF, GM","lat":"48.6167","lon":"13.0519"},{"id":"GME00132214","name":"LEUTKIRCH HERLAZHOFEN, GM","lat":"47.7964","lon":"10.0333"},{"id":"GME00132226","name":"NEU ULRICHSTEIN, GM","lat":"50.7531","lon":"9.0233"},{"id":"GME00132238","name":"NEUHUTTEN SPESSART, GM","lat":"50.0092","lon":"9.425"},{"id":"GME00132250","name":"LANGENWETZENDORF GOTTENDORF, GM","lat":"50.6619","lon":"12.0769"},{"id":"GME00132262","name":"KREIPITZSCH BEI BAD KOSEN, GM","lat":"51.1056","lon":"11.7125"},{"id":"GME00132274","name":"PIDING, GM","lat":"47.7731","lon":"12.9089"},{"id":"GME00132286","name":"PADENSTEDT PONY PARK, GM","lat":"54.0206","lon":"9.9267"},{"id":"GME00132298","name":"VEILSDORF, GM","lat":"50.4178","lon":"10.8167"},{"id":"GME00132310","name":"OBERHACHING LAUFZORN, GM","lat":"48.0139","lon":"11.5539"},{"id":"GME00132322","name":"WITTINGEN VORHOP, GM","lat":"52.6439","lon":"10.6642"},{"id":"GME00132334","name":"KR. NECKAR ODENWALD BUCHEN, GM","lat":"49.5192","lon":"9.3225"},{"id":"GME00132346","name":"BUCHENBACH, GM","lat":"47.9631","lon":"7.9989"},{"id":"GME00132358","name":"BUCHHOLZ IN DER NORDHEIDE, GM","lat":"53.3567","lon":"9.9367"},{"id":"GME00132370","name":"BUCHEL FLUGPLATZ, GM","lat":"50.1739","lon":"7.0631"},{"id":"GME00132382","name":"BUCKEBURG, GM","lat":"52.2817","lon":"9.0878"},{"id":"GME00132430","name":"ALFHAUSEN, GM","lat":"52.4864","lon":"7.9128"},{"id":"GME00132466","name":"BURGWALD BOTTENDORF, GM","lat":"51.0317","lon":"8.8156"},{"id":"GME00132490","name":"CARLSFELD, GM","lat":"50.4319","lon":"12.6128"},{"id":"GME00132502","name":"CELLE STADT, GM","lat":"52.6164","lon":"10.0739"},{"id":"GME00132514","name":"CELLE, GM","lat":"52.5953","lon":"10.0281"},{"id":"GME00132526","name":"PEMFLING PITZLING, GM","lat":"49.2514","lon":"12.6056"},{"id":"GME00132538","name":"CHEMNITZ, GM","lat":"50.7925","lon":"12.8733"},{"id":"GME00132550","name":"CHIEMING, GM","lat":"47.8853","lon":"12.5417"},{"id":"GME00132586","name":"LAUTERTAL OBERLAUTER, GM","lat":"50.3081","lon":"10.9692"},{"id":"GME00132634","name":"DACHWIG, GM","lat":"51.0783","lon":"10.8639"},{"id":"GME00132646","name":"DARMSTADT, GM","lat":"49.8817","lon":"8.6775"},{"id":"GME00132682","name":"ALSFELD EIFA, GM","lat":"50.7456","lon":"9.3467"},{"id":"GME00132694","name":"DEGGENHAUSERTAL AZENWEILER, GM","lat":"47.8017","lon":"9.4117"},{"id":"GME00132730","name":"DEUSELBACH, GM","lat":"49.7631","lon":"7.0556"},{"id":"GME00132778","name":"DIETENHOFEN, GM","lat":"49.4169","lon":"10.6742"},{"id":"GME00132790","name":"DILLENBURG, GM","lat":"50.7325","lon":"8.2631"},{"id":"GME00132814","name":"DILLINGEN DONAU FRISTINGEN, GM","lat":"48.5569","lon":"10.5608"},{"id":"GME00132838","name":"DIPPOLDISWALDE REINBERG, GM","lat":"50.9181","lon":"13.7144"},{"id":"GMM00010097","name":"GREIFSWALDER OIE, GM","lat":"54.2456","lon":"13.9125"},{"id":"GMM00010129","name":"BREMERHAVEN, GM","lat":"53.5344","lon":"8.5769"},{"id":"GMM00010161","name":"BOLTENHAGEN, GM","lat":"54.0042","lon":"11.1919"},{"id":"GMM00010168","name":"GOLDBERG, GM","lat":"53.6069","lon":"12.1042"},{"id":"GMM00010267","name":"KYRITZ, GM","lat":"52.9381","lon":"12.4106"},{"id":"GMM00010281","name":"TROLLENHAGEN, GM","lat":"53.6019","lon":"13.3058"},{"id":"GMM00010309","name":"AHAUS, GM","lat":"52.0828","lon":"6.9417"},{"id":"GMM00010321","name":"DIEPHOLZ, GM","lat":"52.5903","lon":"8.3464"},{"id":"GMM00010396","name":"MANSCHNOW, GM","lat":"52.5481","lon":"14.5475"},{"id":"GMM00010424","name":"WERL, GM","lat":"51.5778","lon":"7.8889"},{"id":"GMM00010449","name":"LEINEFELDE, GM","lat":"51.3853","lon":"10.3017"},{"id":"GMM00010452","name":"BRAUNLAGE, GM","lat":"51.725","lon":"10.6039"},{"id":"GMM00010480","name":"OSCHATZ, GM","lat":"51.2969","lon":"13.0944"},{"id":"GMM00010526","name":"BAD MARIENBERG, GM","lat":"50.6631","lon":"7.9594"},{"id":"GMM00010579","name":"MARIENBERG, GM","lat":"50.6519","lon":"13.1483"},{"id":"GMM00010704","name":"BERUS, GM","lat":"49.2653","lon":"6.6878"},{"id":"GMM00010724","name":"WEINBIET, GM","lat":"49.3767","lon":"8.1225"},{"id":"GMM00010733","name":"WAIBSTADT, GM","lat":"49.2953","lon":"8.9064"},{"id":"GMM00010736","name":"MUHLACKER, GM","lat":"48.9731","lon":"8.8742"},{"id":"GMM00010761","name":"WEISSENBURG, GM","lat":"49.0203","lon":"10.9617"},{"id":"GMM00010818","name":"KLIPPENECK, GM","lat":"48.1064","lon":"8.7556"},{"id":"GMM00010827","name":"MESSSTETTEN, GM","lat":"48.1844","lon":"8.9925"},{"id":"GMM00010863","name":"WEIHENSTEPHAN DURNAST, GM","lat":"48.4031","lon":"11.6956"},{"id":"GMM00010870","name":"SCHWAIGERMOOS, GM","lat":"48.3667","lon":"11.8"},{"id":"GMW00034068","name":"COLEMAN, GM","lat":"49.56667","lon":"8.46667"},{"id":"GMW00034178","name":"FURSTENFELDBRUCK, GM","lat":"48.2","lon":"11.26667"},{"id":"GMW00035032","name":"RHEIN MAIN, GM","lat":"50.03333","lon":"8.58333"}]
+[
+  {
+    "id": "GM000001474",
+    "name": "BREMEN SEEFAHRTSCHULE, GM",
+    "lat": "53.1017",
+    "lon": "8.7842"
+  },
+  {
+    "id": "GM000002288",
+    "name": "KAISERSLAUTERN, GM",
+    "lat": "49.4253",
+    "lon": "7.7367"
+  },
+  {
+    "id": "GM000003038",
+    "name": "SCHWERIN, GM",
+    "lat": "53.6442",
+    "lon": "11.3883"
+  },
+  {
+    "id": "GM000003319",
+    "name": "BERLIN DAHLEM, GM",
+    "lat": "52.4639",
+    "lon": "13.3017"
+  },
+  {
+    "id": "GM000003342",
+    "name": "POTSDAM, GM",
+    "lat": "52.3833",
+    "lon": "13.0639"
+  },
+  {
+    "id": "GM000004063",
+    "name": "BAMBERG, GM",
+    "lat": "49.8753",
+    "lon": "10.9217"
+  },
+  {
+    "id": "GM000004199",
+    "name": "MUNCHEN NYMPHENBURG, GM",
+    "lat": "48.1667",
+    "lon": "11.5025"
+  },
+  {
+    "id": "GM000004204",
+    "name": "JENA STERNWARTE, GM",
+    "lat": "50.9267",
+    "lon": "11.5842"
+  },
+  {
+    "id": "GM000010147",
+    "name": "HAMBURG FUHLSBUETTEL, GM",
+    "lat": "53.635",
+    "lon": "9.99"
+  },
+  {
+    "id": "GM000010393",
+    "name": "LINDENBERG, GM",
+    "lat": "52.2094",
+    "lon": "14.1203"
+  },
+  {
+    "id": "GM000010962",
+    "name": "HOHENPEISSENBERG, GM",
+    "lat": "47.8017",
+    "lon": "11.0117"
+  },
+  {
+    "id": "GME00102177",
+    "name": "HELGOLAND, GM",
+    "lat": "54.1764",
+    "lon": "7.8931"
+  },
+  {
+    "id": "GME00102212",
+    "name": "ROSTOCK WARNEMUNDE, GM",
+    "lat": "54.1817",
+    "lon": "12.0819"
+  },
+  {
+    "id": "GME00102220",
+    "name": "GREIFSWALD, GM",
+    "lat": "54.0978",
+    "lon": "13.4075"
+  },
+  {
+    "id": "GME00102228",
+    "name": "EMDEN WOLTHUSEN, GM",
+    "lat": "53.3719",
+    "lon": "7.2242"
+  },
+  {
+    "id": "GME00102244",
+    "name": "HANNOVER, GM",
+    "lat": "52.4656",
+    "lon": "9.6794"
+  },
+  {
+    "id": "GME00102252",
+    "name": "MAGDEBURG, GM",
+    "lat": "52.1031",
+    "lon": "11.5842"
+  },
+  {
+    "id": "GME00102268",
+    "name": "DUSSELDORF, GM",
+    "lat": "51.2969",
+    "lon": "6.77"
+  },
+  {
+    "id": "GME00102284",
+    "name": "FRITZLAR, GM",
+    "lat": "51.1167",
+    "lon": "9.2831"
+  },
+  {
+    "id": "GME00102292",
+    "name": "LEIPZIG SCHKEUDITZ, GM",
+    "lat": "51.4358",
+    "lon": "12.2414"
+  },
+  {
+    "id": "GME00102324",
+    "name": "NURBURG BARWEILER, GM",
+    "lat": "50.3608",
+    "lon": "6.8703"
+  },
+  {
+    "id": "GME00102332",
+    "name": "MEININGEN, GM",
+    "lat": "50.5625",
+    "lon": "10.3769"
+  },
+  {
+    "id": "GME00102340",
+    "name": "ERFURT BINDERSLEBEN, GM",
+    "lat": "50.9844",
+    "lon": "10.9631"
+  },
+  {
+    "id": "GME00102348",
+    "name": "FICHTELBERG, GM",
+    "lat": "50.4292",
+    "lon": "12.9553"
+  },
+  {
+    "id": "GME00102356",
+    "name": "WURZBURG, GM",
+    "lat": "49.7714",
+    "lon": "9.9589"
+  },
+  {
+    "id": "GME00102364",
+    "name": "HOF, GM",
+    "lat": "50.3131",
+    "lon": "11.8775"
+  },
+  {
+    "id": "GME00102372",
+    "name": "SAARBRUCKEN ENSHEIM, GM",
+    "lat": "49.2142",
+    "lon": "7.1081"
+  },
+  {
+    "id": "GME00102380",
+    "name": "NURNBERG, GM",
+    "lat": "49.5042",
+    "lon": "11.0567"
+  },
+  {
+    "id": "GME00102388",
+    "name": "STRAUBING, GM",
+    "lat": "48.8283",
+    "lon": "12.5603"
+  },
+  {
+    "id": "GME00102396",
+    "name": "AUGSBURG, GM",
+    "lat": "48.4264",
+    "lon": "10.9431"
+  },
+  {
+    "id": "GME00102404",
+    "name": "KONSTANZ, GM",
+    "lat": "47.6781",
+    "lon": "9.1908"
+  },
+  {
+    "id": "GME00102412",
+    "name": "KEMPTEN, GM",
+    "lat": "47.7242",
+    "lon": "10.3364"
+  },
+  {
+    "id": "GME00111430",
+    "name": "MUENSTER OSNABRUECK AIRPORT, GM",
+    "lat": "52.1353",
+    "lon": "7.7"
+  },
+  {
+    "id": "GME00111445",
+    "name": "BERLIN TEMPELHOF, GM",
+    "lat": "52.4683",
+    "lon": "13.4039"
+  },
+  {
+    "id": "GME00111457",
+    "name": "ALTASTENBERG, GM",
+    "lat": "51.1903",
+    "lon": "8.4681"
+  },
+  {
+    "id": "GME00111464",
+    "name": "DRESDEN KLOTZSCHE, GM",
+    "lat": "51.1292",
+    "lon": "13.7558"
+  },
+  {
+    "id": "GME00111474",
+    "name": "TRIER PETRISBERG, GM",
+    "lat": "49.7492",
+    "lon": "6.6592"
+  },
+  {
+    "id": "GME00111503",
+    "name": "RHEINSTETTEN, GM",
+    "lat": "48.9733",
+    "lon": "8.3308"
+  },
+  {
+    "id": "GME00111512",
+    "name": "STUTTGART ECHTERDINGEN, GM",
+    "lat": "48.6892",
+    "lon": "9.2253"
+  },
+  {
+    "id": "GME00114621",
+    "name": "BROCKEN, GM",
+    "lat": "51.8",
+    "lon": "10.62"
+  },
+  {
+    "id": "GME00115771",
+    "name": "STUTTGART SCHNARRENBERG, GM",
+    "lat": "48.8292",
+    "lon": "9.2008"
+  },
+  {
+    "id": "GME00120922",
+    "name": "LEUCHTTURM ALTE WESER, GM",
+    "lat": "53.8631",
+    "lon": "8.1275"
+  },
+  {
+    "id": "GME00120934",
+    "name": "FELDBERG SCHWARZWALD, GM",
+    "lat": "47.8756",
+    "lon": "8.0044"
+  },
+  {
+    "id": "GME00120946",
+    "name": "FREUDENSTADT, GM",
+    "lat": "48.4544",
+    "lon": "8.41"
+  },
+  {
+    "id": "GME00120958",
+    "name": "AACHEN ORSBACH, GM",
+    "lat": "50.7992",
+    "lon": "6.025"
+  },
+  {
+    "id": "GME00120970",
+    "name": "GERA LEUMNITZ, GM",
+    "lat": "50.8819",
+    "lon": "12.13"
+  },
+  {
+    "id": "GME00120982",
+    "name": "GIESSEN WETTENBERG, GM",
+    "lat": "50.6008",
+    "lon": "8.6506"
+  },
+  {
+    "id": "GME00120994",
+    "name": "ANGERMUNDE, GM",
+    "lat": "53.0331",
+    "lon": "13.9931"
+  },
+  {
+    "id": "GME00121006",
+    "name": "GROSSER ARBER, GM",
+    "lat": "49.1139",
+    "lon": "13.1353"
+  },
+  {
+    "id": "GME00121030",
+    "name": "KIEL HOLTENAU, GM",
+    "lat": "54.3756",
+    "lon": "10.1439"
+  },
+  {
+    "id": "GME00121042",
+    "name": "KOLN BONN, GM",
+    "lat": "50.8658",
+    "lon": "7.1583"
+  },
+  {
+    "id": "GME00121054",
+    "name": "LAHR, GM",
+    "lat": "48.3656",
+    "lon": "7.8289"
+  },
+  {
+    "id": "GME00121066",
+    "name": "LEUCHTTURM KIEL, GM",
+    "lat": "54.5003",
+    "lon": "10.2744"
+  },
+  {
+    "id": "GME00121078",
+    "name": "BAD LIPPSPRINGE, GM",
+    "lat": "51.7867",
+    "lon": "8.8394"
+  },
+  {
+    "id": "GME00121090",
+    "name": "MARNITZ, GM",
+    "lat": "53.3242",
+    "lon": "11.9333"
+  },
+  {
+    "id": "GME00121102",
+    "name": "NORDERNEY, GM",
+    "lat": "53.7139",
+    "lon": "7.1525"
+  },
+  {
+    "id": "GME00121126",
+    "name": "OHRINGEN, GM",
+    "lat": "49.2081",
+    "lon": "9.5183"
+  },
+  {
+    "id": "GME00121138",
+    "name": "REGENSBURG, GM",
+    "lat": "49.0433",
+    "lon": "12.1031"
+  },
+  {
+    "id": "GME00121150",
+    "name": "BERLIN TEGEL, GM",
+    "lat": "52.5656",
+    "lon": "13.3106"
+  },
+  {
+    "id": "GME00121162",
+    "name": "STOTTEN, GM",
+    "lat": "48.6667",
+    "lon": "9.8656"
+  },
+  {
+    "id": "GME00121174",
+    "name": "WASSERKUPPE, GM",
+    "lat": "50.4978",
+    "lon": "9.9439"
+  },
+  {
+    "id": "GME00121186",
+    "name": "WEIDEN, GM",
+    "lat": "49.6669",
+    "lon": "12.1856"
+  },
+  {
+    "id": "GME00121210",
+    "name": "FURSTENZELL, GM",
+    "lat": "48.5458",
+    "lon": "13.3544"
+  },
+  {
+    "id": "GME00121222",
+    "name": "HAHN, GM",
+    "lat": "49.9475",
+    "lon": "7.2644"
+  },
+  {
+    "id": "GME00121246",
+    "name": "OFFENBACH WETTERPARK, GM",
+    "lat": "50.0892",
+    "lon": "8.7864"
+  },
+  {
+    "id": "GME00121258",
+    "name": "COTTBUS, GM",
+    "lat": "51.7775",
+    "lon": "14.3183"
+  },
+  {
+    "id": "GME00121270",
+    "name": "CUXHAVEN, GM",
+    "lat": "53.8731",
+    "lon": "8.7067"
+  },
+  {
+    "id": "GME00121306",
+    "name": "DOBERLUG KIRCHHAIN, GM",
+    "lat": "51.6467",
+    "lon": "13.5767"
+  },
+  {
+    "id": "GME00121354",
+    "name": "DRESDEN HOSTERWITZ, GM",
+    "lat": "51.0233",
+    "lon": "13.8494"
+  },
+  {
+    "id": "GME00121366",
+    "name": "DRESDEN STREHLEN, GM",
+    "lat": "51.0253",
+    "lon": "13.7756"
+  },
+  {
+    "id": "GME00121378",
+    "name": "DREWITZ BEI BURG, GM",
+    "lat": "52.2183",
+    "lon": "12.165"
+  },
+  {
+    "id": "GME00121402",
+    "name": "BAD DURKHEIM, GM",
+    "lat": "49.4728",
+    "lon": "8.1939"
+  },
+  {
+    "id": "GME00121510",
+    "name": "EBERSBERG HALBING, GM",
+    "lat": "48.1008",
+    "lon": "11.9883"
+  },
+  {
+    "id": "GME00121534",
+    "name": "EBRACH, GM",
+    "lat": "49.8531",
+    "lon": "10.5003"
+  },
+  {
+    "id": "GME00121582",
+    "name": "EICHSTATT LANDERSHOFEN, GM",
+    "lat": "48.8789",
+    "lon": "11.2358"
+  },
+  {
+    "id": "GME00121654",
+    "name": "ELLWANGEN RINDELBACH, GM",
+    "lat": "48.9903",
+    "lon": "10.1317"
+  },
+  {
+    "id": "GME00121666",
+    "name": "ELPERSBUTTEL, GM",
+    "lat": "54.0708",
+    "lon": "9.0114"
+  },
+  {
+    "id": "GME00121702",
+    "name": "BAD SOHL ELSTER, GM",
+    "lat": "50.2717",
+    "lon": "12.2753"
+  },
+  {
+    "id": "GME00121714",
+    "name": "ELZACH FISNACHT, GM",
+    "lat": "48.2019",
+    "lon": "8.1094"
+  },
+  {
+    "id": "GME00121750",
+    "name": "EMMENDINGEN MUNDINGEN, GM",
+    "lat": "48.1383",
+    "lon": "7.8356"
+  },
+  {
+    "id": "GME00121834",
+    "name": "ALTENSTADT, GM",
+    "lat": "47.8364",
+    "lon": "10.8719"
+  },
+  {
+    "id": "GME00121846",
+    "name": "ERFDE, GM",
+    "lat": "54.3008",
+    "lon": "9.3169"
+  },
+  {
+    "id": "GME00121882",
+    "name": "MOHRENDORF KLEINSEEBACH, GM",
+    "lat": "49.6506",
+    "lon": "11.0083"
+  },
+  {
+    "id": "GME00121930",
+    "name": "ESCHWEGE, GM",
+    "lat": "51.1844",
+    "lon": "10.065"
+  },
+  {
+    "id": "GME00121954",
+    "name": "ALTENTREPTOW, GM",
+    "lat": "53.6881",
+    "lon": "13.2631"
+  },
+  {
+    "id": "GME00121966",
+    "name": "ESLOHE, GM",
+    "lat": "51.2553",
+    "lon": "8.1569"
+  },
+  {
+    "id": "GME00121978",
+    "name": "ESSEN BREDENEY, GM",
+    "lat": "51.4056",
+    "lon": "6.9683"
+  },
+  {
+    "id": "GME00121990",
+    "name": "ALTGERINGSWALDE, GM",
+    "lat": "51.0892",
+    "lon": "12.9342"
+  },
+  {
+    "id": "GME00122002",
+    "name": "WEILERSWIST LOMMERSUM, GM",
+    "lat": "50.7131",
+    "lon": "6.7917"
+  },
+  {
+    "id": "GME00122038",
+    "name": "KR.ROTTAL INN FALKENBERG, GM",
+    "lat": "48.4842",
+    "lon": "12.7256"
+  },
+  {
+    "id": "GME00122050",
+    "name": "FASSBERG, GM",
+    "lat": "52.9192",
+    "lon": "10.1839"
+  },
+  {
+    "id": "GME00122086",
+    "name": "FICHTELBERG OBERFRANKEN HUTTST, GM",
+    "lat": "49.9817",
+    "lon": "11.8392"
+  },
+  {
+    "id": "GME00122098",
+    "name": "DUISBURG BAERL, GM",
+    "lat": "51.51",
+    "lon": "6.7019"
+  },
+  {
+    "id": "GME00122122",
+    "name": "HAMELN HASTENBECK, GM",
+    "lat": "52.0831",
+    "lon": "9.4081"
+  },
+  {
+    "id": "GME00122134",
+    "name": "WALTROP ABDINGHOF, GM",
+    "lat": "51.5981",
+    "lon": "7.4056"
+  },
+  {
+    "id": "GME00122146",
+    "name": "GEVELSBERG OBERBROKING, GM",
+    "lat": "51.3342",
+    "lon": "7.3417"
+  },
+  {
+    "id": "GME00122158",
+    "name": "LANDSHUT REITHOF, GM",
+    "lat": "48.5742",
+    "lon": "12.2589"
+  },
+  {
+    "id": "GME00122170",
+    "name": "ROCKENDORF, GM",
+    "lat": "50.6825",
+    "lon": "11.5164"
+  },
+  {
+    "id": "GME00122182",
+    "name": "MEINERZHAGEN REDLENDORF, GM",
+    "lat": "51.0908",
+    "lon": "7.6294"
+  },
+  {
+    "id": "GME00122194",
+    "name": "FLADUNGEN HEUFURT, GM",
+    "lat": "50.5058",
+    "lon": "10.1681"
+  },
+  {
+    "id": "GME00122218",
+    "name": "HELMSTEDT EMMERSTEDT, GM",
+    "lat": "52.2478",
+    "lon": "10.9603"
+  },
+  {
+    "id": "GME00122290",
+    "name": "FLOSSENBURG, GM",
+    "lat": "49.7328",
+    "lon": "12.3506"
+  },
+  {
+    "id": "GME00122326",
+    "name": "BIRX RHON, GM",
+    "lat": "50.5317",
+    "lon": "10.0492"
+  },
+  {
+    "id": "GME00122362",
+    "name": "FRANKFURT MAIN WESTEND, GM",
+    "lat": "50.1281",
+    "lon": "8.6703"
+  },
+  {
+    "id": "GME00122386",
+    "name": "FRANKFURT ODER, GM",
+    "lat": "52.3653",
+    "lon": "14.5378"
+  },
+  {
+    "id": "GME00122410",
+    "name": "ALTOMUNSTER MAISBRUNN, GM",
+    "lat": "48.4067",
+    "lon": "11.3131"
+  },
+  {
+    "id": "GME00122422",
+    "name": "HERSDORF WEISSENSEIFEN, GM",
+    "lat": "50.1517",
+    "lon": "6.5531"
+  },
+  {
+    "id": "GME00122434",
+    "name": "FREIAMT OTTOSCHWANDEN, GM",
+    "lat": "48.2028",
+    "lon": "7.9342"
+  },
+  {
+    "id": "GME00122446",
+    "name": "FREIBERG, GM",
+    "lat": "50.9281",
+    "lon": "13.3389"
+  },
+  {
+    "id": "GME00122458",
+    "name": "FREIBURG, GM",
+    "lat": "48.0242",
+    "lon": "7.8353"
+  },
+  {
+    "id": "GME00122482",
+    "name": "FREIBURG ELBE, GM",
+    "lat": "53.8292",
+    "lon": "9.2494"
+  },
+  {
+    "id": "GME00122494",
+    "name": "FREYSTADT OBERNDORF, GM",
+    "lat": "49.1792",
+    "lon": "11.375"
+  },
+  {
+    "id": "GME00122542",
+    "name": "FRIESOYTHE EDEWECHTERDAM, GM",
+    "lat": "53.0894",
+    "lon": "7.9425"
+  },
+  {
+    "id": "GME00122566",
+    "name": "ALZEY, GM",
+    "lat": "49.7281",
+    "lon": "8.1167"
+  },
+  {
+    "id": "GME00122602",
+    "name": "AMBERG UNTERAMMERSRICHT, GM",
+    "lat": "49.47",
+    "lon": "11.8558"
+  },
+  {
+    "id": "GME00122626",
+    "name": "FULDA, GM",
+    "lat": "50.5344",
+    "lon": "9.6758"
+  },
+  {
+    "id": "GME00122638",
+    "name": "GARDELEGEN, GM",
+    "lat": "52.5142",
+    "lon": "11.3978"
+  },
+  {
+    "id": "GME00122650",
+    "name": "AMERANG PFAFFING, GM",
+    "lat": "48.0206",
+    "lon": "12.2939"
+  },
+  {
+    "id": "GME00122698",
+    "name": "GEISENHEIM, GM",
+    "lat": "49.985",
+    "lon": "7.9544"
+  },
+  {
+    "id": "GME00122710",
+    "name": "GEISINGEN, GM",
+    "lat": "47.925",
+    "lon": "8.6481"
+  },
+  {
+    "id": "GME00122734",
+    "name": "GELBELSEE, GM",
+    "lat": "48.9489",
+    "lon": "11.43"
+  },
+  {
+    "id": "GME00122746",
+    "name": "GELDERN WALBECK, GM",
+    "lat": "51.4956",
+    "lon": "6.2467"
+  },
+  {
+    "id": "GME00122770",
+    "name": "OHLSBACH, GM",
+    "lat": "48.4339",
+    "lon": "7.9933"
+  },
+  {
+    "id": "GME00122782",
+    "name": "GENTHIN, GM",
+    "lat": "52.3892",
+    "lon": "12.1633"
+  },
+  {
+    "id": "GME00122806",
+    "name": "GERNSHEIM ALLMENDFELD, GM",
+    "lat": "49.7725",
+    "lon": "8.5306"
+  },
+  {
+    "id": "GME00122842",
+    "name": "GILSERBERG MOISCHEID, GM",
+    "lat": "50.9664",
+    "lon": "9.0503"
+  },
+  {
+    "id": "GME00122866",
+    "name": "GLUCKSTADT, GM",
+    "lat": "53.7983",
+    "lon": "9.4306"
+  },
+  {
+    "id": "GME00122878",
+    "name": "ANKLAM, GM",
+    "lat": "53.8431",
+    "lon": "13.6856"
+  },
+  {
+    "id": "GME00122890",
+    "name": "GOSSWEINSTEIN, GM",
+    "lat": "49.7667",
+    "lon": "11.3075"
+  },
+  {
+    "id": "GME00122902",
+    "name": "GOTTINGEN, GM",
+    "lat": "51.5017",
+    "lon": "9.9528"
+  },
+  {
+    "id": "GME00122938",
+    "name": "GRAFENBERG KASBERG, GM",
+    "lat": "49.665",
+    "lon": "11.2253"
+  },
+  {
+    "id": "GME00122962",
+    "name": "GRAINET REHBERG, GM",
+    "lat": "48.7903",
+    "lon": "13.6306"
+  },
+  {
+    "id": "GME00122974",
+    "name": "GRAMBEK, GM",
+    "lat": "53.5744",
+    "lon": "10.6806"
+  },
+  {
+    "id": "GME00123058",
+    "name": "GROSS LUSEWITZ, GM",
+    "lat": "54.0731",
+    "lon": "12.3256"
+  },
+  {
+    "id": "GME00123094",
+    "name": "FELDKIRCHEN WESTERHAM LENZMUHL, GM",
+    "lat": "47.9417",
+    "lon": "11.9014"
+  },
+  {
+    "id": "GME00123130",
+    "name": "GRUNDAU BREITENBORN, GM",
+    "lat": "50.2675",
+    "lon": "9.1889"
+  },
+  {
+    "id": "GME00123142",
+    "name": "GRUNOW, GM",
+    "lat": "53.3167",
+    "lon": "13.9358"
+  },
+  {
+    "id": "GME00123178",
+    "name": "GUTERSLOH, GM",
+    "lat": "51.8889",
+    "lon": "8.3553"
+  },
+  {
+    "id": "GME00123190",
+    "name": "ARNSTEIN MUDESHEIM, GM",
+    "lat": "49.9706",
+    "lon": "9.9125"
+  },
+  {
+    "id": "GME00123226",
+    "name": "OLSDORF, GM",
+    "lat": "49.9325",
+    "lon": "6.3756"
+  },
+  {
+    "id": "GME00123274",
+    "name": "HAMBURG NEUWIEDENTHAL, GM",
+    "lat": "53.4792",
+    "lon": "9.8983"
+  },
+  {
+    "id": "GME00123310",
+    "name": "ARTERN, GM",
+    "lat": "51.3756",
+    "lon": "11.2931"
+  },
+  {
+    "id": "GME00123370",
+    "name": "HANKENSBUTTEL, GM",
+    "lat": "52.7214",
+    "lon": "10.6"
+  },
+  {
+    "id": "GME00123382",
+    "name": "HARBURG, GM",
+    "lat": "48.7928",
+    "lon": "10.7075"
+  },
+  {
+    "id": "GME00123394",
+    "name": "ASCHAFFENBURG, GM",
+    "lat": "49.9789",
+    "lon": "9.1125"
+  },
+  {
+    "id": "GME00123418",
+    "name": "HARZGERODE, GM",
+    "lat": "51.6531",
+    "lon": "11.1375"
+  },
+  {
+    "id": "GME00123466",
+    "name": "HECHINGEN, GM",
+    "lat": "48.3758",
+    "lon": "8.9808"
+  },
+  {
+    "id": "GME00123574",
+    "name": "HEINSBERG SCHLEIDEN, GM",
+    "lat": "51.0425",
+    "lon": "6.1044"
+  },
+  {
+    "id": "GME00123586",
+    "name": "ASSLAR KLEIN ALTENSTADTEN, GM",
+    "lat": "50.5808",
+    "lon": "8.4692"
+  },
+  {
+    "id": "GME00123646",
+    "name": "HERRENBERG, GM",
+    "lat": "48.5928",
+    "lon": "8.8553"
+  },
+  {
+    "id": "GME00123694",
+    "name": "BAD HERSFELD, GM",
+    "lat": "50.8531",
+    "lon": "9.7383"
+  },
+  {
+    "id": "GME00123718",
+    "name": "HERZBERG, GM",
+    "lat": "51.6267",
+    "lon": "10.3717"
+  },
+  {
+    "id": "GME00123730",
+    "name": "ATTENKAM, GM",
+    "lat": "47.8781",
+    "lon": "11.3656"
+  },
+  {
+    "id": "GME00123778",
+    "name": "HILGENROTH, GM",
+    "lat": "50.7381",
+    "lon": "7.6533"
+  },
+  {
+    "id": "GME00123838",
+    "name": "AUE, GM",
+    "lat": "50.5917",
+    "lon": "12.7156"
+  },
+  {
+    "id": "GME00123862",
+    "name": "BERTSDORF HORNITZ, GM",
+    "lat": "50.9006",
+    "lon": "14.7475"
+  },
+  {
+    "id": "GME00123898",
+    "name": "HOFHEIM, GM",
+    "lat": "50.1364",
+    "lon": "10.5167"
+  },
+  {
+    "id": "GME00123922",
+    "name": "HOHN, GM",
+    "lat": "54.3128",
+    "lon": "9.5392"
+  },
+  {
+    "id": "GME00123934",
+    "name": "HOHWACHT, GM",
+    "lat": "54.3206",
+    "lon": "10.6742"
+  },
+  {
+    "id": "GME00123946",
+    "name": "HOLZDORF FLUGPLATZ, GM",
+    "lat": "51.7683",
+    "lon": "13.1681"
+  },
+  {
+    "id": "GME00123970",
+    "name": "HOLZKIRCHEN, GM",
+    "lat": "47.8831",
+    "lon": "11.6975"
+  },
+  {
+    "id": "GME00123994",
+    "name": "KR. HOLZMINDEN BEVERN, GM",
+    "lat": "51.8553",
+    "lon": "9.4975"
+  },
+  {
+    "id": "GME00124030",
+    "name": "HOMBURG SAAR, GM",
+    "lat": "49.3292",
+    "lon": "7.3567"
+  },
+  {
+    "id": "GME00124102",
+    "name": "HUMMERICH, GM",
+    "lat": "50.5664",
+    "lon": "7.4844"
+  },
+  {
+    "id": "GME00124126",
+    "name": "IDAR OBERSTEIN, GM",
+    "lat": "49.7",
+    "lon": "7.3331"
+  },
+  {
+    "id": "GME00124138",
+    "name": "IHRINGEN, GM",
+    "lat": "48.0428",
+    "lon": "7.6328"
+  },
+  {
+    "id": "GME00124186",
+    "name": "INGOLSTADT FLUGPLATZ, GM",
+    "lat": "48.7156",
+    "lon": "11.5333"
+  },
+  {
+    "id": "GME00124222",
+    "name": "ITZEHOE, GM",
+    "lat": "53.9894",
+    "lon": "9.5694"
+  },
+  {
+    "id": "GME00124234",
+    "name": "SCHLESWIG JAGEL, GM",
+    "lat": "54.4567",
+    "lon": "9.5206"
+  },
+  {
+    "id": "GME00124306",
+    "name": "JUTERBOG, GM",
+    "lat": "52.0017",
+    "lon": "13.1039"
+  },
+  {
+    "id": "GME00124318",
+    "name": "KAHL MAIN, GM",
+    "lat": "50.0656",
+    "lon": "8.9942"
+  },
+  {
+    "id": "GME00124330",
+    "name": "KAISERSBACH CRONHUTTE, GM",
+    "lat": "48.9181",
+    "lon": "9.6881"
+  },
+  {
+    "id": "GME00124366",
+    "name": "KALL SISTIG, GM",
+    "lat": "50.5028",
+    "lon": "6.5267"
+  },
+  {
+    "id": "GME00124450",
+    "name": "KEHL ODELSHOFEN, GM",
+    "lat": "48.5583",
+    "lon": "7.8808"
+  },
+  {
+    "id": "GME00124474",
+    "name": "KIRCHBERG JAGST HERBOLDSHAUSEN, GM",
+    "lat": "49.1814",
+    "lon": "9.9808"
+  },
+  {
+    "id": "GME00124486",
+    "name": "KIRCHDORF POEL, GM",
+    "lat": "54.0008",
+    "lon": "11.4358"
+  },
+  {
+    "id": "GME00124498",
+    "name": "BADEN BADEN GEROLDSAU, GM",
+    "lat": "48.7278",
+    "lon": "8.2467"
+  },
+  {
+    "id": "GME00124510",
+    "name": "BAD KISSINGEN, GM",
+    "lat": "50.2256",
+    "lon": "10.0803"
+  },
+  {
+    "id": "GME00124522",
+    "name": "MULLHEIM, GM",
+    "lat": "47.8069",
+    "lon": "7.6392"
+  },
+  {
+    "id": "GME00124534",
+    "name": "KITZINGEN, GM",
+    "lat": "49.7369",
+    "lon": "10.1792"
+  },
+  {
+    "id": "GME00124546",
+    "name": "KLEINER FELDBERG TAUNUS, GM",
+    "lat": "50.2225",
+    "lon": "8.4481"
+  },
+  {
+    "id": "GME00124570",
+    "name": "KLEINER INSELSBERG, GM",
+    "lat": "50.8469",
+    "lon": "10.4814"
+  },
+  {
+    "id": "GME00124594",
+    "name": "KLETTWITZ, GM",
+    "lat": "51.5567",
+    "lon": "13.8864"
+  },
+  {
+    "id": "GME00124606",
+    "name": "KLEVE, GM",
+    "lat": "51.7625",
+    "lon": "6.0956"
+  },
+  {
+    "id": "GME00124630",
+    "name": "KLITZSCHEN BEI TORGAU, GM",
+    "lat": "51.5203",
+    "lon": "12.9078"
+  },
+  {
+    "id": "GME00124678",
+    "name": "BAD KONIGSHOFEN, GM",
+    "lat": "50.2853",
+    "lon": "10.4467"
+  },
+  {
+    "id": "GME00124690",
+    "name": "KONIGSMOOR, GM",
+    "lat": "53.2292",
+    "lon": "9.6533"
+  },
+  {
+    "id": "GME00124726",
+    "name": "KOSCHING, GM",
+    "lat": "48.8308",
+    "lon": "11.4883"
+  },
+  {
+    "id": "GME00124762",
+    "name": "KOTHEN ANHALT, GM",
+    "lat": "51.7528",
+    "lon": "12.0092"
+  },
+  {
+    "id": "GME00124774",
+    "name": "BAD KOHLGRUB ROSSHOF, GM",
+    "lat": "47.6658",
+    "lon": "11.0817"
+  },
+  {
+    "id": "GME00124810",
+    "name": "KRONACH, GM",
+    "lat": "50.2533",
+    "lon": "11.3219"
+  },
+  {
+    "id": "GME00124846",
+    "name": "KUMMERSBRUCK, GM",
+    "lat": "49.4289",
+    "lon": "11.9019"
+  },
+  {
+    "id": "GME00124918",
+    "name": "LAAGE FLUGPLATZ, GM",
+    "lat": "53.9167",
+    "lon": "12.2831"
+  },
+  {
+    "id": "GME00124930",
+    "name": "MERKLINGEN, GM",
+    "lat": "48.5131",
+    "lon": "9.7656"
+  },
+  {
+    "id": "GME00125026",
+    "name": "LANGENLIPSDORF, GM",
+    "lat": "51.9183",
+    "lon": "13.0889"
+  },
+  {
+    "id": "GME00125074",
+    "name": "BAD LAUCHSTADT, GM",
+    "lat": "51.3925",
+    "lon": "11.88"
+  },
+  {
+    "id": "GME00125098",
+    "name": "LAUPHEIM, GM",
+    "lat": "48.2181",
+    "lon": "9.9094"
+  },
+  {
+    "id": "GME00125122",
+    "name": "LECHFELD, GM",
+    "lat": "48.1864",
+    "lon": "10.8506"
+  },
+  {
+    "id": "GME00125218",
+    "name": "LEIPZIG HOLZHAUSEN, GM",
+    "lat": "51.3164",
+    "lon": "12.4475"
+  },
+  {
+    "id": "GME00125230",
+    "name": "LENNESTADT THETEN, GM",
+    "lat": "51.1344",
+    "lon": "8.0358"
+  },
+  {
+    "id": "GME00125254",
+    "name": "BARSINGHAUSEN HOHENBOSTEL, GM",
+    "lat": "52.3208",
+    "lon": "9.4306"
+  },
+  {
+    "id": "GME00125278",
+    "name": "LENZEN ELBE, GM",
+    "lat": "53.1025",
+    "lon": "11.4878"
+  },
+  {
+    "id": "GME00125302",
+    "name": "KOLN STAMMHEIM, GM",
+    "lat": "50.9906",
+    "lon": "6.9783"
+  },
+  {
+    "id": "GME00125314",
+    "name": "LICHTENHAIN MITTELNDORF, GM",
+    "lat": "50.9394",
+    "lon": "14.2108"
+  },
+  {
+    "id": "GME00125326",
+    "name": "BARTH, GM",
+    "lat": "54.3406",
+    "lon": "12.7106"
+  },
+  {
+    "id": "GME00125422",
+    "name": "LIPPSTADT BOKENFORDE, GM",
+    "lat": "51.6344",
+    "lon": "8.3953"
+  },
+  {
+    "id": "GME00125434",
+    "name": "BAD LOBENSTEIN, GM",
+    "lat": "50.4519",
+    "lon": "11.6333"
+  },
+  {
+    "id": "GME00125446",
+    "name": "BARUTH, GM",
+    "lat": "52.0619",
+    "lon": "13.5028"
+  },
+  {
+    "id": "GME00125458",
+    "name": "LOHNBERG OBERSHAUSEN, GM",
+    "lat": "50.5633",
+    "lon": "8.24"
+  },
+  {
+    "id": "GME00125530",
+    "name": "LUBBEN BLUMENFELDE, GM",
+    "lat": "51.9281",
+    "lon": "13.8819"
+  },
+  {
+    "id": "GME00125554",
+    "name": "LUBECK BLANKENSEE, GM",
+    "lat": "53.8106",
+    "lon": "10.7067"
+  },
+  {
+    "id": "GME00125602",
+    "name": "LUDENSCHEID, GM",
+    "lat": "51.2467",
+    "lon": "7.6431"
+  },
+  {
+    "id": "GME00125638",
+    "name": "LUISENTHAL TALSPERRE, GM",
+    "lat": "50.7675",
+    "lon": "10.7214"
+  },
+  {
+    "id": "GME00125662",
+    "name": "MAINZ LERCHENBERG ZDF, GM",
+    "lat": "49.9681",
+    "lon": "8.2117"
+  },
+  {
+    "id": "GME00125686",
+    "name": "MALLERSDORF NIEDERBAYERN, GM",
+    "lat": "48.7781",
+    "lon": "12.2544"
+  },
+  {
+    "id": "GME00125698",
+    "name": "KR. BAUTZEN KUBSCHUTZ, GM",
+    "lat": "51.1617",
+    "lon": "14.5056"
+  },
+  {
+    "id": "GME00125710",
+    "name": "MANDERSCHEID SONNENHOF, GM",
+    "lat": "50.1028",
+    "lon": "6.8019"
+  },
+  {
+    "id": "GME00125746",
+    "name": "KR. MARBURG BIEDENKOPF COLBE, GM",
+    "lat": "50.8503",
+    "lon": "8.7742"
+  },
+  {
+    "id": "GME00125794",
+    "name": "MARTINRODA, GM",
+    "lat": "50.7344",
+    "lon": "10.8831"
+  },
+  {
+    "id": "GME00125806",
+    "name": "HEINERSREUTH VOLLHOF, GM",
+    "lat": "49.9678",
+    "lon": "11.5208"
+  },
+  {
+    "id": "GME00125818",
+    "name": "MAUTH FINSTERAU, GM",
+    "lat": "48.9367",
+    "lon": "13.5781"
+  },
+  {
+    "id": "GME00125866",
+    "name": "MEHRINGEN, GM",
+    "lat": "51.7269",
+    "lon": "11.5125"
+  },
+  {
+    "id": "GME00125890",
+    "name": "GARSEBACH BEI MEISSEN, GM",
+    "lat": "51.1306",
+    "lon": "13.4342"
+  },
+  {
+    "id": "GME00125902",
+    "name": "MELLE, GM",
+    "lat": "52.2056",
+    "lon": "8.3392"
+  },
+  {
+    "id": "GME00125914",
+    "name": "MEMMINGEN, GM",
+    "lat": "47.9831",
+    "lon": "10.1392"
+  },
+  {
+    "id": "GME00125974",
+    "name": "BAD NEUNKIRCHEN MERGENTHEIM, GM",
+    "lat": "49.4781",
+    "lon": "9.7631"
+  },
+  {
+    "id": "GME00126010",
+    "name": "METTEN, GM",
+    "lat": "48.8556",
+    "lon": "12.9203"
+  },
+  {
+    "id": "GME00126022",
+    "name": "METZINGEN, GM",
+    "lat": "48.5383",
+    "lon": "9.2742"
+  },
+  {
+    "id": "GME00126046",
+    "name": "MICHELSTADT, GM",
+    "lat": "49.67",
+    "lon": "9.0119"
+  },
+  {
+    "id": "GME00126058",
+    "name": "MICHELSTADT VIELBRUNN, GM",
+    "lat": "49.7189",
+    "lon": "9.1006"
+  },
+  {
+    "id": "GME00126070",
+    "name": "SCHMIERITZ WELTWITZ, GM",
+    "lat": "50.7294",
+    "lon": "11.7856"
+  },
+  {
+    "id": "GME00126082",
+    "name": "MILTENBERG, GM",
+    "lat": "49.7131",
+    "lon": "9.2267"
+  },
+  {
+    "id": "GME00126118",
+    "name": "BEERFELDEN, GM",
+    "lat": "49.5628",
+    "lon": "8.9689"
+  },
+  {
+    "id": "GME00126154",
+    "name": "ROLLBACH, GM",
+    "lat": "49.7656",
+    "lon": "9.2542"
+  },
+  {
+    "id": "GME00126178",
+    "name": "MONTABAUR, GM",
+    "lat": "50.4392",
+    "lon": "7.8064"
+  },
+  {
+    "id": "GME00126226",
+    "name": "MUHLDORF, GM",
+    "lat": "48.28",
+    "lon": "12.5039"
+  },
+  {
+    "id": "GME00126250",
+    "name": "MUNCHEBERG, GM",
+    "lat": "52.5189",
+    "lon": "14.125"
+  },
+  {
+    "id": "GME00126322",
+    "name": "MUNSINGEN APFELSTETTEN, GM",
+    "lat": "48.3864",
+    "lon": "9.4842"
+  },
+  {
+    "id": "GME00126358",
+    "name": "BAD MUSKAU, GM",
+    "lat": "51.5675",
+    "lon": "14.7006"
+  },
+  {
+    "id": "GME00126370",
+    "name": "BELM, GM",
+    "lat": "52.3181",
+    "lon": "8.1706"
+  },
+  {
+    "id": "GME00126382",
+    "name": "NAGOLD, GM",
+    "lat": "48.5675",
+    "lon": "8.7192"
+  },
+  {
+    "id": "GME00126394",
+    "name": "BAD NAUHEIM, GM",
+    "lat": "50.3694",
+    "lon": "8.7656"
+  },
+  {
+    "id": "GME00126418",
+    "name": "NEUBURG DONAU FLUGPLATZ, GM",
+    "lat": "48.7092",
+    "lon": "11.21"
+  },
+  {
+    "id": "GME00126430",
+    "name": "NEUBURG KAMMEL LANGENHASLACH, GM",
+    "lat": "48.3125",
+    "lon": "10.3781"
+  },
+  {
+    "id": "GME00126478",
+    "name": "MENZ, GM",
+    "lat": "53.1031",
+    "lon": "13.0439"
+  },
+  {
+    "id": "GME00126490",
+    "name": "NEUHAUS AM RENNWEG, GM",
+    "lat": "50.5014",
+    "lon": "11.1356"
+  },
+  {
+    "id": "GME00126514",
+    "name": "NEUHAUSEN OB ECK UNTERSCHWANDO, GM",
+    "lat": "47.9531",
+    "lon": "8.9942"
+  },
+  {
+    "id": "GME00126526",
+    "name": "NEUKIRCHEN HAUPTSCHWENDA, GM",
+    "lat": "50.8933",
+    "lon": "9.4064"
+  },
+  {
+    "id": "GME00126562",
+    "name": "NEUNKIRCHEN SEELSCHEID KRAWINK, GM",
+    "lat": "50.8456",
+    "lon": "7.3719"
+  },
+  {
+    "id": "GME00126586",
+    "name": "NEUNKIRCHEN WELLESWEILER, GM",
+    "lat": "49.3444",
+    "lon": "7.2303"
+  },
+  {
+    "id": "GME00126622",
+    "name": "NEUSTADT AM KULM FILCHENDORF, GM",
+    "lat": "49.8183",
+    "lon": "11.8653"
+  },
+  {
+    "id": "GME00126670",
+    "name": "REGENSBURG BURGWEINTING, GM",
+    "lat": "48.9842",
+    "lon": "12.1456"
+  },
+  {
+    "id": "GME00126694",
+    "name": "NIDEGGEN SCHMIDT, GM",
+    "lat": "50.6756",
+    "lon": "6.4242"
+  },
+  {
+    "id": "GME00126718",
+    "name": "NIEDERSTETTEN, GM",
+    "lat": "49.3992",
+    "lon": "9.9653"
+  },
+  {
+    "id": "GME00126730",
+    "name": "NIEDERSTOTZINGEN, GM",
+    "lat": "48.5342",
+    "lon": "10.2442"
+  },
+  {
+    "id": "GME00126742",
+    "name": "NIENBURG, GM",
+    "lat": "52.6725",
+    "lon": "9.2242"
+  },
+  {
+    "id": "GME00126754",
+    "name": "REIMLINGEN, GM",
+    "lat": "48.8264",
+    "lon": "10.5078"
+  },
+  {
+    "id": "GME00126766",
+    "name": "NORVENICH FLUGPLATZ, GM",
+    "lat": "50.8289",
+    "lon": "6.6592"
+  },
+  {
+    "id": "GME00126778",
+    "name": "NORDHOLZ FLUGPLATZ, GM",
+    "lat": "53.7644",
+    "lon": "8.6575"
+  },
+  {
+    "id": "GME00126790",
+    "name": "NORDHORN, GM",
+    "lat": "52.4408",
+    "lon": "7.1056"
+  },
+  {
+    "id": "GME00126838",
+    "name": "NURNBERG NETZSTALL, GM",
+    "lat": "49.4267",
+    "lon": "11.2553"
+  },
+  {
+    "id": "GME00126874",
+    "name": "KIEFERSFELDEN GACH, GM",
+    "lat": "47.6192",
+    "lon": "12.1681"
+  },
+  {
+    "id": "GME00126886",
+    "name": "BERGEN, GM",
+    "lat": "52.8167",
+    "lon": "9.9331"
+  },
+  {
+    "id": "GME00126910",
+    "name": "OBERSCHLEISSHEIM, GM",
+    "lat": "48.2444",
+    "lon": "11.5539"
+  },
+  {
+    "id": "GME00126922",
+    "name": "OBERSULM WILLSBACH, GM",
+    "lat": "49.1289",
+    "lon": "9.3533"
+  },
+  {
+    "id": "GME00126946",
+    "name": "OBERVIECHTACH, GM",
+    "lat": "49.4531",
+    "lon": "12.4381"
+  },
+  {
+    "id": "GME00127030",
+    "name": "BAD BERGZABERN, GM",
+    "lat": "49.1081",
+    "lon": "7.9969"
+  },
+  {
+    "id": "GME00127090",
+    "name": "OSTERFELD, GM",
+    "lat": "51.0883",
+    "lon": "11.9314"
+  },
+  {
+    "id": "GME00127114",
+    "name": "OSTHEIM V.D. RHON, GM",
+    "lat": "50.455",
+    "lon": "10.2219"
+  },
+  {
+    "id": "GME00127138",
+    "name": "OY MITTELBERG PETERSTHAL, GM",
+    "lat": "47.6367",
+    "lon": "10.3903"
+  },
+  {
+    "id": "GME00127150",
+    "name": "PAPENBURG, GM",
+    "lat": "53.0656",
+    "lon": "7.4819"
+  },
+  {
+    "id": "GME00127174",
+    "name": "PARSBERG OBERPFALZ EGLWANG, GM",
+    "lat": "49.1517",
+    "lon": "11.6908"
+  },
+  {
+    "id": "GME00127186",
+    "name": "PASSAU MAIERHOF, GM",
+    "lat": "48.5817",
+    "lon": "13.4167"
+  },
+  {
+    "id": "GME00127222",
+    "name": "PELZERHAKEN, GM",
+    "lat": "54.0906",
+    "lon": "10.8783"
+  },
+  {
+    "id": "GME00127246",
+    "name": "PERL NENNIG, GM",
+    "lat": "49.5367",
+    "lon": "6.3808"
+  },
+  {
+    "id": "GME00127258",
+    "name": "BAD STUNZEL BERLEBURG, GM",
+    "lat": "50.985",
+    "lon": "8.3689"
+  },
+  {
+    "id": "GME00127306",
+    "name": "PFORZHEIM ISPRINGEN, GM",
+    "lat": "48.9328",
+    "lon": "8.6967"
+  },
+  {
+    "id": "GME00127318",
+    "name": "PFULLENDORF, GM",
+    "lat": "47.9353",
+    "lon": "9.2878"
+  },
+  {
+    "id": "GME00127342",
+    "name": "PIRMASENS, GM",
+    "lat": "49.1919",
+    "lon": "7.5881"
+  },
+  {
+    "id": "GME00127354",
+    "name": "PLAUEN, GM",
+    "lat": "50.4831",
+    "lon": "12.1317"
+  },
+  {
+    "id": "GME00127390",
+    "name": "POMMELSBRUNN MITTELBURG, GM",
+    "lat": "49.4789",
+    "lon": "11.5367"
+  },
+  {
+    "id": "GME00127438",
+    "name": "BERLIN BUCH, GM",
+    "lat": "52.6325",
+    "lon": "13.5039"
+  },
+  {
+    "id": "GME00127462",
+    "name": "PUTBUS, GM",
+    "lat": "54.3656",
+    "lon": "13.4783"
+  },
+  {
+    "id": "GME00127498",
+    "name": "QUEDLINBURG, GM",
+    "lat": "51.7967",
+    "lon": "11.1331"
+  },
+  {
+    "id": "GME00127510",
+    "name": "QUERFURT MUHLE LODERSLEBEN, GM",
+    "lat": "51.3906",
+    "lon": "11.5428"
+  },
+  {
+    "id": "GME00127534",
+    "name": "QUICKBORN, GM",
+    "lat": "53.7344",
+    "lon": "9.8783"
+  },
+  {
+    "id": "GME00127546",
+    "name": "RADOLFZELL MARKELFINGEN, GM",
+    "lat": "47.7467",
+    "lon": "9.0017"
+  },
+  {
+    "id": "GME00127558",
+    "name": "RAHDEN VARL, GM",
+    "lat": "52.4481",
+    "lon": "8.5731"
+  },
+  {
+    "id": "GME00127582",
+    "name": "RASTATT, GM",
+    "lat": "48.8478",
+    "lon": "8.1869"
+  },
+  {
+    "id": "GME00127618",
+    "name": "KR. RAVENSBURG WEINGARTEN, GM",
+    "lat": "47.8069",
+    "lon": "9.6217"
+  },
+  {
+    "id": "GME00127678",
+    "name": "MARIENBERG REITZENHAIN, GM",
+    "lat": "50.5614",
+    "lon": "13.2239"
+  },
+  {
+    "id": "GME00127726",
+    "name": "RENNINGEN IHINGER HOF, GM",
+    "lat": "48.7433",
+    "lon": "8.925"
+  },
+  {
+    "id": "GME00127750",
+    "name": "RHEINAU MEMPRECHTSHOFEN, GM",
+    "lat": "48.6708",
+    "lon": "7.9956"
+  },
+  {
+    "id": "GME00127786",
+    "name": "RHEINFELDEN, GM",
+    "lat": "47.5633",
+    "lon": "7.7942"
+  },
+  {
+    "id": "GME00127810",
+    "name": "KREIS BIBERACH ALTHEIM, GM",
+    "lat": "48.1489",
+    "lon": "9.4606"
+  },
+  {
+    "id": "GME00127822",
+    "name": "BERLIN MARZAHN, GM",
+    "lat": "52.5458",
+    "lon": "13.5617"
+  },
+  {
+    "id": "GME00127894",
+    "name": "ROSENHEIM, GM",
+    "lat": "47.8758",
+    "lon": "12.1292"
+  },
+  {
+    "id": "GME00127906",
+    "name": "ROTENBURG WUMME, GM",
+    "lat": "53.1303",
+    "lon": "9.3406"
+  },
+  {
+    "id": "GME00127930",
+    "name": "BERLIN SCHONEFELD, GM",
+    "lat": "52.3819",
+    "lon": "13.5325"
+  },
+  {
+    "id": "GME00127942",
+    "name": "ROTH, GM",
+    "lat": "49.2158",
+    "lon": "11.1025"
+  },
+  {
+    "id": "GME00127954",
+    "name": "ROTHENBURG OB DER TAUBER, GM",
+    "lat": "49.3856",
+    "lon": "10.1742"
+  },
+  {
+    "id": "GME00127966",
+    "name": "BAD ROTHENFELDE, GM",
+    "lat": "52.1053",
+    "lon": "8.1828"
+  },
+  {
+    "id": "GME00127978",
+    "name": "ROTTENBURG KIEBINGEN, GM",
+    "lat": "48.4714",
+    "lon": "8.9694"
+  },
+  {
+    "id": "GME00128002",
+    "name": "ROTTWEIL, GM",
+    "lat": "48.1819",
+    "lon": "8.6358"
+  },
+  {
+    "id": "GME00128014",
+    "name": "BAD KREUZNACH, GM",
+    "lat": "49.8517",
+    "lon": "7.8725"
+  },
+  {
+    "id": "GME00128038",
+    "name": "RUPPERTSECKEN, GM",
+    "lat": "49.6478",
+    "lon": "7.8842"
+  },
+  {
+    "id": "GME00128110",
+    "name": "SACHSENHEIM, GM",
+    "lat": "48.9578",
+    "lon": "9.0719"
+  },
+  {
+    "id": "GME00128134",
+    "name": "SALDENBURG ENTSCHENREUTH, GM",
+    "lat": "48.7842",
+    "lon": "13.3158"
+  },
+  {
+    "id": "GME00128170",
+    "name": "SALZHEMMENDORF LAUENSTEIN, GM",
+    "lat": "52.0792",
+    "lon": "9.5531"
+  },
+  {
+    "id": "GME00128182",
+    "name": "BAD SALZUFLEN, GM",
+    "lat": "52.1056",
+    "lon": "8.7531"
+  },
+  {
+    "id": "GME00128194",
+    "name": "SALZWEDEL, GM",
+    "lat": "52.8581",
+    "lon": "11.1442"
+  },
+  {
+    "id": "GME00128206",
+    "name": "SANDBERG, GM",
+    "lat": "50.3531",
+    "lon": "10.0042"
+  },
+  {
+    "id": "GME00128218",
+    "name": "SANKT PETER ORDING, GM",
+    "lat": "54.3294",
+    "lon": "8.6028"
+  },
+  {
+    "id": "GME00128266",
+    "name": "SCHAAFHEIM SCHLIERBACH, GM",
+    "lat": "49.9203",
+    "lon": "8.9681"
+  },
+  {
+    "id": "GME00128350",
+    "name": "SCHIERKE, GM",
+    "lat": "51.7667",
+    "lon": "10.655"
+  },
+  {
+    "id": "GME00128374",
+    "name": "SCHLEIZ, GM",
+    "lat": "50.5706",
+    "lon": "11.8056"
+  },
+  {
+    "id": "GME00128374",
+    "name": "SCHLEIZ, GM",
+    "lat": "50.5706",
+    "lon": "11.8056"
+  },
+  {
+    "id": "GME00128374",
+    "name": "SCHLEIZ, GM",
+    "lat": "50.5706",
+    "lon": "11.8056"
+  },
+  {
+    "id": "GME00128374",
+    "name": "SCHLEIZ, GM",
+    "lat": "50.5706",
+    "lon": "11.8056"
+  },
+  {
+    "id": "GME00128374",
+    "name": "SCHLEIZ, GM",
+    "lat": "50.5706",
+    "lon": "11.8056"
+  },
+  {
+    "id": "GME00128374",
+    "name": "SCHLEIZ, GM",
+    "lat": "50.5706",
+    "lon": "11.8056"
+  },
+  {
+    "id": "GME00128374",
+    "name": "SCHLEIZ, GM",
+    "lat": "50.5706",
+    "lon": "11.8056"
+  },
+  {
+    "id": "GME00128374",
+    "name": "SCHLEIZ, GM",
+    "lat": "50.5706",
+    "lon": "11.8056"
+  },
+  {
+    "id": "GME00128374",
+    "name": "SCHLEIZ, GM",
+    "lat": "50.5706",
+    "lon": "11.8056"
+  },
+  {
+    "id": "GME00128374",
+    "name": "SCHLEIZ, GM",
+    "lat": "50.5706",
+    "lon": "11.8056"
+  },
+  {
+    "id": "GME00128374",
+    "name": "SCHLEIZ, GM",
+    "lat": "50.5706",
+    "lon": "11.8056"
+  },
+  {
+    "id": "GME00128374",
+    "name": "SCHLEIZ, GM",
+    "lat": "50.5706",
+    "lon": "11.8056"
+  },
+  {
+    "id": "GME00128374",
+    "name": "SCHLEIZ, GM",
+    "lat": "50.5706",
+    "lon": "11.8056"
+  },
+  {
+    "id": "GME00128374",
+    "name": "SCHLEIZ, GM",
+    "lat": "50.5706",
+    "lon": "11.8056"
+  },
+  {
+    "id": "GME00128686",
+    "name": "SCHWARZBURG, GM",
+    "lat": "50.6456",
+    "lon": "11.1944"
+  },
+  {
+    "id": "GME00128734",
+    "name": "SEEHAUSEN, GM",
+    "lat": "52.8928",
+    "lon": "11.7306"
+  },
+  {
+    "id": "GME00128758",
+    "name": "SEESEN, GM",
+    "lat": "51.9056",
+    "lon": "10.19"
+  },
+  {
+    "id": "GME00128818",
+    "name": "SIGMARINGEN LAIZ, GM",
+    "lat": "48.0728",
+    "lon": "9.1953"
+  },
+  {
+    "id": "GME00128854",
+    "name": "SIMBACH INN, GM",
+    "lat": "48.2728",
+    "lon": "13.0289"
+  },
+  {
+    "id": "GME00128866",
+    "name": "SIMMERN WAHLBACH, GM",
+    "lat": "50.0017",
+    "lon": "7.5969"
+  },
+  {
+    "id": "GME00128902",
+    "name": "SOLINGEN HOHENSCHEID, GM",
+    "lat": "51.1408",
+    "lon": "7.0942"
+  },
+  {
+    "id": "GME00128914",
+    "name": "SOLTAU, GM",
+    "lat": "52.9617",
+    "lon": "9.7967"
+  },
+  {
+    "id": "GME00128962",
+    "name": "SONTRA, GM",
+    "lat": "51.0617",
+    "lon": "9.9275"
+  },
+  {
+    "id": "GME00128974",
+    "name": "BAD SOODEN ALLENDORF, GM",
+    "lat": "51.2814",
+    "lon": "9.9858"
+  },
+  {
+    "id": "GME00129010",
+    "name": "BIEDENKOPF, GM",
+    "lat": "50.9208",
+    "lon": "8.5278"
+  },
+  {
+    "id": "GME00129022",
+    "name": "STAMMBACH QUERENBACH, GM",
+    "lat": "50.1542",
+    "lon": "11.7417"
+  },
+  {
+    "id": "GME00129046",
+    "name": "KR. CUXHAVEN STEINAU, GM",
+    "lat": "53.6956",
+    "lon": "8.875"
+  },
+  {
+    "id": "GME00129070",
+    "name": "MITTELNKIRCHEN HOHENFELDE, GM",
+    "lat": "53.5528",
+    "lon": "9.6092"
+  },
+  {
+    "id": "GME00129082",
+    "name": "STIEGE, GM",
+    "lat": "51.6692",
+    "lon": "10.8833"
+  },
+  {
+    "id": "GME00129094",
+    "name": "STOCKACH, GM",
+    "lat": "47.86",
+    "lon": "9.0164"
+  },
+  {
+    "id": "GME00129166",
+    "name": "TANN RHON, GM",
+    "lat": "50.6394",
+    "lon": "10.0231"
+  },
+  {
+    "id": "GME00129190",
+    "name": "TEGKWITZ, GM",
+    "lat": "50.9789",
+    "lon": "12.3444"
+  },
+  {
+    "id": "GME00129202",
+    "name": "TETEROW, GM",
+    "lat": "53.7625",
+    "lon": "12.5581"
+  },
+  {
+    "id": "GME00129214",
+    "name": "WORPSWEDE HUTTENBUSCH, GM",
+    "lat": "53.2775",
+    "lon": "8.9867"
+  },
+  {
+    "id": "GME00129226",
+    "name": "TEUSCHNITZ, GM",
+    "lat": "50.4014",
+    "lon": "11.3903"
+  },
+  {
+    "id": "GME00129250",
+    "name": "THOLEY, GM",
+    "lat": "49.4744",
+    "lon": "7.0392"
+  },
+  {
+    "id": "GME00129274",
+    "name": "THUNGERSHEIM, GM",
+    "lat": "49.8819",
+    "lon": "9.8464"
+  },
+  {
+    "id": "GME00129298",
+    "name": "TIRSCHENREUTH LODERMUHL, GM",
+    "lat": "49.8589",
+    "lon": "12.3556"
+  },
+  {
+    "id": "GME00129346",
+    "name": "TONISVORST, GM",
+    "lat": "51.2908",
+    "lon": "6.445"
+  },
+  {
+    "id": "GME00129418",
+    "name": "TRIBSEES, GM",
+    "lat": "54.0681",
+    "lon": "12.7689"
+  },
+  {
+    "id": "GME00129430",
+    "name": "TRIER ZEWEN, GM",
+    "lat": "49.7325",
+    "lon": "6.6131"
+  },
+  {
+    "id": "GME00129478",
+    "name": "TROSTBERG, GM",
+    "lat": "48.0317",
+    "lon": "12.5408"
+  },
+  {
+    "id": "GME00129514",
+    "name": "TUTTLINGEN MOHRINGEN, GM",
+    "lat": "47.9558",
+    "lon": "8.7575"
+  },
+  {
+    "id": "GME00129526",
+    "name": "TWISTETAL MUHLHAUSEN, GM",
+    "lat": "51.3356",
+    "lon": "8.9142"
+  },
+  {
+    "id": "GME00129550",
+    "name": "UECKERMUNDE, GM",
+    "lat": "53.7458",
+    "lon": "14.0694"
+  },
+  {
+    "id": "GME00129562",
+    "name": "UELZEN, GM",
+    "lat": "52.9428",
+    "lon": "10.53"
+  },
+  {
+    "id": "GME00129574",
+    "name": "GOLLHOFEN, GM",
+    "lat": "49.5753",
+    "lon": "10.1928"
+  },
+  {
+    "id": "GME00129598",
+    "name": "UMMENDORF, GM",
+    "lat": "52.1617",
+    "lon": "11.1767"
+  },
+  {
+    "id": "GME00129634",
+    "name": "VILLINGEN SCHWENNINGEN, GM",
+    "lat": "48.0458",
+    "lon": "8.4617"
+  },
+  {
+    "id": "GME00129718",
+    "name": "WAGHAUSEL KIRRLACH, GM",
+    "lat": "49.2456",
+    "lon": "8.5381"
+  },
+  {
+    "id": "GME00129742",
+    "name": "WAHLSBURG LIPPOLDSBERG, GM",
+    "lat": "51.6194",
+    "lon": "9.5769"
+  },
+  {
+    "id": "GME00129754",
+    "name": "WITTENBORN, GM",
+    "lat": "53.9214",
+    "lon": "10.2306"
+  },
+  {
+    "id": "GME00129814",
+    "name": "WALDEMS REINBORN, GM",
+    "lat": "50.2608",
+    "lon": "8.3608"
+  },
+  {
+    "id": "GME00129862",
+    "name": "WALTERSHAUSEN, GM",
+    "lat": "50.8975",
+    "lon": "10.5494"
+  },
+  {
+    "id": "GME00129874",
+    "name": "WANGEROOGE, GM",
+    "lat": "53.7883",
+    "lon": "7.9075"
+  },
+  {
+    "id": "GME00129886",
+    "name": "WARBURG, GM",
+    "lat": "51.5053",
+    "lon": "9.1128"
+  },
+  {
+    "id": "GME00129898",
+    "name": "WAREN, GM",
+    "lat": "53.5214",
+    "lon": "12.6692"
+  },
+  {
+    "id": "GME00129910",
+    "name": "BLANKENRATH, GM",
+    "lat": "50.0367",
+    "lon": "7.3056"
+  },
+  {
+    "id": "GME00130018",
+    "name": "WEIMAR SCHONDORF, GM",
+    "lat": "51.0192",
+    "lon": "11.3556"
+  },
+  {
+    "id": "GME00130054",
+    "name": "WEISKIRCHEN SAAR, GM",
+    "lat": "49.555",
+    "lon": "6.8125"
+  },
+  {
+    "id": "GME00130078",
+    "name": "WEISSACH, GM",
+    "lat": "48.8467",
+    "lon": "8.9089"
+  },
+  {
+    "id": "GME00130102",
+    "name": "WEISSENFELS, GM",
+    "lat": "51.2178",
+    "lon": "11.9725"
+  },
+  {
+    "id": "GME00130114",
+    "name": "WEISSENSEE OTTENHAUSEN, GM",
+    "lat": "51.2131",
+    "lon": "10.9967"
+  },
+  {
+    "id": "GME00130126",
+    "name": "WEISWEIL WALDECKHOF, GM",
+    "lat": "48.1892",
+    "lon": "7.6983"
+  },
+  {
+    "id": "GME00130186",
+    "name": "WERNIGERODE, GM",
+    "lat": "51.8478",
+    "lon": "10.7694"
+  },
+  {
+    "id": "GME00130210",
+    "name": "BOBECK, GM",
+    "lat": "50.9056",
+    "lon": "11.7992"
+  },
+  {
+    "id": "GME00130234",
+    "name": "WIELENBACH DEMOLLSTR., GM",
+    "lat": "47.8833",
+    "lon": "11.1589"
+  },
+  {
+    "id": "GME00130258",
+    "name": "WIESBADEN AURINGEN, GM",
+    "lat": "50.1331",
+    "lon": "8.3178"
+  },
+  {
+    "id": "GME00130282",
+    "name": "WIESENBURG, GM",
+    "lat": "52.1219",
+    "lon": "12.46"
+  },
+  {
+    "id": "GME00130294",
+    "name": "BOCHOLT, GM",
+    "lat": "51.8308",
+    "lon": "6.5358"
+  },
+  {
+    "id": "GME00130306",
+    "name": "BAD CALMBACH WILDBAD, GM",
+    "lat": "48.7856",
+    "lon": "8.5769"
+  },
+  {
+    "id": "GME00130330",
+    "name": "NEUBULACH OBERHAUGSTETT, GM",
+    "lat": "48.6525",
+    "lon": "8.6808"
+  },
+  {
+    "id": "GME00130378",
+    "name": "REMS MURR KREIS WINTERBACH, GM",
+    "lat": "48.8042",
+    "lon": "9.4706"
+  },
+  {
+    "id": "GME00130390",
+    "name": "WISMAR, GM",
+    "lat": "53.8944",
+    "lon": "11.4253"
+  },
+  {
+    "id": "GME00130402",
+    "name": "WITTENBERG, GM",
+    "lat": "51.8903",
+    "lon": "12.6464"
+  },
+  {
+    "id": "GME00130414",
+    "name": "WITTMUNDHAFEN, GM",
+    "lat": "53.55",
+    "lon": "7.6667"
+  },
+  {
+    "id": "GME00130438",
+    "name": "WITTSTOCK ROTE MUHLE, GM",
+    "lat": "53.1875",
+    "lon": "12.4964"
+  },
+  {
+    "id": "GME00130486",
+    "name": "WOLFACH, GM",
+    "lat": "48.2958",
+    "lon": "8.24"
+  },
+  {
+    "id": "GME00130510",
+    "name": "WOLFSBURG SUDWEST, GM",
+    "lat": "52.3975",
+    "lon": "10.6908"
+  },
+  {
+    "id": "GME00130534",
+    "name": "WORMS, GM",
+    "lat": "49.6056",
+    "lon": "8.3667"
+  },
+  {
+    "id": "GME00130582",
+    "name": "WUPPERTAL BUCHENHOFEN, GM",
+    "lat": "51.2258",
+    "lon": "7.1058"
+  },
+  {
+    "id": "GME00130618",
+    "name": "WUTOSCHINGEN OFTERINGEN, GM",
+    "lat": "47.6789",
+    "lon": "8.3806"
+  },
+  {
+    "id": "GME00130642",
+    "name": "ZEHDENICK, GM",
+    "lat": "52.9681",
+    "lon": "13.3281"
+  },
+  {
+    "id": "GME00130654",
+    "name": "ZEITZ, GM",
+    "lat": "51.0539",
+    "lon": "12.1442"
+  },
+  {
+    "id": "GME00130702",
+    "name": "ZINNWALD GEORGENFELD, GM",
+    "lat": "50.7328",
+    "lon": "13.7531"
+  },
+  {
+    "id": "GME00130726",
+    "name": "LICHTENTANNE, GM",
+    "lat": "50.6892",
+    "lon": "12.4342"
+  },
+  {
+    "id": "GME00130738",
+    "name": "ZWIESEL, GM",
+    "lat": "49.0292",
+    "lon": "13.2403"
+  },
+  {
+    "id": "GME00130786",
+    "name": "BERGE, GM",
+    "lat": "52.6206",
+    "lon": "12.7889"
+  },
+  {
+    "id": "GME00130858",
+    "name": "MELSUNGEN BURSTOSS, GM",
+    "lat": "51.1331",
+    "lon": "9.52"
+  },
+  {
+    "id": "GME00130858",
+    "name": "MELSUNGEN BURSTOSS, GM",
+    "lat": "51.1331",
+    "lon": "9.52"
+  },
+  {
+    "id": "GME00130918",
+    "name": "REIT IM WINKL, GM",
+    "lat": "47.6758",
+    "lon": "12.4708"
+  },
+  {
+    "id": "GME00130990",
+    "name": "BONN ROLEBER, GM",
+    "lat": "50.7364",
+    "lon": "7.1939"
+  },
+  {
+    "id": "GME00131002",
+    "name": "BOOS, GM",
+    "lat": "48.0744",
+    "lon": "10.2014"
+  },
+  {
+    "id": "GME00131026",
+    "name": "WENDISCH EVERN, GM",
+    "lat": "53.2153",
+    "lon": "10.4717"
+  },
+  {
+    "id": "GME00131050",
+    "name": "OSTENFELD RENDSBURG, GM",
+    "lat": "54.3208",
+    "lon": "9.8058"
+  },
+  {
+    "id": "GME00131062",
+    "name": "GRAMBOW SCHWENNENZ, GM",
+    "lat": "53.3856",
+    "lon": "14.3742"
+  },
+  {
+    "id": "GME00131098",
+    "name": "SOHLAND SPREE, GM",
+    "lat": "51.0606",
+    "lon": "14.4281"
+  },
+  {
+    "id": "GME00131122",
+    "name": "WANGERLAND HOOKSIEL, GM",
+    "lat": "53.6417",
+    "lon": "8.0828"
+  },
+  {
+    "id": "GME00131134",
+    "name": "WEIDENBACH WEIHERSCHNEIDBACH, GM",
+    "lat": "49.2256",
+    "lon": "10.6094"
+  },
+  {
+    "id": "GME00131146",
+    "name": "DORPEN, GM",
+    "lat": "52.9553",
+    "lon": "7.3192"
+  },
+  {
+    "id": "GME00131158",
+    "name": "DORNICK, GM",
+    "lat": "54.1667",
+    "lon": "10.3539"
+  },
+  {
+    "id": "GME00131170",
+    "name": "COSCHEN, GM",
+    "lat": "52.0206",
+    "lon": "14.7269"
+  },
+  {
+    "id": "GME00131182",
+    "name": "BORKEN IN WESTFALEN, GM",
+    "lat": "51.8742",
+    "lon": "6.8867"
+  },
+  {
+    "id": "GME00131242",
+    "name": "LUGDE PAENBRUCH, GM",
+    "lat": "51.8678",
+    "lon": "9.2719"
+  },
+  {
+    "id": "GME00131254",
+    "name": "STEINHAGEN NEGAST, GM",
+    "lat": "54.2503",
+    "lon": "13.0431"
+  },
+  {
+    "id": "GME00131290",
+    "name": "SAARBRUCKEN BURBACH, GM",
+    "lat": "49.2417",
+    "lon": "6.935"
+  },
+  {
+    "id": "GME00131314",
+    "name": "FRIEDRICHSHAFEN UNTERRADERACH, GM",
+    "lat": "47.6853",
+    "lon": "9.4417"
+  },
+  {
+    "id": "GME00131326",
+    "name": "GROSSERLACH MANNENWEILER, GM",
+    "lat": "49.0217",
+    "lon": "9.6042"
+  },
+  {
+    "id": "GME00131338",
+    "name": "INGELFINGEN STACHENHAUSEN, GM",
+    "lat": "49.3333",
+    "lon": "9.705"
+  },
+  {
+    "id": "GME00131350",
+    "name": "SCHWABISCH GMUND WEILER, GM",
+    "lat": "48.7706",
+    "lon": "9.875"
+  },
+  {
+    "id": "GME00131362",
+    "name": "SINGEN, GM",
+    "lat": "47.7744",
+    "lon": "8.8228"
+  },
+  {
+    "id": "GME00131374",
+    "name": "BRILON THULEN, GM",
+    "lat": "51.4156",
+    "lon": "8.6506"
+  },
+  {
+    "id": "GME00131386",
+    "name": "WUSTERWITZ, GM",
+    "lat": "52.3625",
+    "lon": "12.3883"
+  },
+  {
+    "id": "GME00131398",
+    "name": "PABSTORF, GM",
+    "lat": "52.0317",
+    "lon": "10.9639"
+  },
+  {
+    "id": "GME00131410",
+    "name": "MOORGRUND GRAFEN NITZENDORF, GM",
+    "lat": "50.8433",
+    "lon": "10.2528"
+  },
+  {
+    "id": "GME00131422",
+    "name": "DEMKER, GM",
+    "lat": "52.5083",
+    "lon": "11.8564"
+  },
+  {
+    "id": "GME00131434",
+    "name": "NOTZINGEN, GM",
+    "lat": "48.6717",
+    "lon": "9.4633"
+  },
+  {
+    "id": "GME00131458",
+    "name": "MUHLHAUSEN GORMAR, GM",
+    "lat": "51.2078",
+    "lon": "10.4958"
+  },
+  {
+    "id": "GME00131470",
+    "name": "KARLSHAGEN, GM",
+    "lat": "54.1064",
+    "lon": "13.8258"
+  },
+  {
+    "id": "GME00131482",
+    "name": "MARKT ERLBACH MOSBACH, GM",
+    "lat": "49.5325",
+    "lon": "10.6431"
+  },
+  {
+    "id": "GME00131494",
+    "name": "NOSSEN, GM",
+    "lat": "51.0517",
+    "lon": "13.3025"
+  },
+  {
+    "id": "GME00131506",
+    "name": "LOHR MAIN HALSBACH, GM",
+    "lat": "50.0142",
+    "lon": "9.655"
+  },
+  {
+    "id": "GME00131518",
+    "name": "LUDINGHAUSEN BROCHTRUP, GM",
+    "lat": "51.7681",
+    "lon": "7.5203"
+  },
+  {
+    "id": "GME00131530",
+    "name": "RUNKEL ENNERICH, GM",
+    "lat": "50.3956",
+    "lon": "8.1442"
+  },
+  {
+    "id": "GME00131546",
+    "name": "MAISACH GALGEN, GM",
+    "lat": "48.2081",
+    "lon": "11.2044"
+  },
+  {
+    "id": "GME00131554",
+    "name": "SCHONUNGEN MAINBERG, GM",
+    "lat": "50.0589",
+    "lon": "10.2983"
+  },
+  {
+    "id": "GME00131590",
+    "name": "BRAMSCHE, GM",
+    "lat": "52.405",
+    "lon": "7.9731"
+  },
+  {
+    "id": "GME00131674",
+    "name": "BRAUNSCHWEIG, GM",
+    "lat": "52.2903",
+    "lon": "10.4483"
+  },
+  {
+    "id": "GME00131746",
+    "name": "BREMERVORDE, GM",
+    "lat": "53.4989",
+    "lon": "9.1731"
+  },
+  {
+    "id": "GME00131782",
+    "name": "ELSENDORF HORNECK, GM",
+    "lat": "48.7031",
+    "lon": "11.8506"
+  },
+  {
+    "id": "GME00131794",
+    "name": "LIEBENBURG OTHFRESEN, GM",
+    "lat": "52.0106",
+    "lon": "10.3956"
+  },
+  {
+    "id": "GME00131818",
+    "name": "SIEGSDORF HOLL, GM",
+    "lat": "47.8356",
+    "lon": "12.6564"
+  },
+  {
+    "id": "GME00131830",
+    "name": "BIELEFELD DEPPENDORF, GM",
+    "lat": "52.0728",
+    "lon": "8.4578"
+  },
+  {
+    "id": "GME00131842",
+    "name": "BRETTEN, GM",
+    "lat": "49.0264",
+    "lon": "8.7164"
+  },
+  {
+    "id": "GME00131866",
+    "name": "FREUDENBERG MAIN BOXTAL, GM",
+    "lat": "49.7644",
+    "lon": "9.4064"
+  },
+  {
+    "id": "GME00131938",
+    "name": "DONAUWORTH OSTERWEILER, GM",
+    "lat": "48.7358",
+    "lon": "10.7428"
+  },
+  {
+    "id": "GME00131950",
+    "name": "OLBERSLEBEN, GM",
+    "lat": "51.1519",
+    "lon": "11.3331"
+  },
+  {
+    "id": "GME00131962",
+    "name": "TREUEN, GM",
+    "lat": "50.5467",
+    "lon": "12.2867"
+  },
+  {
+    "id": "GME00131974",
+    "name": "ARNSBERG NEHEIM, GM",
+    "lat": "51.4644",
+    "lon": "7.9789"
+  },
+  {
+    "id": "GME00131986",
+    "name": "HERMARINGEN ALLEWIND, GM",
+    "lat": "48.6106",
+    "lon": "10.2692"
+  },
+  {
+    "id": "GME00131998",
+    "name": "DEUTSCHNEUDORF BRUDERWIESE, GM",
+    "lat": "50.6208",
+    "lon": "13.4831"
+  },
+  {
+    "id": "GME00132022",
+    "name": "FELDBERG MECKLENBURG, GM",
+    "lat": "53.3175",
+    "lon": "13.4175"
+  },
+  {
+    "id": "GME00132034",
+    "name": "JESSNITZ, GM",
+    "lat": "51.6831",
+    "lon": "12.3056"
+  },
+  {
+    "id": "GME00132046",
+    "name": "ALFELD, GM",
+    "lat": "51.9669",
+    "lon": "9.8042"
+  },
+  {
+    "id": "GME00132058",
+    "name": "EISENACH, GM",
+    "lat": "51.0025",
+    "lon": "10.3633"
+  },
+  {
+    "id": "GME00132070",
+    "name": "FEUCHTWANGEN HEILBRONN, GM",
+    "lat": "49.1631",
+    "lon": "10.3669"
+  },
+  {
+    "id": "GME00132094",
+    "name": "WALDMUNCHEN, GM",
+    "lat": "49.3919",
+    "lon": "12.6853"
+  },
+  {
+    "id": "GME00132106",
+    "name": "BORKUM FLUGPLATZ, GM",
+    "lat": "53.6",
+    "lon": "6.7031"
+  },
+  {
+    "id": "GME00132130",
+    "name": "HECKELBERG, GM",
+    "lat": "52.7458",
+    "lon": "13.8419"
+  },
+  {
+    "id": "GME00132154",
+    "name": "HOYERSWERDA, GM",
+    "lat": "51.4506",
+    "lon": "14.2542"
+  },
+  {
+    "id": "GME00132166",
+    "name": "WUNSIEDEL SCHONBRUNN, GM",
+    "lat": "50.0317",
+    "lon": "11.9742"
+  },
+  {
+    "id": "GME00132178",
+    "name": "GOTTFRIEDING, GM",
+    "lat": "48.6606",
+    "lon": "12.5403"
+  },
+  {
+    "id": "GME00132190",
+    "name": "HOHERODSKOPF VOGELSBERG, GM",
+    "lat": "50.5083",
+    "lon": "9.2244"
+  },
+  {
+    "id": "GME00132202",
+    "name": "ALDERSBACH KRIESTORF, GM",
+    "lat": "48.6167",
+    "lon": "13.0519"
+  },
+  {
+    "id": "GME00132214",
+    "name": "LEUTKIRCH HERLAZHOFEN, GM",
+    "lat": "47.7964",
+    "lon": "10.0333"
+  },
+  {
+    "id": "GME00132226",
+    "name": "NEU ULRICHSTEIN, GM",
+    "lat": "50.7531",
+    "lon": "9.0233"
+  },
+  {
+    "id": "GME00132238",
+    "name": "NEUHUTTEN SPESSART, GM",
+    "lat": "50.0092",
+    "lon": "9.425"
+  },
+  {
+    "id": "GME00132250",
+    "name": "LANGENWETZENDORF GOTTENDORF, GM",
+    "lat": "50.6619",
+    "lon": "12.0769"
+  },
+  {
+    "id": "GME00132262",
+    "name": "KREIPITZSCH BEI BAD KOSEN, GM",
+    "lat": "51.1056",
+    "lon": "11.7125"
+  },
+  {
+    "id": "GME00132274",
+    "name": "PIDING, GM",
+    "lat": "47.7731",
+    "lon": "12.9089"
+  },
+  {
+    "id": "GME00132286",
+    "name": "PADENSTEDT PONY PARK, GM",
+    "lat": "54.0206",
+    "lon": "9.9267"
+  },
+  {
+    "id": "GME00132298",
+    "name": "VEILSDORF, GM",
+    "lat": "50.4178",
+    "lon": "10.8167"
+  },
+  {
+    "id": "GME00132310",
+    "name": "OBERHACHING LAUFZORN, GM",
+    "lat": "48.0139",
+    "lon": "11.5539"
+  },
+  {
+    "id": "GME00132322",
+    "name": "WITTINGEN VORHOP, GM",
+    "lat": "52.6439",
+    "lon": "10.6642"
+  },
+  {
+    "id": "GME00132334",
+    "name": "KR. NECKAR ODENWALD BUCHEN, GM",
+    "lat": "49.5192",
+    "lon": "9.3225"
+  },
+  {
+    "id": "GME00132346",
+    "name": "BUCHENBACH, GM",
+    "lat": "47.9631",
+    "lon": "7.9989"
+  },
+  {
+    "id": "GME00132358",
+    "name": "BUCHHOLZ IN DER NORDHEIDE, GM",
+    "lat": "53.3567",
+    "lon": "9.9367"
+  },
+  {
+    "id": "GME00132370",
+    "name": "BUCHEL FLUGPLATZ, GM",
+    "lat": "50.1739",
+    "lon": "7.0631"
+  },
+  {
+    "id": "GME00132382",
+    "name": "BUCKEBURG, GM",
+    "lat": "52.2817",
+    "lon": "9.0878"
+  },
+  {
+    "id": "GME00132430",
+    "name": "ALFHAUSEN, GM",
+    "lat": "52.4864",
+    "lon": "7.9128"
+  },
+  {
+    "id": "GME00132466",
+    "name": "BURGWALD BOTTENDORF, GM",
+    "lat": "51.0317",
+    "lon": "8.8156"
+  },
+  {
+    "id": "GME00132490",
+    "name": "CARLSFELD, GM",
+    "lat": "50.4319",
+    "lon": "12.6128"
+  },
+  {
+    "id": "GME00132502",
+    "name": "CELLE STADT, GM",
+    "lat": "52.6164",
+    "lon": "10.0739"
+  },
+  {
+    "id": "GME00132514",
+    "name": "CELLE, GM",
+    "lat": "52.5953",
+    "lon": "10.0281"
+  },
+  {
+    "id": "GME00132526",
+    "name": "PEMFLING PITZLING, GM",
+    "lat": "49.2514",
+    "lon": "12.6056"
+  },
+  {
+    "id": "GME00132538",
+    "name": "CHEMNITZ, GM",
+    "lat": "50.7925",
+    "lon": "12.8733"
+  },
+  {
+    "id": "GME00132550",
+    "name": "CHIEMING, GM",
+    "lat": "47.8853",
+    "lon": "12.5417"
+  },
+  {
+    "id": "GME00132586",
+    "name": "LAUTERTAL OBERLAUTER, GM",
+    "lat": "50.3081",
+    "lon": "10.9692"
+  },
+  {
+    "id": "GME00132634",
+    "name": "DACHWIG, GM",
+    "lat": "51.0783",
+    "lon": "10.8639"
+  },
+  {
+    "id": "GME00132646",
+    "name": "DARMSTADT, GM",
+    "lat": "49.8817",
+    "lon": "8.6775"
+  },
+  {
+    "id": "GME00132682",
+    "name": "ALSFELD EIFA, GM",
+    "lat": "50.7456",
+    "lon": "9.3467"
+  },
+  {
+    "id": "GME00132694",
+    "name": "DEGGENHAUSERTAL AZENWEILER, GM",
+    "lat": "47.8017",
+    "lon": "9.4117"
+  },
+  {
+    "id": "GME00132730",
+    "name": "DEUSELBACH, GM",
+    "lat": "49.7631",
+    "lon": "7.0556"
+  },
+  {
+    "id": "GME00132778",
+    "name": "DIETENHOFEN, GM",
+    "lat": "49.4169",
+    "lon": "10.6742"
+  },
+  {
+    "id": "GME00132790",
+    "name": "DILLENBURG, GM",
+    "lat": "50.7325",
+    "lon": "8.2631"
+  },
+  {
+    "id": "GME00132814",
+    "name": "DILLINGEN DONAU FRISTINGEN, GM",
+    "lat": "48.5569",
+    "lon": "10.5608"
+  },
+  {
+    "id": "GME00132838",
+    "name": "DIPPOLDISWALDE REINBERG, GM",
+    "lat": "50.9181",
+    "lon": "13.7144"
+  },
+  {
+    "id": "GMM00010097",
+    "name": "GREIFSWALDER OIE, GM",
+    "lat": "54.2456",
+    "lon": "13.9125"
+  },
+  {
+    "id": "GMM00010129",
+    "name": "BREMERHAVEN, GM",
+    "lat": "53.5344",
+    "lon": "8.5769"
+  },
+  {
+    "id": "GMM00010161",
+    "name": "BOLTENHAGEN, GM",
+    "lat": "54.0042",
+    "lon": "11.1919"
+  },
+  {
+    "id": "GMM00010168",
+    "name": "GOLDBERG, GM",
+    "lat": "53.6069",
+    "lon": "12.1042"
+  },
+  {
+    "id": "GMM00010267",
+    "name": "KYRITZ, GM",
+    "lat": "52.9381",
+    "lon": "12.4106"
+  },
+  {
+    "id": "GMM00010281",
+    "name": "TROLLENHAGEN, GM",
+    "lat": "53.6019",
+    "lon": "13.3058"
+  },
+  {
+    "id": "GMM00010309",
+    "name": "AHAUS, GM",
+    "lat": "52.0828",
+    "lon": "6.9417"
+  },
+  {
+    "id": "GMM00010321",
+    "name": "DIEPHOLZ, GM",
+    "lat": "52.5903",
+    "lon": "8.3464"
+  },
+  {
+    "id": "GMM00010396",
+    "name": "MANSCHNOW, GM",
+    "lat": "52.5481",
+    "lon": "14.5475"
+  },
+  {
+    "id": "GMM00010424",
+    "name": "WERL, GM",
+    "lat": "51.5778",
+    "lon": "7.8889"
+  },
+  {
+    "id": "GMM00010449",
+    "name": "LEINEFELDE, GM",
+    "lat": "51.3853",
+    "lon": "10.3017"
+  },
+  {
+    "id": "GMM00010452",
+    "name": "BRAUNLAGE, GM",
+    "lat": "51.725",
+    "lon": "10.6039"
+  },
+  {
+    "id": "GMM00010480",
+    "name": "OSCHATZ, GM",
+    "lat": "51.2969",
+    "lon": "13.0944"
+  },
+  {
+    "id": "GMM00010526",
+    "name": "BAD MARIENBERG, GM",
+    "lat": "50.6631",
+    "lon": "7.9594"
+  },
+  {
+    "id": "GMM00010579",
+    "name": "MARIENBERG, GM",
+    "lat": "50.6519",
+    "lon": "13.1483"
+  },
+  {
+    "id": "GMM00010704",
+    "name": "BERUS, GM",
+    "lat": "49.2653",
+    "lon": "6.6878"
+  },
+  {
+    "id": "GMM00010724",
+    "name": "WEINBIET, GM",
+    "lat": "49.3767",
+    "lon": "8.1225"
+  },
+  {
+    "id": "GMM00010733",
+    "name": "WAIBSTADT, GM",
+    "lat": "49.2953",
+    "lon": "8.9064"
+  },
+  {
+    "id": "GMM00010736",
+    "name": "MUHLACKER, GM",
+    "lat": "48.9731",
+    "lon": "8.8742"
+  },
+  {
+    "id": "GMM00010761",
+    "name": "WEISSENBURG, GM",
+    "lat": "49.0203",
+    "lon": "10.9617"
+  },
+  {
+    "id": "GMM00010818",
+    "name": "KLIPPENECK, GM",
+    "lat": "48.1064",
+    "lon": "8.7556"
+  },
+  {
+    "id": "GMM00010827",
+    "name": "MESSSTETTEN, GM",
+    "lat": "48.1844",
+    "lon": "8.9925"
+  },
+  {
+    "id": "GMM00010863",
+    "name": "WEIHENSTEPHAN DURNAST, GM",
+    "lat": "48.4031",
+    "lon": "11.6956"
+  },
+  {
+    "id": "GMM00010870",
+    "name": "SCHWAIGERMOOS, GM",
+    "lat": "48.3667",
+    "lon": "11.8"
+  },
+  {
+    "id": "GMW00034068",
+    "name": "COLEMAN, GM",
+    "lat": "49.56667",
+    "lon": "8.46667"
+  },
+  {
+    "id": "GMW00034178",
+    "name": "FURSTENFELDBRUCK, GM",
+    "lat": "48.2",
+    "lon": "11.26667"
+  },
+  {
+    "id": "GMW00035032",
+    "name": "RHEIN MAIN, GM",
+    "lat": "50.03333",
+    "lon": "8.58333"
+  }
+]

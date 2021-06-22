@@ -11,7 +11,7 @@ function getURLParam(name) {
 
 const stationName = getURLParam("station");
 let html = "";
-
+// TODO deprecated must be reworked
 const xhr1 = new XMLHttpRequest();
 xhr1.open("GET", "./xml/stations.xml");
 xhr1.overrideMimeType("text/xml");
