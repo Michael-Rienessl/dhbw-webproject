@@ -11,11 +11,12 @@ function getURLParam(name) {
 	} else {
 		return results[1];
 	}
+
 }
 
 const stationID = getURLParam("station");
 // request
-let html = "<p>" + stationID + "</p><table id='detailsTable'><thead><tr><th>Jahr</th><th>Maximal Temperatur</th></tr></thead>";
+let html = `<p>${stationID}</p><table id='detailsTable'><thead><tr><th>Jahr</th><th>Minimale Temperatur</th><th>Maximal Temperatur</th></tr></thead>`;
 const request = new XMLHttpRequest(),
 	requestURL = `https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-summary-of-the-year&dataTypes=TMIN,TAVG,TMAX,DX90,EMNT,EMXT&stations=${stationID}&startDate=1970-01-01&endDate=2021-12-31&includeAttributes=false&format=json&units=metric`;
 request.open("GET", requestURL);
@@ -25,12 +26,12 @@ request.send();
 
 request.onload = function () {
 	const data = request.response;
-	console.log(data)
+	console.log(data);
 	data.forEach(year => {
-		console.log("a");
-		let date = year.DATE;
-		let emxt = year.EMXT;
-		html += "<tr><td>" + date + "</td><td>" + emxt + "</td>";
+		const date = year.DATE,
+			emxt = year.EMXT,
+			emnt = year.EMNT;
+		html += `<tr><td>${date}</td><td>${emnt}</td><td>${emxt}</td></tr>`;
 	});
 	html += "</table>";
 	console.log(html);
