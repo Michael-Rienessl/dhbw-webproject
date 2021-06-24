@@ -1,3 +1,4 @@
+// get URL parameter
 function getURLParam(name) {
 	name = name.replace(/[[]/, "\\[").replace(/[\]]/, "\\]");
 
@@ -5,56 +6,37 @@ function getURLParam(name) {
 		regex = new RegExp(regexS),
 		results = regex.exec(window.location.href);
 
-	if (results === null) return "";
-	else return results[1];
+	if (results === null) {
+		return "";
+	} else {
+		return results[1];
+	}
+
 }
 
-const stationName = getURLParam("station");
-let html = "";
-// TODO deprecated must be reworked
-const xhr1 = new XMLHttpRequest();
-xhr1.open("GET", "./xml/stations.xml");
-xhr1.overrideMimeType("text/xml");
-xhr1.onload = function () {
-	if (xhr1.readyState === xhr1.DONE && xhr1.status === 200) {
-		console.log(xhr1.responseXML);
-		details(xhr1.responseXML);
-	}
-};
+const stationID = getURLParam("station");
+// request
+const request = new XMLHttpRequest(),
+	requestURL = `https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-summary-of-the-year&dataTypes=TMIN,TAVG,TMAX,DX90,EMNT,EMXT&stations=${stationID}&startDate=1970-01-01&endDate=2021-12-31&includeAttributes=false&format=json&units=metric&&includeStationName=true`;
+request.open("GET", requestURL);
+request.responseType = "json";
+request.send();
 
-xhr1.send();
 
-function details(xml) {
-	const stations = xml.getElementsByTagName("station");
-	for (let i = 0; i < stations.length; i++) {
-		if (
-			stations[i].getElementsByTagName("name")[0].childNodes[0]
-				.nodeValue === stationName
-		) {
-			html =
-				` <p>${stationName}</p><table id='detailsTable'><thead>` +
-				"  <tr>" +
-				"    <th>Year</th>" +
-				"    <th>Temp</th>" +
-				"  </tr></thead>";
-			const [data] = stations[i].getElementsByTagName("data");
-			for (let j = 0; j < data.getElementsByTagName("set").length; j++) {
-				const set = data.getElementsByTagName("set")[j];
-				html +=
-					`${"<tr>\n" + "<td>"}${
-						set.getElementsByTagName("year")[0].childNodes[0]
-							.nodeValue
-					}</td>` +
-					`<td>${
-						set.getElementsByTagName("temp")[0].childNodes[0]
-							.nodeValue
-					}</td>` +
-					"</tr>";
-			}
-			break;
-		}
-	}
+request.onload = function () {
+	const data = request.response;
+	let name = data[0].NAME;
+	name = name.replace(/,.*/, "");
+	let html = `<p>${stationID} - ${name}</p><table id='detailsTable'><thead><tr><th>Jahr</th><th>Minimale Temperatur</th><th>Maximal Temperatur</th></tr></thead>`;
+	console.log(data);
+	data.forEach(year => {
+		const date = year.DATE,
+			emxt = year.EMXT,
+			emnt = year.EMNT;
+		html += `<tr><td>${date}</td><td>${emnt}</td><td>${emxt}</td></tr>`;
+	});
 	html += "</table>";
+	console.log(html);
 	document.getElementById("content").innerHTML = html;
-	document.title = `Details ${stationName}`;
-}
+	document.title = `Details ${stationID}`;
+};
