@@ -47,7 +47,8 @@ function markers(xml) {
 			id = stations[i].getElementsByTagName("id")[0].childNodes[0].nodeValue,
 			lat = stations[i].getElementsByTagName("lat")[0].childNodes[0].nodeValue,
 			lon = stations[i].getElementsByTagName("lon")[0].childNodes[0].nodeValue,
-			name = stations[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+			name = stations[i].getElementsByTagName("name")[0].childNodes[0].nodeValue.replace(/,.*/, "");
+
 		markArr[i] = L.marker([lat, lon]).addTo(Karte);
 		const linkText = `<a href=\x22details.html?station=${id}\x22>${id}</a>`;
 		markArr[i].bindPopup(`<b>${name}</b> \n <b>Details: ${linkText}</b>`);
