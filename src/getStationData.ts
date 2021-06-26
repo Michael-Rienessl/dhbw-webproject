@@ -6,12 +6,7 @@ function getURLParam(name) {
 		regex = new RegExp(regexS),
 		results = regex.exec(window.location.href);
 
-	if (results === null) {
-		return "";
-	} else {
-		return results[1];
-	}
-
+return results === null ? "" : results[1];
 }
 
 const stationID = getURLParam("station");
