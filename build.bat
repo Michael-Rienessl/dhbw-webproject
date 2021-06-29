@@ -1,0 +1,1 @@
+if not exist "./dist" mkdir "./dist" && tsc && copy .\\js\\getStationData.js .\\dist\\ && copy .\\src\\map.js .\\dist\\
