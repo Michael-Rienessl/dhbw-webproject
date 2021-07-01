@@ -1,5 +1,5 @@
 const fs = require("fs"),
- rp = require("request-promise");
+	rp = require("request-promise");
 
 
 const germanStationIdList = JSON.parse(fs.readFileSync("./german_station_id_list.json"));
@@ -7,7 +7,7 @@ const germanStationIdList = JSON.parse(fs.readFileSync("./german_station_id_list
 
 async function main() {
 	console.time("fetching");
-	
+
 	//request lat, lon, name and write into xml
 	const uriPart = "https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-summary-of-the-year&dataTypes=TMIN,TAVG,TMAX,DX90,EMNT,EMXT&startDate=1970-01-01&endDate=2021-12-31&includeAttributes=false&format=json&units=metric&&includeStationName=true&stations=",
 		stationJSON = [],
@@ -26,27 +26,37 @@ async function main() {
 
 		const stationId = germanStationIdList[counter];
 		console.log(`[${(counter / requestCount * 100).toFixed(1)}/100%] Requesting station data for: ${stationId}, ETA: ${((((requestCount - counter) * cooldownMs) / 1000) / 60).toFixed(1)} mins`);
-		
+
 		let passed = false,
-		response;
+			response;
 		try {
-			response = await rp(uriPart + stationId, { json: true });
+			response = await rp(uriPart + stationId, {
+				json: true
+			});
 			passed = true;
 		} catch (error) {
 			errorStations.push(stationId);
 		}
-	
+
 		if (passed) {
 			try {
-                const spefStationYearData = [];
-                response.forEach(yearData => {
-                    spefStationYearData.push({
-                        year: yearData.DATE,
-                        emxt: yearData.EMXT,
-                        emnt: yearData.EMNT
-                    });
-                });
-                stationJSON.push({id: response[0].STATION, name: response[0].NAME, data: spefStationYearData});
+				// console.log(response);
+				const spefStationYearData = [];
+				response.forEach(yearData => {
+					spefStationYearData.push({
+						year: yearData.DATE,
+						emxt: yearData.EMXT,
+						emnt: yearData.EMNT,
+						tmax: yearData.TMAX,
+						tmin: yearData.TMIN,
+						tavg: yearData.TAVG
+					});
+				});
+				stationJSON.push({
+					id: response[0].STATION,
+					name: response[0].NAME,
+					data: spefStationYearData
+				});
 			} catch (error) {
 				console.log(`🚨 Some attributes for ${stationId} not available. --> Skipping this station`);
 			}

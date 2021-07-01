@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": ".\\build.bat",
-    "gather_ger_stations": "cd stations && node getData.js"
+    "gather_ger_stations": "cd stations && node getData.js",
+    "fetch_all_ger_data": "cd stations && node fetchYearTempStationData.js"
   },
   "repository": {
     "type": "git",
