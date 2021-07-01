@@ -1,7 +1,23 @@
 <root>
+    <id>GM000001474</id>
+    <name>BREMEN SEEFAHRTSCHULE, GM</name> 
     <year>
         <date>1970</date>
-        <minTemp>15</minTemp>
-        <maxTemp>32</maxTemp>
+        <EMNT>15</EMNT>
+        <EMXT>32</EMXT>
+        <TMAX>14.3</TMAX>
+        <TMIN>5.7</TMIN>
+        <TAVG>14.3</TAVG>
     </year>
+    <year>
+        <date>1971</date>
+        <EMNT>16</EMNT>
+        <EMXT>37</EMXT>
+        <TMAX>12.3</TMAX>
+        <TMIN>5.9</TMIN>
+        <TAVG>18.3</TAVG>
+    </year>
+
+    <year>...</year>
+    ...
 </root>
