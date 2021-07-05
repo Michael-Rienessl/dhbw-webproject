@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="../../xml/details.xsl"?>
+<!DOCTYPE root [
+        <!ELEMENT root (id|name|lat|lon|ele|year)*>
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT lat (#PCDATA)>
+        <!ELEMENT lon (#PCDATA)>
+        <!ELEMENT ele (#PCDATA)>
+        <!ELEMENT year (date|EMNT|EMXT|TMAX|TMIN|TAVG)*>
+        <!ELEMENT date (#PCDATA)>
+        <!ELEMENT EMNT (#PCDATA)>
+        <!ELEMENT EMXT (#PCDATA)>
+        <!ELEMENT TMAX (#PCDATA)>
+        <!ELEMENT TMIN (#PCDATA)>
+        <!ELEMENT TAVG (#PCDATA)>
+        ]>
+<root>
+    <id>GME00121282</id>
+    <name>UFS DEUTSCHE BUCHT, GM</name>
+    <lat>54.1667</lat>
+    <lon>7.45</lon>
+    <ele>0.0</ele>
+    <year>
+        <date>2002</date>
+        <EMNT>-2.6</EMNT>
+        <EMXT>24.0</EMXT>
+        <TMAX>12.0</TMAX>
+        <TMIN>9.3</TMIN>
+        <TAVG>10.6</TAVG>
+    </year>
+    <year>
+        <date>2004</date>
+        <EMNT>undefined</EMNT>
+        <EMXT>undefined</EMXT>
+        <TMAX>undefined</TMAX>
+        <TMIN>undefined</TMIN>
+        <TAVG>undefined</TAVG>
+    </year>
+</root>

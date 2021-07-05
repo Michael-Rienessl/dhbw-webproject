@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="../../xml/details.xsl"?>
+<!DOCTYPE root [
+        <!ELEMENT root (id|name|lat|lon|ele|year)*>
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT lat (#PCDATA)>
+        <!ELEMENT lon (#PCDATA)>
+        <!ELEMENT ele (#PCDATA)>
+        <!ELEMENT year (date|EMNT|EMXT|TMAX|TMIN|TAVG)*>
+        <!ELEMENT date (#PCDATA)>
+        <!ELEMENT EMNT (#PCDATA)>
+        <!ELEMENT EMXT (#PCDATA)>
+        <!ELEMENT TMAX (#PCDATA)>
+        <!ELEMENT TMIN (#PCDATA)>
+        <!ELEMENT TAVG (#PCDATA)>
+        ]>
+<root>
+    <id>GME00125482</id>
+    <name>LONINGEN HAGEL, GM</name>
+    <lat>52.7444</lat>
+    <lon>7.8769</lon>
+    <ele>27.0</ele>
+    <year>
+        <date>1994</date>
+        <EMNT>-10.5</EMNT>
+        <EMXT>34.0</EMXT>
+        <TMAX>13.8</TMAX>
+        <TMIN>5.9</TMIN>
+        <TAVG>9.9</TAVG>
+    </year>
+    <year>
+        <date>1995</date>
+        <EMNT>-12.3</EMNT>
+        <EMXT>32.9</EMXT>
+        <TMAX>13.6</TMAX>
+        <TMIN>5.4</TMIN>
+        <TAVG>9.5</TAVG>
+    </year>
+    <year>
+        <date>1996</date>
+        <EMNT>-17.2</EMNT>
+        <EMXT>34.6</EMXT>
+        <TMAX>11.8</TMAX>
+        <TMIN>3.6</TMIN>
+        <TAVG>7.7</TAVG>
+    </year>
+    <year>
+        <date>1997</date>
+        <EMNT>-19.5</EMNT>
+        <EMXT>32.5</EMXT>
+        <TMAX>13.6</TMAX>
+        <TMIN>5.2</TMIN>
+        <TAVG>9.4</TAVG>
+    </year>
+    <year>
+        <date>1998</date>
+        <EMNT>-15.4</EMNT>
+        <EMXT>31.2</EMXT>
+        <TMAX>13.2</TMAX>
+        <TMIN>5.8</TMIN>
+        <TAVG>9.5</TAVG>
+    </year>
+    <year>
+        <date>1999</date>
+        <EMNT>-8.5</EMNT>
+        <EMXT>32.0</EMXT>
+        <TMAX>14.3</TMAX>
+        <TMIN>6.4</TMIN>
+        <TAVG>10.4</TAVG>
+    </year>
+    <year>
+        <date>2000</date>
+        <EMNT>-8.9</EMNT>
+        <EMXT>33.2</EMXT>
+        <TMAX>14.0</TMAX>
+        <TMIN>6.6</TMIN>
+        <TAVG>10.3</TAVG>
+    </year>
+    <year>
+        <date>2001</date>
+        <EMNT>-11.3</EMNT>
+        <EMXT>32.5</EMXT>
+        <TMAX>13.3</TMAX>
+        <TMIN>5.9</TMIN>
+        <TAVG>9.6</TAVG>
+    </year>
+    <year>
+        <date>2002</date>
+        <EMNT>-9.5</EMNT>
+        <EMXT>34.1</EMXT>
+        <TMAX>13.9</TMAX>
+        <TMIN>6.3</TMIN>
+        <TAVG>10.1</TAVG>
+    </year>
+    <year>
+        <date>2003</date>
+        <EMNT>-13.8</EMNT>
+        <EMXT>36.2</EMXT>
+        <TMAX>14.1</TMAX>
+        <TMIN>5.4</TMIN>
+        <TAVG>9.7</TAVG>
+    </year>
+    <year>
+        <date>2004</date>
+        <EMNT>-5.8</EMNT>
+        <EMXT>31.4</EMXT>
+        <TMAX>13.7</TMAX>
+        <TMIN>6.0</TMIN>
+        <TAVG>9.8</TAVG>
+    </year>
+    <year>
+        <date>2005</date>
+        <EMNT>-16.5</EMNT>
+        <EMXT>33.0</EMXT>
+        <TMAX>14.4</TMAX>
+        <TMIN>6.3</TMIN>
+        <TAVG>10.3</TAVG>
+    </year>
+    <year>
+        <date>2006</date>
+        <EMNT>-9.2</EMNT>
+        <EMXT>38.2</EMXT>
+        <TMAX>15.6</TMAX>
+        <TMIN>7.4</TMIN>
+        <TAVG>11.5</TAVG>
+    </year>
+    <year>
+        <date>2007</date>
+        <EMNT>undefined</EMNT>
+        <EMXT>undefined</EMXT>
+        <TMAX>undefined</TMAX>
+        <TMIN>undefined</TMIN>
+        <TAVG>undefined</TAVG>
+    </year>
+</root>

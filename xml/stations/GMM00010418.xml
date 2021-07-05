@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="../../xml/details.xsl"?>
+<!DOCTYPE root [
+        <!ELEMENT root (id|name|lat|lon|ele|year)*>
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT lat (#PCDATA)>
+        <!ELEMENT lon (#PCDATA)>
+        <!ELEMENT ele (#PCDATA)>
+        <!ELEMENT year (date|EMNT|EMXT|TMAX|TMIN|TAVG)*>
+        <!ELEMENT date (#PCDATA)>
+        <!ELEMENT EMNT (#PCDATA)>
+        <!ELEMENT EMXT (#PCDATA)>
+        <!ELEMENT TMAX (#PCDATA)>
+        <!ELEMENT TMIN (#PCDATA)>
+        <!ELEMENT TAVG (#PCDATA)>
+        ]>
+<root>
+    <id>GMM00010418</id>
+    <name>LUEDENSCHEID, GM</name>
+    <lat>51.25</lat>
+    <lon>7.65</lon>
+    <ele>392.0</ele>
+    <year>
+        <date>1995</date>
+        <EMNT>undefined</EMNT>
+        <EMXT>undefined</EMXT>
+        <TMAX>undefined</TMAX>
+        <TMIN>undefined</TMIN>
+        <TAVG>undefined</TAVG>
+    </year>
+    <year>
+        <date>1996</date>
+        <EMNT>undefined</EMNT>
+        <EMXT>undefined</EMXT>
+        <TMAX>undefined</TMAX>
+        <TMIN>undefined</TMIN>
+        <TAVG>undefined</TAVG>
+    </year>
+    <year>
+        <date>1997</date>
+        <EMNT>undefined</EMNT>
+        <EMXT>undefined</EMXT>
+        <TMAX>undefined</TMAX>
+        <TMIN>undefined</TMIN>
+        <TAVG>undefined</TAVG>
+    </year>
+    <year>
+        <date>1998</date>
+        <EMNT>undefined</EMNT>
+        <EMXT>undefined</EMXT>
+        <TMAX>undefined</TMAX>
+        <TMIN>undefined</TMIN>
+        <TAVG>undefined</TAVG>
+    </year>
+    <year>
+        <date>1999</date>
+        <EMNT>undefined</EMNT>
+        <EMXT>undefined</EMXT>
+        <TMAX>undefined</TMAX>
+        <TMIN>undefined</TMIN>
+        <TAVG>undefined</TAVG>
+    </year>
+    <year>
+        <date>2000</date>
+        <EMNT>undefined</EMNT>
+        <EMXT>undefined</EMXT>
+        <TMAX>undefined</TMAX>
+        <TMIN>undefined</TMIN>
+        <TAVG>undefined</TAVG>
+    </year>
+    <year>
+        <date>2001</date>
+        <EMNT>undefined</EMNT>
+        <EMXT>31.2</EMXT>
+        <TMAX>12.4</TMAX>
+        <TMIN>undefined</TMIN>
+        <TAVG>undefined</TAVG>
+    </year>
+</root>

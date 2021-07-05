@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const weatherDataJSON = JSON.parse(fs.readFileSync('../YearTempStationData.json'));
+const weatherDataJSON = JSON.parse(fs.readFileSync('./YearTempStationData.json'));
 
 const stationsEverythingOk = [];
 const stationsWhereSomeYearsMissing = [];
@@ -31,6 +31,8 @@ weatherDataJSON.forEach(station => {
 // 2. Filter every station only if it has no values at all
 // --> stationsWhereSomeYearsMissing
 
+let filteredYearStationDataJSON = []
+
 weatherDataJSON.forEach(station => {
     let valuesFound = false
     for (let i = 0; i < station.data.length; i++) {
@@ -46,8 +48,12 @@ weatherDataJSON.forEach(station => {
             lat: station.lat,
             lon: station.lon
         });
+        filteredYearStationDataJSON.push(station)
     }
 });
+
+// Write out filtered station JSON data
+fs.writeFileSync('filteredYearStationData.json',JSON.stringify(filteredYearStationDataJSON));
 
 
 
@@ -93,7 +99,7 @@ markersXML_2 += `\n</root>`
 
 
 // fs.writeFileSync('stationsEverythingOk.xml',markersXML_1); // Group decided for version 2
-fs.writeFileSync('filteredStations_markers.xml',markersXML_2);
+fs.writeFileSync('../xml/filteredStations_markers.xml',markersXML_2);
 
 
 

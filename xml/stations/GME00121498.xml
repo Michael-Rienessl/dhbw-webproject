@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="../../xml/details.xsl"?>
+<!DOCTYPE root [
+        <!ELEMENT root (id|name|lat|lon|ele|year)*>
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT lat (#PCDATA)>
+        <!ELEMENT lon (#PCDATA)>
+        <!ELEMENT ele (#PCDATA)>
+        <!ELEMENT year (date|EMNT|EMXT|TMAX|TMIN|TAVG)*>
+        <!ELEMENT date (#PCDATA)>
+        <!ELEMENT EMNT (#PCDATA)>
+        <!ELEMENT EMXT (#PCDATA)>
+        <!ELEMENT TMAX (#PCDATA)>
+        <!ELEMENT TMIN (#PCDATA)>
+        <!ELEMENT TAVG (#PCDATA)>
+        ]>
+<root>
+    <id>GME00121498</id>
+    <name>EBERSBACH FILS, GM</name>
+    <lat>48.7208</lat>
+    <lon>9.5339</lon>
+    <ele>300.0</ele>
+    <year>
+        <date>1988</date>
+        <EMNT>-10.0</EMNT>
+        <EMXT>32.9</EMXT>
+        <TMAX>15.0</TMAX>
+        <TMIN>6.0</TMIN>
+        <TAVG>10.5</TAVG>
+    </year>
+    <year>
+        <date>1989</date>
+        <EMNT>-11.9</EMNT>
+        <EMXT>35.7</EMXT>
+        <TMAX>16.0</TMAX>
+        <TMIN>5.4</TMIN>
+        <TAVG>10.7</TAVG>
+    </year>
+    <year>
+        <date>1990</date>
+        <EMNT>-9.2</EMNT>
+        <EMXT>34.4</EMXT>
+        <TMAX>15.9</TMAX>
+        <TMIN>5.6</TMIN>
+        <TAVG>10.8</TAVG>
+    </year>
+    <year>
+        <date>1991</date>
+        <EMNT>-14.6</EMNT>
+        <EMXT>36.1</EMXT>
+        <TMAX>14.9</TMAX>
+        <TMIN>4.9</TMIN>
+        <TAVG>9.9</TAVG>
+    </year>
+    <year>
+        <date>1992</date>
+        <EMNT>-10.4</EMNT>
+        <EMXT>35.5</EMXT>
+        <TMAX>15.6</TMAX>
+        <TMIN>6.1</TMIN>
+        <TAVG>10.8</TAVG>
+    </year>
+    <year>
+        <date>1993</date>
+        <EMNT>-12.5</EMNT>
+        <EMXT>33.0</EMXT>
+        <TMAX>14.8</TMAX>
+        <TMIN>5.5</TMIN>
+        <TAVG>10.2</TAVG>
+    </year>
+    <year>
+        <date>1994</date>
+        <EMNT>-9.4</EMNT>
+        <EMXT>35.2</EMXT>
+        <TMAX>16.2</TMAX>
+        <TMIN>7.0</TMIN>
+        <TAVG>11.6</TAVG>
+    </year>
+    <year>
+        <date>1995</date>
+        <EMNT>-13.0</EMNT>
+        <EMXT>34.5</EMXT>
+        <TMAX>14.9</TMAX>
+        <TMIN>5.8</TMIN>
+        <TAVG>10.4</TAVG>
+    </year>
+    <year>
+        <date>1996</date>
+        <EMNT>-16.5</EMNT>
+        <EMXT>33.0</EMXT>
+        <TMAX>13.6</TMAX>
+        <TMIN>4.6</TMIN>
+        <TAVG>9.1</TAVG>
+    </year>
+    <year>
+        <date>1997</date>
+        <EMNT>-13.3</EMNT>
+        <EMXT>32.7</EMXT>
+        <TMAX>15.6</TMAX>
+        <TMIN>5.5</TMIN>
+        <TAVG>10.5</TAVG>
+    </year>
+    <year>
+        <date>1998</date>
+        <EMNT>-10.6</EMNT>
+        <EMXT>36.4</EMXT>
+        <TMAX>15.4</TMAX>
+        <TMIN>5.7</TMIN>
+        <TAVG>10.5</TAVG>
+    </year>
+    <year>
+        <date>1999</date>
+        <EMNT>-13.0</EMNT>
+        <EMXT>34.0</EMXT>
+        <TMAX>15.5</TMAX>
+        <TMIN>6.2</TMIN>
+        <TAVG>10.8</TAVG>
+    </year>
+    <year>
+        <date>2000</date>
+        <EMNT>-15.2</EMNT>
+        <EMXT>33.5</EMXT>
+        <TMAX>16.3</TMAX>
+        <TMIN>6.6</TMIN>
+        <TAVG>11.4</TAVG>
+    </year>
+    <year>
+        <date>2001</date>
+        <EMNT>-19.6</EMNT>
+        <EMXT>35.5</EMXT>
+        <TMAX>15.4</TMAX>
+        <TMIN>6.0</TMIN>
+        <TAVG>10.7</TAVG>
+    </year>
+    <year>
+        <date>2002</date>
+        <EMNT>-14.0</EMNT>
+        <EMXT>36.2</EMXT>
+        <TMAX>15.8</TMAX>
+        <TMIN>6.3</TMIN>
+        <TAVG>11.1</TAVG>
+    </year>
+</root>
