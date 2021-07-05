@@ -8,4 +8,4 @@ This is our repository for our DHBW web engineering project
 
 1. ```npm i```
 2. ```npm run build```
-3. ```Start your own local web server```
+3. ```Local web server: 127.0.0.1:PORT```
