@@ -4,6 +4,9 @@
         <!ELEMENT root (id|name|year)*>
         <!ELEMENT id (#PCDATA)>
         <!ELEMENT name (#PCDATA)>
+        <!ELEMENT lat (#PCDATA)>
+        <!ELEMENT lon (#PCDATA)>
+        <!ELEMENT ele (#PCDATA)>
         <!ELEMENT year (date|EMNT|EMXT|TMAX|TMIN|TAVG)*>
         <!ELEMENT date (#PCDATA)>
         <!ELEMENT EMNT (#PCDATA)>
@@ -15,6 +18,9 @@
 <root>
     <id>GM000001474</id>
     <name>BREMEN SEEFAHRTSCHULE, GM</name>
+    <lat>53.1017</lat>
+    <lon>8.7842</lon>
+    <ele>4.0</ele>
     <year>
         <date>1970</date>
         <EMNT>15</EMNT>
