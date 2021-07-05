@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="../../xml/details.xsl"?>
+<!DOCTYPE root [
+        <!ELEMENT root (id|name|lat|lon|ele|year)*>
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT lat (#PCDATA)>
+        <!ELEMENT lon (#PCDATA)>
+        <!ELEMENT ele (#PCDATA)>
+        <!ELEMENT year (date|EMNT|EMXT|TMAX|TMIN|TAVG)*>
+        <!ELEMENT date (#PCDATA)>
+        <!ELEMENT EMNT (#PCDATA)>
+        <!ELEMENT EMXT (#PCDATA)>
+        <!ELEMENT TMAX (#PCDATA)>
+        <!ELEMENT TMIN (#PCDATA)>
+        <!ELEMENT TAVG (#PCDATA)>
+        ]>
+<root>
+    <id>GME00131014</id>
+    <name>MELCHOW SCHONHOLZ, GM</name>
+    <lat>52.78</lat>
+    <lon>13.7606</lon>
+    <ele>71.0</ele>
+    <year>
+        <date>1998</date>
+        <EMNT>-16.8</EMNT>
+        <EMXT>36.8</EMXT>
+        <TMAX>13.1</TMAX>
+        <TMIN>5.2</TMIN>
+        <TAVG>9.1</TAVG>
+    </year>
+    <year>
+        <date>1999</date>
+        <EMNT>-13.4</EMNT>
+        <EMXT>35.3</EMXT>
+        <TMAX>14.1</TMAX>
+        <TMIN>5.4</TMIN>
+        <TAVG>9.7</TAVG>
+    </year>
+    <year>
+        <date>2000</date>
+        <EMNT>undefined</EMNT>
+        <EMXT>undefined</EMXT>
+        <TMAX>undefined</TMAX>
+        <TMIN>undefined</TMIN>
+        <TAVG>undefined</TAVG>
+    </year>
+</root>

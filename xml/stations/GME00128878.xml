@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="../../xml/details.xsl"?>
+<!DOCTYPE root [
+        <!ELEMENT root (id|name|lat|lon|ele|year)*>
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT lat (#PCDATA)>
+        <!ELEMENT lon (#PCDATA)>
+        <!ELEMENT ele (#PCDATA)>
+        <!ELEMENT year (date|EMNT|EMXT|TMAX|TMIN|TAVG)*>
+        <!ELEMENT date (#PCDATA)>
+        <!ELEMENT EMNT (#PCDATA)>
+        <!ELEMENT EMXT (#PCDATA)>
+        <!ELEMENT TMAX (#PCDATA)>
+        <!ELEMENT TMIN (#PCDATA)>
+        <!ELEMENT TAVG (#PCDATA)>
+        ]>
+<root>
+    <id>GME00128878</id>
+    <name>SINSHEIM, GM</name>
+    <lat>49.2456</lat>
+    <lon>8.8794</lon>
+    <ele>169.0</ele>
+    <year>
+        <date>1999</date>
+        <EMNT>undefined</EMNT>
+        <EMXT>undefined</EMXT>
+        <TMAX>undefined</TMAX>
+        <TMIN>undefined</TMIN>
+        <TAVG>undefined</TAVG>
+    </year>
+    <year>
+        <date>2000</date>
+        <EMNT>undefined</EMNT>
+        <EMXT>undefined</EMXT>
+        <TMAX>undefined</TMAX>
+        <TMIN>undefined</TMIN>
+        <TAVG>undefined</TAVG>
+    </year>
+    <year>
+        <date>2003</date>
+        <EMNT>-13.8</EMNT>
+        <EMXT>38.9</EMXT>
+        <TMAX>17.3</TMAX>
+        <TMIN>5.8</TMIN>
+        <TAVG>11.5</TAVG>
+    </year>
+    <year>
+        <date>2004</date>
+        <EMNT>-8.3</EMNT>
+        <EMXT>33.3</EMXT>
+        <TMAX>15.5</TMAX>
+        <TMIN>6.0</TMIN>
+        <TAVG>10.8</TAVG>
+    </year>
+    <year>
+        <date>2005</date>
+        <EMNT>-15.9</EMNT>
+        <EMXT>35.9</EMXT>
+        <TMAX>15.7</TMAX>
+        <TMIN>5.7</TMIN>
+        <TAVG>10.7</TAVG>
+    </year>
+    <year>
+        <date>2006</date>
+        <EMNT>-10.7</EMNT>
+        <EMXT>36.9</EMXT>
+        <TMAX>16.0</TMAX>
+        <TMIN>6.6</TMIN>
+        <TAVG>11.3</TAVG>
+    </year>
+</root>

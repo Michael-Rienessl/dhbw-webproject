@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="../../xml/details.xsl"?>
+<!DOCTYPE root [
+        <!ELEMENT root (id|name|lat|lon|ele|year)*>
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT lat (#PCDATA)>
+        <!ELEMENT lon (#PCDATA)>
+        <!ELEMENT ele (#PCDATA)>
+        <!ELEMENT year (date|EMNT|EMXT|TMAX|TMIN|TAVG)*>
+        <!ELEMENT date (#PCDATA)>
+        <!ELEMENT EMNT (#PCDATA)>
+        <!ELEMENT EMXT (#PCDATA)>
+        <!ELEMENT TMAX (#PCDATA)>
+        <!ELEMENT TMIN (#PCDATA)>
+        <!ELEMENT TAVG (#PCDATA)>
+        ]>
+<root>
+    <id>GME00128890</id>
+    <name>STEINAU SEIDENROTH, GM</name>
+    <lat>50.2892</lat>
+    <lon>9.4592</lon>
+    <ele>342.0</ele>
+    <year>
+        <date>1990</date>
+        <EMNT>-8.0</EMNT>
+        <EMXT>31.6</EMXT>
+        <TMAX>12.8</TMAX>
+        <TMIN>5.9</TMIN>
+        <TAVG>9.3</TAVG>
+    </year>
+    <year>
+        <date>1991</date>
+        <EMNT>-17.0</EMNT>
+        <EMXT>32.0</EMXT>
+        <TMAX>11.9</TMAX>
+        <TMIN>4.4</TMIN>
+        <TAVG>8.1</TAVG>
+    </year>
+    <year>
+        <date>1992</date>
+        <EMNT>-10.5</EMNT>
+        <EMXT>33.7</EMXT>
+        <TMAX>12.4</TMAX>
+        <TMIN>5.6</TMIN>
+        <TAVG>9.0</TAVG>
+    </year>
+    <year>
+        <date>1993</date>
+        <EMNT>-13.8</EMNT>
+        <EMXT>28.6</EMXT>
+        <TMAX>11.9</TMAX>
+        <TMIN>5.0</TMIN>
+        <TAVG>8.4</TAVG>
+    </year>
+    <year>
+        <date>1994</date>
+        <EMNT>-11.4</EMNT>
+        <EMXT>33.0</EMXT>
+        <TMAX>13.0</TMAX>
+        <TMIN>6.4</TMIN>
+        <TAVG>9.7</TAVG>
+    </year>
+    <year>
+        <date>1995</date>
+        <EMNT>-12.1</EMNT>
+        <EMXT>32.3</EMXT>
+        <TMAX>12.0</TMAX>
+        <TMIN>5.6</TMIN>
+        <TAVG>8.8</TAVG>
+    </year>
+    <year>
+        <date>1996</date>
+        <EMNT>-16.6</EMNT>
+        <EMXT>30.0</EMXT>
+        <TMAX>10.3</TMAX>
+        <TMIN>3.9</TMIN>
+        <TAVG>7.1</TAVG>
+    </year>
+    <year>
+        <date>1997</date>
+        <EMNT>undefined</EMNT>
+        <EMXT>undefined</EMXT>
+        <TMAX>undefined</TMAX>
+        <TMIN>undefined</TMIN>
+        <TAVG>undefined</TAVG>
+    </year>
+    <year>
+        <date>1999</date>
+        <EMNT>-15.5</EMNT>
+        <EMXT>31.5</EMXT>
+        <TMAX>13.5</TMAX>
+        <TMIN>5.6</TMIN>
+        <TAVG>9.6</TAVG>
+    </year>
+    <year>
+        <date>2000</date>
+        <EMNT>-14.0</EMNT>
+        <EMXT>32.8</EMXT>
+        <TMAX>13.7</TMAX>
+        <TMIN>6.0</TMIN>
+        <TAVG>9.9</TAVG>
+    </year>
+    <year>
+        <date>2001</date>
+        <EMNT>-18.0</EMNT>
+        <EMXT>32.3</EMXT>
+        <TMAX>12.6</TMAX>
+        <TMIN>4.9</TMIN>
+        <TAVG>8.8</TAVG>
+    </year>
+    <year>
+        <date>2002</date>
+        <EMNT>-15.2</EMNT>
+        <EMXT>33.0</EMXT>
+        <TMAX>13.2</TMAX>
+        <TMIN>5.3</TMIN>
+        <TAVG>9.3</TAVG>
+    </year>
+    <year>
+        <date>2003</date>
+        <EMNT>-16.0</EMNT>
+        <EMXT>35.0</EMXT>
+        <TMAX>13.9</TMAX>
+        <TMIN>4.1</TMIN>
+        <TAVG>9.0</TAVG>
+    </year>
+</root>

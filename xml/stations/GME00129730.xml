@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="../../xml/details.xsl"?>
+<!DOCTYPE root [
+        <!ELEMENT root (id|name|lat|lon|ele|year)*>
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT lat (#PCDATA)>
+        <!ELEMENT lon (#PCDATA)>
+        <!ELEMENT ele (#PCDATA)>
+        <!ELEMENT year (date|EMNT|EMXT|TMAX|TMIN|TAVG)*>
+        <!ELEMENT date (#PCDATA)>
+        <!ELEMENT EMNT (#PCDATA)>
+        <!ELEMENT EMXT (#PCDATA)>
+        <!ELEMENT TMAX (#PCDATA)>
+        <!ELEMENT TMIN (#PCDATA)>
+        <!ELEMENT TAVG (#PCDATA)>
+        ]>
+<root>
+    <id>GME00129730</id>
+    <name>WAHLEN, GM</name>
+    <lat>50.8125</lat>
+    <lon>9.1283</lon>
+    <ele>349.0</ele>
+    <year>
+        <date>2007</date>
+        <EMNT>-12.5</EMNT>
+        <EMXT>31.6</EMXT>
+        <TMAX>13.2</TMAX>
+        <TMIN>5.2</TMIN>
+        <TAVG>9.2</TAVG>
+    </year>
+    <year>
+        <date>2008</date>
+        <EMNT>-10.1</EMNT>
+        <EMXT>31.0</EMXT>
+        <TMAX>12.8</TMAX>
+        <TMIN>4.9</TMIN>
+        <TAVG>8.8</TAVG>
+    </year>
+    <year>
+        <date>2009</date>
+        <EMNT>undefined</EMNT>
+        <EMXT>undefined</EMXT>
+        <TMAX>undefined</TMAX>
+        <TMIN>undefined</TMIN>
+        <TAVG>undefined</TAVG>
+    </year>
+</root>
