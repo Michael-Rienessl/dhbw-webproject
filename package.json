@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc && copy .\\js\\getStationData.js .\\dist\\ && copy .\\src\\map.js .\\dist\\",
-    "gather_ger_stations": "cd stations && node getData.js"
+    "build": ".\\build.bat",
+    "gather_ger_stations": "cd stations && node getData.js",
+    "fetch_all_ger_data": "cd stations && node fetchYearTempStationData.js"
   },
   "repository": {
     "type": "git",

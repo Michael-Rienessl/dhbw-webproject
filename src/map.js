@@ -27,7 +27,8 @@ var glVecTilesMap = L.mapboxGL({
 
 
 const xhr = new XMLHttpRequest();
-xhr.open("GET", "./BACKUP/stationsGer.xml");
+xhr.open("GET", "./BACKUP/filtered_stations/filteredStations.xml");
+// xhr.open("GET", "./BACKUP/stationsGer.xml");
 xhr.overrideMimeType("text/xml");
 xhr.onload = function () {
 	if (xhr.readyState === xhr.DONE && xhr.status === 200) {
