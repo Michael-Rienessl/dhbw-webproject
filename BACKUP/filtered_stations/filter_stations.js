@@ -93,7 +93,7 @@ markersXML_2 += `\n</root>`
 
 
 // fs.writeFileSync('stationsEverythingOk.xml',markersXML_1); // Group decided for version 2
-fs.writeFileSync('filteredStations.xml',markersXML_2);
+fs.writeFileSync('filteredStations_markers.xml',markersXML_2);
 
 
 
