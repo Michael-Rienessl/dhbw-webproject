@@ -1,6 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="../../xml/details.xsl"?>
+<!DOCTYPE root [
+        <!ELEMENT root (id|name|year)*>
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT year (date|EMNT|EMXT|TMAX|TMIN|TAVG)*>
+        <!ELEMENT date (#PCDATA)>
+        <!ELEMENT EMNT (#PCDATA)>
+        <!ELEMENT EMXT (#PCDATA)>
+        <!ELEMENT TMAX (#PCDATA)>
+        <!ELEMENT TMIN (#PCDATA)>
+        <!ELEMENT TAVG (#PCDATA)>
+        ]>
 <root>
     <id>GM000001474</id>
-    <name>BREMEN SEEFAHRTSCHULE, GM</name> 
+    <name>BREMEN SEEFAHRTSCHULE, GM</name>
     <year>
         <date>1970</date>
         <EMNT>15</EMNT>
@@ -17,7 +31,4 @@
         <TMIN>5.9</TMIN>
         <TAVG>18.3</TAVG>
     </year>
-
-    <year>...</year>
-    ...
 </root>
