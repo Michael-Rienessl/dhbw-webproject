@@ -42,7 +42,6 @@
                                 <td>-</td>
                             </tr>
                         </xsl:if> 
-                        <!-- not equals undefined handle -->
                         <xsl:if test="EMXT != 'undefined'">
                             <tr>
                                 <td><xsl:value-of select="date"/></td>
