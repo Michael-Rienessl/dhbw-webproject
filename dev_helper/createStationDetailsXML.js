@@ -1,12 +1,12 @@
 // File to create XML for every station
 
 const fs = require('fs');
-const filteredYearStationDataJSON = JSON.parse(fs.readFileSync('./filteredYearStationData.json'));
+const filteredYearStationDataJSON = JSON.parse(fs.readFileSync('dev_helper/filteredYearStationData.json'));
 
 
 
 const xml_begin = `<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="../../xml/details.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../details.xsl"?>
 <!DOCTYPE root [
         <!ELEMENT root (id|name|lat|lon|ele|year)*>
         <!ELEMENT id (#PCDATA)>
@@ -45,7 +45,7 @@ filteredYearStationDataJSON.forEach(station => {
     </year>`
     });
 
-    fs.writeFileSync(`../xml/stations/${station.id}.xml`, xml_begin+spefStationPart+'\n</root>');
+    fs.writeFileSync(`xml/stations/${station.id}.xml`, xml_begin+spefStationPart+'\n</root>');
 });
 
 
