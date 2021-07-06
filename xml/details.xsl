@@ -18,6 +18,7 @@
                     </ul>
                 </nav>
                 <h1>Details für <xsl:value-of select="id"/> - <xsl:value-of select="name"/></h1>
+                <p1>Lat: <xsl:value-of select="lat"/>° Lon: <xsl:value-of select="lon"/>° Elevation: <xsl:value-of select="ele"/>m</p1>
                 <table id="detailsTable">
                     <thead>
                         <tr>
@@ -31,14 +32,27 @@
                     </thead>
                     <xsl:for-each select="year">
                         <xsl:sort select="date"/>
-                        <tr>
-                            <td><xsl:value-of select="date"/></td>
-                            <td><xsl:value-of select="EMXT"/></td>
-                            <td><xsl:value-of select="EMNT"/></td>
-                            <td><xsl:value-of select="TMAX"/></td>
-                            <td><xsl:value-of select="TAVG"/></td>
-                            <td><xsl:value-of select="TMIN"/></td>
-                        </tr>
+                        <xsl:if test="EMXT = 'undefined'">
+                            <tr>
+                                <td><xsl:value-of select="date"/></td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                        </xsl:if> 
+                        <!-- not equals undefined handle -->
+                        <xsl:if test="EMXT != 'undefined'">
+                            <tr>
+                                <td><xsl:value-of select="date"/></td>
+                                <td><xsl:value-of select="EMXT"/></td>
+                                <td><xsl:value-of select="EMNT"/></td>
+                                <td><xsl:value-of select="TMAX"/></td>
+                                <td><xsl:value-of select="TAVG"/></td>
+                                <td><xsl:value-of select="TMIN"/></td>
+                            </tr>
+                        </xsl:if>
                     </xsl:for-each>
                 </table>
             </body>
