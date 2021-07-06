@@ -31,3 +31,19 @@
 #detailsTable tbody tr:last-of-type {
     border-bottom: 2px solid #04AA6D;
 }
+
+#row {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#mapid {
+    width: 550px;
+    height: 400px;
+    margin: 25px 50px 50px;
+    float: left;
+}
+
+#table {
+    float: left;
+}
