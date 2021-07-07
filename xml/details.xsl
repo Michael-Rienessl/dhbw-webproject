@@ -5,6 +5,7 @@
         <html>
             <head>
                 <title>Details: <xsl:value-of select="id"/></title>
+                <link rel="icon" href="../../assets/images/favicon.ico"/>
                 <link rel="stylesheet" href="../../style/globalStyle.css" type="text/css"/>
                 <link rel="stylesheet" href="../../style/detailsStyle.css" type="text/css"/>
                 <!-- path root is xml file -->
@@ -21,8 +22,8 @@
                 <nav>
                     <ul>
                         <li><a href="../../index.html">Home</a></li>
-                        <li><a href="">Details</a></li>
-                        <li><a href="../graph_stations/{id}.xml">Graphen</a></li>
+                        <li><a class="active" href="">Details</a></li>
+                        <li><a href="../graph_stations/{id}.xml">Graph</a></li>
                         <li><a href="">Nav4</a></li>
                     </ul>
                 </nav>
