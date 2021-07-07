@@ -21,7 +21,7 @@
                 <nav>
                     <ul>
                         <li><a href="../../index.html">Home</a></li>
-                        <li><a href="/">Details</a></li>
+                        <li><a href="">Details</a></li>
                         <li><a href="../graph_stations/{id}.xml">Graphen</a></li>
                         <li><a href="">Nav4</a></li>
                     </ul>
