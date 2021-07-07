@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:param name="p1"/>
     <xsl:template match="root">
         <html>
             <head>
@@ -16,11 +17,11 @@
                 <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"/>
                 <script src="https://unpkg.com/mapbox-gl-leaflet/leaflet-mapbox-gl.js"/>
             </head>
-            <body>
+            <body>               
                 <nav>
                     <ul>
                         <li><a href="../../index.html">Home</a></li>
-                        <li><a href="">Nav2</a></li>
+                        <li><a href="../graph_stations/{id}.xml">Graphen</a></li>
                         <li><a href="">Nav3</a></li>
                         <li><a href="">Nav4</a></li>
                     </ul>
