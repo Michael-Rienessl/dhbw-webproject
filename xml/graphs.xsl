@@ -11,6 +11,8 @@
                 <!-- Chartist Import -->
                 <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css"></link>
                 <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+                <!-- Chartist Axis Title Plugin (Fork) Import -->
+                <script src="https://reichmann-m.github.io/chartist-plugin-axistitle/src/scripts/chartist-plugin-axistitle.js"></script>
 
                 
                 <style>
@@ -59,15 +61,52 @@
 
                 <xsl:for-each select="year">
                     <xsl:sort select="date"/>
-                    <script type='text/javascript'>
-                        <xsl:if test="EMXT != 'undefined'">
+                    <xsl:if test="EMXT != 'undefined'">
+                        <script type='text/javascript'>
                             years.push([<xsl:value-of select="date"/>].toString());
                             tavgs.push([<xsl:value-of select="TAVG"/>].toString());
-                        </xsl:if>
-                    </script>
+                        </script>
+                </xsl:if>
                 </xsl:for-each>
 
-                <script src="../DELETE_ME.js" id="drawScript" type='text/javascript'/>
+                <script>
+                    var data = {
+                        labels: years,
+                        series: [
+                            tavgs
+                        ]
+                    };
+                    var temp_diagram = new Chartist.Line('.ct-chart', data, {
+                        width: 1000,
+                        height: 400,
+                        showArea: true,
+                        low: 0,
+                        high: 13,
+                        plugins: [
+                            Chartist.plugins.ctAxisTitle({
+                                axisY: {
+                                    axisTitle: "Ø-Temps in °C",
+                                    axisClass: "ct-axis-title",
+                                    flipTitle: false
+                                }
+                            })
+                        ]
+                    });
+                    
+                    temp_diagram.on('draw', function(data) {
+                        if(data.type === 'line' || data.type === 'area') {
+                          data.element.animate({
+                            d: {
+                              begin: 2000 * data.index,
+                              dur: 2000,
+                              from: data.path.clone().scale(1, 0).translate(0, data.chartRect.height()).stringify(),
+                              to: data.path.clone().stringify(),
+                              easing: Chartist.Svg.Easing.easeOutQuint
+                            }
+                          });
+                        }
+                      });
+                </script>
                 
             </body>
         </html>
