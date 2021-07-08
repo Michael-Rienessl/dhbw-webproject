@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="../graphs.xsl"?>
+<!DOCTYPE super [
+    <!ELEMENT root (id|name|lat|lon|ele|year)*>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT lat (#PCDATA)>
+    <!ELEMENT lon (#PCDATA)>
+    <!ELEMENT ele (#PCDATA)>
+    <!ELEMENT year (date|EMNT|EMXT|TMAX|TMIN|TAVG)*>
+    <!ELEMENT date (#PCDATA)>
+    <!ELEMENT EMNT (#PCDATA)>
+    <!ELEMENT EMXT (#PCDATA)>
+    <!ELEMENT TMAX (#PCDATA)>
+    <!ELEMENT TMIN (#PCDATA)>
+    <!ELEMENT TAVG (#PCDATA)>
+
+    <!ENTITY data SYSTEM "../stations/GME00124342.xml">
+    ]>
+    
+    <super>
+        &data;
+    </super>
