@@ -1,5 +1,5 @@
 //Leaflet Map erstellen
-var Karte = L.map("mapid").setView([51, 10.3], 6);
+var Karte = L.map("mapid", {tap: false}).setView([51, 10.3], 6);
 Karte.options.minZoom = 2;
 
 //Standard OpenStreet Map Aussehen
@@ -51,7 +51,8 @@ function markers(xml) {
 			name = stations[i].getElementsByTagName("name")[0].childNodes[0].nodeValue.replace(/,.*/, "");
 
 		markArr[i] = L.marker([lat, lon]).addTo(Karte);
-		const linkText = `<a href=\x22xml/stations/${id}.xml\x22>${id}</a>`;
+		// const linkText = `<a href=\x22xml/stations/${id}.xml\x22>${id}</a>`;
+		const linkText = `<a href=\x22xml/details_stations/${id}.xml\x22>${id}</a>`;
 		markArr[i].bindPopup(`<b>${name}</b> \n <b>Details: ${linkText}</b>`);
 	}
 }
