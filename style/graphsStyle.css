@@ -1,0 +1,15 @@
+.graph-header {
+    margin: 100px;
+    width: auto;
+}
+
+.graph-body {
+    margin-left: 400px;
+    margin-right: 400px;
+    box-shadow: 0 0 20px #444;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 20px;
+    border-radius: .25rem;
+}
