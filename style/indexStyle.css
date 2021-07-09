@@ -1,5 +1,96 @@
 #mapid {
     width: auto;
     height: 800px;
-    margin: 50px;
+    margin: 100px;
+    border-radius: .25rem;
+    z-index: 0;
+}
+
+body {
+    background-image: url("../assets/images/Earth-background.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.card {
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    background: #444;
+    height: 440px;
+    color: white;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+
+.card-title {
+    margin-bottom: .5rem;
+}
+
+.card-subtitle {
+    margin-top: -.25rem;
+    margin-bottom: 0;
+}
+
+.card-img {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+}
+
+.btn:hover {
+    background-color: #15744a;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.card-boxing {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    margin: 100px;
+    border-width: 1px;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    background-image:    url("../assets/images/Desert-image-space.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
 }
