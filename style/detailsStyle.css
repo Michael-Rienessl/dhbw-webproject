@@ -61,3 +61,33 @@
     display: flex;
     justify-content: center;
 }
+.box {
+    display: flex;
+    justify-content: space-around;
+    border-radius: .25rem;
+}
+
+.detail-info {
+    margin-left: 50px;
+}
+
+.detail-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin-left: 80px;
+}
+
+.detail-links li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.detail-links a {
+    text-decoration: none;
+
+}
+
+.list-style-none li{
+    list-style: none;
+}

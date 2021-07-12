@@ -15,7 +15,7 @@
                 <!-- Chartist Axis Title Plugin (Fork) Import -->
                 <script src="https://reichmann-m.github.io/chartist-plugin-axistitle/src/scripts/chartist-plugin-axistitle.js"></script>
 
-                
+
                 <style>
                     <!-- Rotiere Jahreszahlen -->
                     .ct-label.ct-label.ct-horizontal {
@@ -25,7 +25,7 @@
                         transform-origin: 100% 0;
                         transform: translate(-100%) rotate(-45deg);
                     }
-                    
+
                     <!-- Färbe Graphenlinie -->
                     .ct-series-a .ct-line {
                         stroke: #15744a;
@@ -38,6 +38,20 @@
                     <!-- Färbe Linienpunkte -->
                     .ct-series-a .ct-point {
                         stroke: #15744a;
+                    }
+
+                    .ct-series-a .ct-area, .ct-series-a .ct-slice-donut-solid, .ct-series-a .ct-slice-pie {
+                        fill: #15744a;
+                    }
+
+                    .ct-grids {
+                        color: white
+                    }
+                    .ct-label {
+                        color: white;
+                    }
+                    .ct-axis-title {
+                        color: white;
                     }
                 </style>
             </head>
