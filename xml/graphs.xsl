@@ -51,7 +51,7 @@
                         color: white;
                     }
                     .ct-axis-title {
-                        color: white;
+                        fill: white;
                     }
                 </style>
             </head>

@@ -48,23 +48,51 @@
     <div class="line3"></div>
   </div>
 </nav>
-<div class="carousel-container">
-  <i class="fas fa-arrow-left" id="prevBtn"></i>
-  <i class="fas fa-arrow-right" id="nextBtn"></i>
-  <div class="carousel-slide">
-    <img src="assets/images/Desert-image-space.jpg" id="lastClone" alt="Bild 5" title="Bild 5">
-    <img src="assets/images/Desert-image-space.jpg" alt="Bild 1" title="Bild 1">
-    <img src="assets/images/Desert-image-space.jpg" alt="Bild 2" title="Bild 2">
-    <img src="assets/images/Desert-image-space.jpg" alt="Bild 3" title="Bild 3">
-    <img src="assets/images/Desert-image-space.jpg" alt="Bild 4" title="Bild 4">
-    <img src="assets/images/Desert-image-space.jpg" alt="Bild 5" title="Bild 5">
-    <img src="assets/images/Desert-image-space.jpg" id="firstClone" alt="Bild 1" title="Bild 1">
+
+<div class="slidershow middle">
+
+  <div class="slides">
+    <input type="radio" name="r" id="r1" checked>
+    <input type="radio" name="r" id="r2">
+    <input type="radio" name="r" id="r3">
+    <input type="radio" name="r" id="r4">
+    <input type="radio" name="r" id="r5">
+    <div class="slide s1">
+      <a href="https://github.com/Reichmann-M">
+        <img src="assets/images/team/max.jpg" title="Max Reichmann">
+      </a>
+    </div>
+    <div class="slide">
+      <a href="https://github.com/Niklas227">
+        <img src="assets/images/team/niklas.jpg" title="Niklas Wagner">
+      </a>
+    </div>
+    <div class="slide">
+      <a href="https://github.com/Michael-Rienessl">
+        <img src="assets/images/team/michael.jpg" title="Michael Rienessl">
+      </a>
+    </div>
+    <div class="slide">
+      <a href="https://github.com/BluefireXD">
+        <img src="assets/images/team/patrick.jpg" title="Patrick Glatt">
+      </a>
+    </div>
+    <div class="slide">
+      <a href="https://github.com/sdertman">
+        <img src="assets/images/team/oemer.jpg" title="Ömer Güler">
+      </a>
+    </div>
   </div>
 
+  <div class="navigation">
+    <label for="r1" class="bar"></label>
+    <label for="r2" class="bar"></label>
+    <label for="r3" class="bar"></label>
+    <label for="r4" class="bar"></label>
+    <label for="r5" class="bar"></label>
+  </div>
 </div>
-<!-- OSM-Basiskarte einfügen und zentrieren + Marker einfügen -->
-<script src="js/map.js" type="text/javascript"></script>
+
 <script src="js/app.js"></script>
-<script src="js/carousel.js"></script>
 </body>
 </html>

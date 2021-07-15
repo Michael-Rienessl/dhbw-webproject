@@ -90,8 +90,8 @@
                     <div class="box">
                         <ul class="list-style-none">
                             <li><div id="mapid"/></li>
+                            <div class="detail-info">
                             <li>
-                                <div class="detail-info">
                                     <ul class="detail-links">
                                         <li>
                                             <a class="btn btn-primary" href="../graph_stations/{id}.xml">Graph</a>
@@ -103,8 +103,8 @@
                                             <a class="btn btn-primary" href="https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-summary-of-the-year&amp;dataTypes=TMIN,TAVG,TMAX,DX90,EMNT,EMXT&amp;stations={id}&amp;startDate=1970-01-01&amp;endDate=2021-12-31&amp;includeAttributes=false&amp;format=csv&amp;units=metric&amp;&amp;includeStationName=true">CSV</a>
                                         </li>
                                     </ul>
-                                </div>
                             </li>
+                            </div>
                         </ul>
                     </div>
                 </div>
