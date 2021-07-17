@@ -17,56 +17,96 @@
                 <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"/>
                 <script src="https://unpkg.com/mapbox-gl-leaflet/leaflet-mapbox-gl.js"/>
             </head>
-            <body>               
+            <body>
                 <nav>
-                    <ul>
-                        <li><a href="../../index.html">Home</a></li>
-                        <li><a class="active" href="">Details</a></li>
-                        <li><a href="../graph_stations/{id}.xml">Graph</a></li>
-                        <li><a href="">Nav4</a></li>
-                    </ul>
-                </nav>
-                <h1>Details für <xsl:value-of select="id"/> - <xsl:value-of select="name"/></h1>
-                <p1>Lat: <xsl:value-of select="lat"/>° Lon: <xsl:value-of select="lon"/>° Elevation: <xsl:value-of select="ele"/>m</p1>
-                <div id="row">
-                    <div id="table">
-                <table id="detailsTable">
-                    <thead>
-                        <tr>
-                            <th>Jahr</th>
-                            <th>Max. Temp.</th>
-                            <th>Min. Temp.</th>
-                            <th>&#x00D8; max. Temp</th>
-                            <th>&#x00D8; Temp</th>
-                            <th>&#x00D8; min. Temp</th>
-                        </tr>
-                    </thead>
-                    <xsl:for-each select="year">
-                        <xsl:sort select="date"/>
-                        <xsl:if test="EMXT = 'undefined'">
-                            <tr>
-                                <td><xsl:value-of select="date"/></td>
-                                <td>-</td>
-                                <td>-</td>
-                                <td>-</td>
-                                <td>-</td>
-                                <td>-</td>
-                            </tr>
-                        </xsl:if>
-                        <xsl:if test="EMXT != 'undefined'">
-                            <tr>
-                                <td><xsl:value-of select="date"/></td>
-                                <td><xsl:value-of select="EMXT"/></td>
-                                <td><xsl:value-of select="EMNT"/></td>
-                                <td><xsl:value-of select="TMAX"/></td>
-                                <td><xsl:value-of select="TAVG"/></td>
-                                <td><xsl:value-of select="TMIN"/></td>
-                            </tr>
-                        </xsl:if>
-                    </xsl:for-each>
-                </table>
+                    <div class="logo">
+                        <h4>The Nav</h4>
                     </div>
-                <div id="mapid"/>
+                    <ul class="nav-links">
+                        <li>
+                            <a href="../../index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="active" href="../details_stations/{id}.xml">Details</a>
+                        </li>
+                        <li>
+                            <a href="../graph_stations/{id}.xml">Graph</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Projects</a>
+                        </li>
+                    </ul>
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                </nav>
+                <div class="detail-header">
+                    <h1>Details für <xsl:value-of select="id"/> - <xsl:value-of select="name"/></h1>
+                    <p1>Lat: <xsl:value-of select="lat"/>° Lon: <xsl:value-of select="lon"/>° Elevation: <xsl:value-of select="ele"/>m</p1>
+                </div>
+                <div class="detail-body">
+                    <div id="table">
+                        <table id="detailsTable">
+                            <thead>
+                                <tr>
+                                    <th>Jahr</th>
+                                    <th>Max. Temp.</th>
+                                    <th>Min. Temp.</th>
+                                    <th>&#x00D8; max. Temp</th>
+                                    <th>&#x00D8; Temp</th>
+                                    <th>&#x00D8; min. Temp</th>
+                                </tr>
+                            </thead>
+                            <xsl:for-each select="year">
+                                <xsl:sort select="date"/>
+                                <xsl:if test="EMXT = 'undefined'">
+                                    <tr>
+                                        <td><xsl:value-of select="date"/></td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                    </tr>
+                                </xsl:if>
+                                <xsl:if test="EMXT != 'undefined'">
+                                    <tr>
+                                        <td><xsl:value-of select="date"/></td>
+                                        <td><xsl:value-of select="EMXT"/></td>
+                                        <td><xsl:value-of select="EMNT"/></td>
+                                        <td><xsl:value-of select="TMAX"/></td>
+                                        <td><xsl:value-of select="TAVG"/></td>
+                                        <td><xsl:value-of select="TMIN"/></td>
+                                    </tr>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </table>
+                    </div>
+                    <div class="box">
+                        <ul class="list-style-none">
+                            <li><div id="mapid"/></li>
+                            <div class="detail-info">
+                            <li>
+                                    <ul class="detail-links">
+                                        <li>
+                                            <a class="btn btn-primary" href="../graph_stations/{id}.xml">Graph</a>
+                                        </li>
+                                        <li>
+                                            <a class="btn btn-primary" href="https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-summary-of-the-year&amp;dataTypes=TMIN,TAVG,TMAX,DX90,EMNT,EMXT&amp;stations={id}&amp;startDate=1970-01-01&amp;endDate=2021-12-31&amp;includeAttributes=false&amp;format=pdf&amp;units=metric&amp;&amp;includeStationName=true">PDF</a>
+                                        </li>
+                                        <li>
+                                            <a class="btn btn-primary" href="https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-summary-of-the-year&amp;dataTypes=TMIN,TAVG,TMAX,DX90,EMNT,EMXT&amp;stations={id}&amp;startDate=1970-01-01&amp;endDate=2021-12-31&amp;includeAttributes=false&amp;format=csv&amp;units=metric&amp;&amp;includeStationName=true">CSV</a>
+                                        </li>
+                                    </ul>
+                            </li>
+                            </div>
+                        </ul>
+                    </div>
                 </div>
                 <script type='text/javascript'>
                     var Karte = L.map('mapid', {
@@ -80,6 +120,7 @@
                     }).addTo(Karte);
                     L.marker([<xsl:value-of select="lat"/>, <xsl:value-of select="lon"/>]).addTo(Karte);
                 </script>
+                <script src="../../js/app.js"></script>
             </body>
         </html>
     </xsl:template>

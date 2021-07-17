@@ -1,5 +1,7 @@
 #mapid {
     width: auto;
     height: 800px;
-    margin: 50px;
+    margin: 100px;
+    border-radius: .25rem;
+    z-index: 0;
 }

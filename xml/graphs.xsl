@@ -7,6 +7,7 @@
                 <link rel="icon" href="../../assets/images/favicon.ico"/>
                 <link rel="stylesheet" href="../../style/globalStyle.css" type="text/css"/>
                 <link rel="stylesheet" href="../../style/detailsStyle.css" type="text/css"/>
+                <link rel="stylesheet" href="../../style/graphsStyle.css" type="text/css"/>
 
                 <!-- Chartist Import -->
                 <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css"></link>
@@ -14,7 +15,7 @@
                 <!-- Chartist Axis Title Plugin (Fork) Import -->
                 <script src="https://reichmann-m.github.io/chartist-plugin-axistitle/src/scripts/chartist-plugin-axistitle.js"></script>
 
-                
+
                 <style>
                     <!-- Rotiere Jahreszahlen -->
                     .ct-label.ct-label.ct-horizontal {
@@ -24,35 +25,71 @@
                         transform-origin: 100% 0;
                         transform: translate(-100%) rotate(-45deg);
                     }
-                    
+
                     <!-- Färbe Graphenlinie -->
                     .ct-series-a .ct-line {
-                        stroke: #D70206;
+                        stroke: #15744a;
                     }
                     .ct-series-a .ct-line:hover {
-                        stroke: #ab0205;
+                        stroke: #15744a;
                         stroke-width: 5px;
                     }
 
                     <!-- Färbe Linienpunkte -->
                     .ct-series-a .ct-point {
-                        stroke: #D70206;
+                        stroke: #15744a;
+                    }
+
+                    .ct-series-a .ct-area, .ct-series-a .ct-slice-donut-solid, .ct-series-a .ct-slice-pie {
+                        fill: #15744a;
+                    }
+
+                    .ct-grids {
+                        color: white
+                    }
+                    .ct-label {
+                        color: white;
+                    }
+                    .ct-axis-title {
+                        fill: white;
                     }
                 </style>
             </head>
             <body>
                 <nav>
-                    <ul>
-                        <li><a href="../../index.html">Home</a></li>
-                        <li><a href="../details_stations/{id}.xml">Details</a></li>
-                        <li><a class="active" href="">Graph</a></li>
-                        <li><a href="">Nav4</a></li>
+                    <div class="logo">
+                        <h4>The Nav</h4>
+                    </div>
+                    <ul class="nav-links">
+                        <li>
+                            <a href="../../index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="../details_stations/{id}.xml">Details</a>
+                        </li>
+                        <li>
+                            <a class="active" href="../graph_stations/{id}.xml">Graph</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Projects</a>
+                        </li>
                     </ul>
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
                 </nav>
-                <h1>Ø-Temp für <xsl:value-of select="name"/> (<xsl:value-of select="id"/>)</h1>
-                <p1>Lat: <xsl:value-of select="lat"/>° Lon: <xsl:value-of select="lon"/>° Elevation: <xsl:value-of select="ele"/>m</p1>
-                
-                <div class="ct-chart"></div>
+                <div class="graph-header">
+                    <h1>Ø-Temp für <xsl:value-of select="name"/> (<xsl:value-of select="id"/>)</h1>
+                    <p1>Lat: <xsl:value-of select="lat"/>° Lon: <xsl:value-of select="lon"/>° Elevation: <xsl:value-of select="ele"/>m</p1>
+                </div>
+                <div class="graph-body">
+                    <div class="ct-chart"></div>
+                </div>
 
                 <script id="setupScript" type='text/javascript'>
                     var years = []
@@ -107,7 +144,7 @@
                         }
                       });
                 </script>
-                
+                <script src="../../js/app.js"></script>
             </body>
         </html>
     </xsl:template>

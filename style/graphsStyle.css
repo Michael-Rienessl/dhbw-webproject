@@ -1,0 +1,16 @@
+.graph-header {
+    margin: 100px;
+    width: auto;
+}
+
+.graph-body {
+    margin-left: 400px;
+    margin-right: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 20px;
+    border-radius: .25rem;
+    box-shadow: rgba(25, 135, 84, 0.4) -5px 5px, rgba(25, 135, 84, 0.3) -10px 10px, rgba(25, 135, 84, 0.2) -15px 15px, rgba(25, 135, 84, 0.1) -20px 20px, rgba(25, 135, 84, 0.05) -25px 25px;
+}
+

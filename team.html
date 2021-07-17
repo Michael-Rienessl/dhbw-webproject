@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Klimakarte (DHBW Webproject)</title>
+  <link rel="icon" href="assets/images/favicon.ico">
+  <!-- <link rel="shortcut icon" href="#"/> -->
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="style/globalStyle.css">
+  <link rel="stylesheet" href="style/indexStyle.css">
+
+  <!--pg: TODO die ganzen Quelldateien ggf ins eigene Projekt integrieren um Ladezeiten zu reduzieren-->
+  <!-- leaflet.css und leaflet.js von externer Quelle einbinden -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+  <!--Import mapbox css und js-->
+  <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel='stylesheet' />
+  <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+  <script src="https://unpkg.com/mapbox-gl-leaflet/leaflet-mapbox-gl.js"></script>
+
+  <!--This font is for icons-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <!--To Delete: MapBox API. Muss aber für die Vektor Tiles ggf nicht importiert werden -->
+  <!--<script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />   -->
+</head>
+<body>
+<nav>
+  <div class="logo">
+    <h4>The Nav</h4>
+  </div>
+  <ul class="nav-links">
+    <li>
+      <a class="active" href="./index.html">Home</a>
+    </li>
+    <li>
+      <a href="#">About Us</a>
+    </li>
+    <li>
+      <a href="#">Projects</a>
+    </li>
+  </ul>
+  <div class="burger">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+  </div>
+</nav>
+
+<div class="slidershow middle">
+
+  <div class="slides">
+    <input type="radio" name="r" id="r1" checked>
+    <input type="radio" name="r" id="r2">
+    <input type="radio" name="r" id="r3">
+    <input type="radio" name="r" id="r4">
+    <input type="radio" name="r" id="r5">
+    <div class="slide s1">
+      <a href="https://github.com/Reichmann-M">
+        <img src="assets/images/team/max.jpg" title="Max Reichmann">
+      </a>
+    </div>
+    <div class="slide">
+      <a href="https://github.com/Niklas227">
+        <img src="assets/images/team/niklas.jpg" title="Niklas Wagner">
+      </a>
+    </div>
+    <div class="slide">
+      <a href="https://github.com/Michael-Rienessl">
+        <img src="assets/images/team/michael.jpg" title="Michael Rienessl">
+      </a>
+    </div>
+    <div class="slide">
+      <a href="https://github.com/BluefireXD">
+        <img src="assets/images/team/patrick.jpg" title="Patrick Glatt">
+      </a>
+    </div>
+    <div class="slide">
+      <a href="https://github.com/sdertman">
+        <img src="assets/images/team/oemer.jpg" title="Ömer Güler">
+      </a>
+    </div>
+  </div>
+
+  <div class="navigation">
+    <label for="r1" class="bar"></label>
+    <label for="r2" class="bar"></label>
+    <label for="r3" class="bar"></label>
+    <label for="r4" class="bar"></label>
+    <label for="r5" class="bar"></label>
+  </div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
