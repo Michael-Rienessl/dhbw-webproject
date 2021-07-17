@@ -2,23 +2,18 @@
 var Karte = L.map("mapid", {tap: false}).setView([51, 10.3], 6);
 Karte.options.minZoom = 2;
 
-//Standard OpenStreet Map Aussehen
-/*L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        'attribution':  'Kartendaten &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-        'useCache': true
-}).addTo(Karte);*/
+// Suchfunktionalität
+var markersLayer = new L.LayerGroup();
+Karte.addLayer(markersLayer);
+var controlSearch = new L.Control.Search({
+	position:'topright',		
+	layer: markersLayer,
+	initial: true,
+	zoom: 12,
+	marker: false
+});
+Karte.addControl(controlSearch);
 
-//DarkMode komatibel mit leaflet. Ist allerdings unscharf. Ggf. noch nach Configs suchen
-/*
-L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png', {
-        'attribution':  'Kartendaten &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-        'useCache': true
-}).addTo(Karte);
-
- */
-
-//MapBox Styles. Nutzt WebGL zur Darstellung. Es können Auch andere Style z.B. von https://openmaptiles.org/styles/ genommen werden
-//MapBox DarkMode
 
 var glVecTilesMap = L.mapboxGL({
 	accessToken: "pk.eyJ1IjoiaGFubmVsb3JlMSIsImEiOiJja3E1aTNuNHUwcGVlMnBxejlzOTFyeDQ1In0._2lBK8UGU28XwJjLsrh41w",
@@ -50,7 +45,8 @@ function markers(xml) {
 			lon = stations[i].getElementsByTagName("lon")[0].childNodes[0].nodeValue,
 			name = stations[i].getElementsByTagName("name")[0].childNodes[0].nodeValue.replace(/,.*/, "");
 
-		markArr[i] = L.marker([lat, lon]).addTo(Karte);
+		markArr[i] = new L.marker([lat, lon], {title: name})
+		markersLayer.addLayer(markArr[i])
 		// const linkText = `<a href=\x22xml/stations/${id}.xml\x22>${id}</a>`;
 		const linkText = `<a href=\x22xml/details_stations/${id}.xml\x22>${id}</a>`;
 		markArr[i].bindPopup(`<b>${name}</b> \n <b>Details: ${linkText}</b>`);
