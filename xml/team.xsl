@@ -9,6 +9,12 @@
                 <link rel="stylesheet" href="../../style/indexStyle.css" type="text/css"/>
                 <!--This font is for icons-->
                 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+                <style>
+                .about-header {
+                    margin-top: 60px;
+                    text-align: center;
+                }      
+                </style>
             </head>
             <body>
                 <nav>
@@ -32,6 +38,9 @@
                         <div class="line3"></div>
                     </div>
                 </nav>
+                <div class="about-header">
+                    <h1>Das Team</h1>
+                </div>
                 <div class="slidershow middle">
                     <div class="slides">
                         <input type="radio" name="r" id="r1" checked="true" />
