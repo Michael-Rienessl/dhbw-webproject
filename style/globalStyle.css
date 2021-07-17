@@ -173,7 +173,7 @@ a {
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     background: #444;
-    height: 440px;
+    height: 20%;
     color: white;
 }
 
@@ -192,11 +192,7 @@ a {
 }
 
 .card-img {
-    border-top-left-radius: calc(.25rem - 1px);
-    border-top-right-radius: calc(.25rem - 1px);
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
+    text-align: center;
 }
 
 .btn {
@@ -244,6 +240,12 @@ a {
     background-position: center center;
 }
 
+
+/*  */
+/* team page */
+/*  */
+
+
 .slidershow{
     width: 700px;
     height: 400px;
@@ -283,15 +285,20 @@ input[name="r"]{
     width: 500%;
     height: 100%;
     display: flex;
+    background-color: #444;
+    text-align: center;
 }
 
 .slide{
     width: 20%;
     transition: 0.6s;
+    text-align: center;
 }
+
+
 .slide img{
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    height: 80%;
 }
 
 #r1:checked ~ .s1{
@@ -308,4 +315,34 @@ input[name="r"]{
 }
 #r5:checked ~ .s1{
     margin-left: -80%;
+}
+
+
+.img-container {
+    position: relative;
+    text-align: center;
+}
+.img-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #198754;
+    overflow: hidden;
+    height: 0;
+    transition: .5s ease;
+}
+.img-container:hover .img-overlay {
+    height: 100%;
+}
+.git-name {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }

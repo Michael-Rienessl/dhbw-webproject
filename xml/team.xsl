@@ -40,29 +40,54 @@
                         <input type="radio" name="r" id="r4"/>
                         <input type="radio" name="r" id="r5"/>
                         <div class="slide s1">
+                            <div class="img-container">
                             <a href="https://github.com/Reichmann-M">
-                                <img src="../../assets/images/team/max.jpg" title="Max Reichmann"/>
+                                <img class="slide-image" src="https://github.com/reichmann-m.png" title="Max Reichmann"/>
+                                <div class="img-overlay">
+                                    <div class="git-name">Max Reichmann</div>
+                                </div>
                             </a>
+                            </div>
                         </div>
                         <div class="slide">
+                            <div class="img-container">
                             <a href="https://github.com/Niklas227">    
-                                <img src="../../assets/images/team/niklas.jpg" title="Niklas Wagner"/>
+                                <img class="slide-image" src="https://github.com/niklas227.png" title="Niklas Wagner"/>
+                                <div class="img-overlay">
+                                    <div class="git-name">Niklas Wagner</div>
+                                </div>
                             </a>
+                            </div>
                         </div>
                         <div class="slide">
+                            <div class="img-container">
                             <a href="https://github.com/Michael-Rienessl">
-                                <img src="../../assets/images/team/michael.jpg" title="Michael Rienessl"/>
+                                <img class="slide-image" src="https://github.com/Michael-Rienessl.png" title="Michael Rienessl"/>
+                                <div class="img-overlay">
+                                    <div class="git-name">Michael Rienessl</div>
+                                </div>
                             </a>
+                            </div>
                         </div>
                         <div class="slide">
+                            <div class="img-container">
                             <a href="https://github.com/BluefireXD">
-                                <img src="../../assets/images/team/patrick.jpg" title="Patrick Glatt"/>
+                                <img class="slide-image" src="https://github.com/BluefireXD.png" title="Patrick Glatt"/>
+                                <div class="img-overlay">
+                                    <div class="git-name">Patrick Glatt</div>
+                                </div>
                             </a>
+                            </div>
                         </div>
                         <div class="slide">
+                            <div class="img-container">
                             <a href="https://github.com/sdertman">
-                                <img src="../../assets/images/team/oemer.jpg" title="Ömer Güler"/>
+                                <img class="slide-image" src="https://github.com/sdertman.png" title="Ömer Güler"/>
+                                <div class="img-overlay">
+                                    <div class="git-name">Ömer Güler</div>
+                                </div>
                             </a>
+                            </div>
                         </div>
                         <div class="navigation">
                             <label for="r1" class="bar"></label>

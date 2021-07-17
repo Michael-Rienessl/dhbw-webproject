@@ -18,10 +18,6 @@
     <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel='stylesheet' />
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
     <script src="https://unpkg.com/mapbox-gl-leaflet/leaflet-mapbox-gl.js"></script>
-
-    <!--To Delete: MapBox API. Muss aber für die Vektor Tiles ggf nicht importiert werden -->
-    <!--<script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />   -->
 </head>
 <body>
 <nav>
@@ -47,30 +43,30 @@
 </nav>
 <div class="card-boxing">
     <div class="card" style="width: 18rem;">
-        <img src="assets/images/database.png" width="100%" height="180" alt="Database">
+        <img class="card-img" src="assets/images/database.png" alt="Database">
 
         <div class="card-body">
-            <h5 class="card-title">Daten-Quelle</h5>
+            <!-- <h5 class="card-title">Daten-Quelle</h5> -->
             <p class="card-text">
                 Als Daten-Quelle haben wir uns für die Daten des <a href="https://www.ncei.noaa.gov/">NOAA (National Oceanic and Atmospheric Administration)</a> entschieden. Diese Organisation bietet
                 eine offene REST-API an.
             </p>
-            <a href="https://www.ncei.noaa.gov/support/access-data-service-api-user-documentation" class="btn btn-primary">Go to it!</a>
+            <a href="https://www.ncei.noaa.gov/support/access-data-service-api-user-documentation" class="btn btn-primary" style="margin-bottom: 5px">Daten-Quelle</a>
         </div>
     </div>
     <div class="card" style="width: 18rem;">
-        <img src="assets/images/team.png" 100%" height="180" alt="Database">
+        <img class="card-img" src="assets/images/team.png" alt="Database">
 
         <div class="card-body">
-            <h5 class="card-title">Projekt Team</h5>
+            <!-- <h5 class="card-title">Projekt Team</h5> -->
             <p class="card-text">
                 Unser Projektteam besteht aus 5 Bachelor-Studenten der Informatik aus dem 2. Semester an der DHBW Karlsruhe.
             </p>
-            <a href="./xml/team/team.xml" class="btn btn-primary" style="margin-bottom: 5px">Go to it!</a>
+            <a href="./xml/team/team.xml" class="btn btn-primary" style="margin-bottom: 5px">Team</a>
         </div>
     </div>
-    <div class="card" style="width: 18rem;">
-        <img src="assets/images/database.png" width="100%" height="180" alt="Database">
+    <!-- <div class="card" style="width: 18rem;">
+        <img class="card-img" src="assets/images/database.png" alt="Database">
 
         <div class="card-body">
             <h5 class="card-title">Daten-Quelle</h5>
@@ -80,7 +76,7 @@
             </p>
             <a href="https://www.ncei.noaa.gov/support/access-data-service-api-user-documentation" class="btn btn-primary">Go to it!</a>
         </div>
-    </div>
+    </div> -->
 </div>
 
 <div id='mapid'></div>
