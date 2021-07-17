@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url("../assets/images/Earth-background.jpg");
     background-size:     cover;
     background-repeat:   no-repeat;
@@ -42,12 +43,12 @@ nav {
  .nav-links a {
      color: #198754;
      text-decoration: none;
-     letter-spacing: 3px;
-     font-weight: bold;
-     font-size: 14px;
+     font-size: 120%;
+     font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 900;
  }
 
- .burger {
+.burger {
      display: none;
      cursor: pointer;
  }
