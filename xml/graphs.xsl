@@ -71,7 +71,7 @@
                             <a class="active" href="../graph_stations/{id}.xml">Graph</a>
                         </li>
                         <li>
-                            <a href="#">About Us</a>
+                            <a href="../team/team.xml">About Us</a>
                         </li>
                         <li>
                             <a href="#">Projects</a>
