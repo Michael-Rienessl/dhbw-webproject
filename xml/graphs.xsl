@@ -15,7 +15,6 @@
                 <!-- Chartist Axis Title Plugin (Fork) Import -->
                 <script src="https://reichmann-m.github.io/chartist-plugin-axistitle/src/scripts/chartist-plugin-axistitle.js"></script>
 
-
                 <style>
                     <!-- Rotiere Jahreszahlen -->
                     .ct-label.ct-label.ct-horizontal {
@@ -53,6 +52,14 @@
                     .ct-axis-title {
                         fill: white;
                     }
+                    .ct-chart-line{
+                        background-color: #444;                      
+                        border-radius: .25rem;
+                        box-shadow: rgba(25, 135, 84, 0.4) -2px 2px, rgba(25, 135, 84, 0.3) -4px 4px, rgba(25, 135, 84, 0.2) -7px 7px, rgba(25, 135, 84, 0.1) -10px 10px, rgba(25, 135, 84, 0.05) -25px 25px;
+                    }
+                    .ct-grid-background {
+                        fill: #444;
+                    }
                 </style>
             </head>
             <body>
@@ -71,10 +78,10 @@
                             <a class="active" href="../graph_stations/{id}.xml">Graph</a>
                         </li>
                         <li>
-                            <a href="#">About Us</a>
+                            <a href="../../xml/team/team.xml">About Us</a>
                         </li>
                         <li>
-                            <a href="#">Projects</a>
+                            <a href="../../sites/project.html">Projects</a>
                         </li>
                     </ul>
                     <div class="burger">
@@ -83,67 +90,78 @@
                         <div class="line3"></div>
                     </div>
                 </nav>
-                <div class="graph-header">
-                    <h1>Ø-Temp für <xsl:value-of select="name"/> (<xsl:value-of select="id"/>)</h1>
-                    <p1>Lat: <xsl:value-of select="lat"/>° Lon: <xsl:value-of select="lon"/>° Elevation: <xsl:value-of select="ele"/>m</p1>
-                </div>
-                <div class="graph-body">
-                    <div class="ct-chart"></div>
-                </div>
+                <main>
+                    <div class="graph-header">
+                        <h1>Ø-Temp für <xsl:value-of select="name"/> (<xsl:value-of select="id"/>)</h1>
+                        <p1>Lat: <xsl:value-of select="lat"/>° Lon: <xsl:value-of select="lon"/>° Elevation: <xsl:value-of select="ele"/>m</p1>
+                    </div>
+                    <!-- <div class="graph-body">-->
+                        <div class="ct-chart"></div>
+                   <!-- </div> -->
 
-                <script id="setupScript" type='text/javascript'>
-                    var years = []
-                    var tavgs = []
-                </script>
+                    <script id="setupScript" type='text/javascript'>
+                        var years = []
+                        var tavgs = []
+                    </script>
 
-                <xsl:for-each select="year">
-                    <xsl:sort select="date"/>
-                    <xsl:if test="EMXT != 'undefined'">
-                        <script type='text/javascript'>
-                            years.push([<xsl:value-of select="date"/>].toString());
-                            tavgs.push([<xsl:value-of select="TAVG"/>].toString());
-                        </script>
-                </xsl:if>
-                </xsl:for-each>
+                    <xsl:for-each select="year">
+                        <xsl:sort select="date"/>
+                        <xsl:if test="EMXT != 'undefined'">
+                            <script type='text/javascript'>
+                                years.push([<xsl:value-of select="date"/>].toString());
+                                tavgs.push([<xsl:value-of select="TAVG"/>].toString());
+                            </script>
+                    </xsl:if>
+                    </xsl:for-each>
 
-                <script>
-                    var data = {
-                        labels: years,
-                        series: [
-                            tavgs
-                        ]
-                    };
-                    var temp_diagram = new Chartist.Line('.ct-chart', data, {
-                        width: 1000,
-                        height: 400,
-                        showArea: true,
-                        low: 0,
-                        high: 13,
-                        plugins: [
-                            Chartist.plugins.ctAxisTitle({
-                                axisY: {
-                                    axisTitle: "Ø-Temps in °C",
-                                    axisClass: "ct-axis-title",
-                                    flipTitle: false
+                    <script>
+                        var data = {
+                            labels: years,
+                            series: [
+                                tavgs
+                            ]
+                        };
+                        var temp_diagram = new Chartist.Line('.ct-chart', data, {
+                            width: 1000,
+                            height: 400,
+                            showArea: true,
+                            showGridBackground: true,
+                            low: 0,
+                            high: 13,
+                            plugins: [
+                                Chartist.plugins.ctAxisTitle({
+                                    axisY: {
+                                        axisTitle: "Ø-Temps in °C",
+                                        axisClass: "ct-axis-title",
+                                        flipTitle: false
+                                    }
+                                })
+                            ]
+                        });
+                        
+                        temp_diagram.on('draw', function(data) {
+                            if(data.type === 'line' || data.type === 'area') {
+                            data.element.animate({
+                                d: {
+                                begin: 2000 * data.index,
+                                dur: 2000,
+                                from: data.path.clone().scale(1, 0).translate(0, data.chartRect.height()).stringify(),
+                                to: data.path.clone().stringify(),
+                                easing: Chartist.Svg.Easing.easeOutQuint
                                 }
-                            })
-                        ]
-                    });
-                    
-                    temp_diagram.on('draw', function(data) {
-                        if(data.type === 'line' || data.type === 'area') {
-                          data.element.animate({
-                            d: {
-                              begin: 2000 * data.index,
-                              dur: 2000,
-                              from: data.path.clone().scale(1, 0).translate(0, data.chartRect.height()).stringify(),
-                              to: data.path.clone().stringify(),
-                              easing: Chartist.Svg.Easing.easeOutQuint
+                            });
                             }
-                          });
-                        }
-                      });
-                </script>
+                        });
+                    </script>
+                </main> 
+                <footer class="flexFlowX_SpaceBetween"><!--Fußzeile der Seite-->        
+                    <p class="flexFlowX_CenterXY">Weathercard by students of DHBW Karlsruhe</p>    
+                    <div class="flexFlowX_CenterXY">                 
+                        <a class="" href="https://github.com/Michael-Rienessl/dhbw-webproject" target="_blank"><img src="../../assets/icons/git.png" alt="Git Icon"/></a>  
+                        <a class="" href="https://www.karlsruhe.dhbw.de/bachelor/fakultaet-technik/allgemein.html" target="_blank"><img src="../../assets/icons/DHBW.png"/></a>   
+                        <a class="" href="https://www.instagram.com/dhbwkarlsruhe/?hl=de" target="_blank"><img src="../../assets/icons/insta.png" alt="Instagram Icon"/></a>      
+                    </div>                        
+                </footer> 
                 <script src="../../js/app.js"></script>
             </body>
         </html>

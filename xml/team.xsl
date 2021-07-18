@@ -23,7 +23,7 @@
                             <a href="#">About Us</a>
                         </li>
                         <li>
-                            <a href="#">Projects</a>
+                            <a href="../../sites/project.html">Projects</a>
                         </li>
                     </ul>
                     <div class="burger">
@@ -32,47 +32,57 @@
                         <div class="line3"></div>
                     </div>
                 </nav>
-                <div class="slidershow middle">
-                    <div class="slides">
-                        <input type="radio" name="r" id="r1" checked="true" />
-                        <input type="radio" name="r" id="r2"/>
-                        <input type="radio" name="r" id="r3"/>
-                        <input type="radio" name="r" id="r4"/>
-                        <input type="radio" name="r" id="r5"/>
-                        <div class="slide s1">
-                            <a href="https://github.com/Reichmann-M">
-                                <img src="../../assets/images/team/max.jpg" title="Max Reichmann"/>
-                            </a>
+                <main>
+                    <div class="slidershow middle">
+                        <div class="slides">
+                            <input type="radio" name="r" id="r1" checked="true" />
+                            <input type="radio" name="r" id="r2"/>
+                            <input type="radio" name="r" id="r3"/>
+                            <input type="radio" name="r" id="r4"/>
+                            <input type="radio" name="r" id="r5"/>
+                            <div class="slide s1">
+                                <a href="https://github.com/Reichmann-M">
+                                    <img src="../../assets/images/team/max.jpg" title="Max Reichmann"/>
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="https://github.com/Niklas227">    
+                                    <img src="../../assets/images/team/niklas.jpg" title="Niklas Wagner"/>
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="https://github.com/Michael-Rienessl">
+                                    <img src="../../assets/images/team/michael.jpg" title="Michael Rienessl"/>
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="https://github.com/BluefireXD">
+                                    <img src="../../assets/images/team/patrick.jpg" title="Patrick Glatt"/>
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="https://github.com/sdertman">
+                                    <img src="../../assets/images/team/oemer.jpg" title="Ömer Güler"/>
+                                </a>
+                            </div>
+                            <div class="navigation">
+                                <label for="r1" class="bar"></label>
+                                <label for="r2" class="bar"></label>
+                                <label for="r3" class="bar"></label>
+                                <label for="r4" class="bar"></label>
+                                <label for="r5" class="bar"></label>
+                            </div>
                         </div>
-                        <div class="slide">
-                            <a href="https://github.com/Niklas227">    
-                                <img src="../../assets/images/team/niklas.jpg" title="Niklas Wagner"/>
-                            </a>
-                        </div>
-                        <div class="slide">
-                            <a href="https://github.com/Michael-Rienessl">
-                                <img src="../../assets/images/team/michael.jpg" title="Michael Rienessl"/>
-                            </a>
-                        </div>
-                        <div class="slide">
-                            <a href="https://github.com/BluefireXD">
-                                <img src="../../assets/images/team/patrick.jpg" title="Patrick Glatt"/>
-                            </a>
-                        </div>
-                        <div class="slide">
-                            <a href="https://github.com/sdertman">
-                                <img src="../../assets/images/team/oemer.jpg" title="Ömer Güler"/>
-                            </a>
-                        </div>
-                        <div class="navigation">
-                            <label for="r1" class="bar"></label>
-                            <label for="r2" class="bar"></label>
-                            <label for="r3" class="bar"></label>
-                            <label for="r4" class="bar"></label>
-                            <label for="r5" class="bar"></label>
-                        </div>
-                    </div>
-                </div>
+                    </div>                    
+                </main>
+                <footer class="flexFlowX_SpaceBetween"><!--Fußzeile der Seite-->        
+                    <p class="flexFlowX_CenterXY">Weathercard by students of DHBW Karlsruhe</p>    
+                    <div class="flexFlowX_CenterXY">                 
+                        <a class="" href="https://github.com/Michael-Rienessl/dhbw-webproject" target="_blank"><img src="../../assets/icons/git.png" alt="Git Icon"/></a>  
+                        <a class="" href="https://www.karlsruhe.dhbw.de/bachelor/fakultaet-technik/allgemein.html" target="_blank"><img src="../../assets/icons/DHBW.png"/></a>   
+                        <a class="" href="https://www.instagram.com/dhbwkarlsruhe/?hl=de" target="_blank"><img src="../../assets/icons/insta.png" alt="Instagram Icon"/></a>      
+                    </div>                        
+                </footer> 
                 <script src="../../js/app.js"/>
             </body>
         </html>
