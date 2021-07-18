@@ -33,7 +33,7 @@
                             <a href="../graph_stations/{id}.xml">Graph</a>
                         </li>
                         <li>
-                            <a href="../../xml/team/team.xml">About Us</a>
+                            <a href="../team/team.xml">About Us</a>
                         </li>
                         <li>
                             <a href="../sites/project.html">Projects</a>
