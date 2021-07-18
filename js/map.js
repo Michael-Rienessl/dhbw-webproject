@@ -1,13 +1,14 @@
 //Leaflet Map erstellen
-var Karte = L.map("mapid", {tap: false, scrollWheelZoom: false}).setView([51, 10.3], 6);
+var Karte = L.map("mapid", {tap: false}).setView([51, 10.3], 6);
+// var Karte = L.map("mapid", {tap: false, scrollWheelZoom: false}).setView([51, 10.3], 6);
 Karte.options.minZoom = 2;
 
-//Zoom Scrollrad aktivieren/Deaktiveren durck Klicken
-Karte.on('click', function() {	
-	Karte.scrollWheelZoom.enable(); /*Immer aktivieren nach dem ersten Klick*/
-	/*Toggle
-	Karte.scrollWheelZoom.enabled()? Karte.scrollWheelZoom.disable() : Karte.scrollWheelZoom.enable();*/
-});
+// //Zoom Scrollrad aktivieren/Deaktiveren durck Klicken
+// Karte.on('click', function() {	
+// 	Karte.scrollWheelZoom.enable(); /*Immer aktivieren nach dem ersten Klick*/
+// 	/*Toggle
+// 	Karte.scrollWheelZoom.enabled()? Karte.scrollWheelZoom.disable() : Karte.scrollWheelZoom.enable();*/
+// });
 
 // Suchfunktionalität
 var markersLayer = new L.LayerGroup();
