@@ -41,10 +41,10 @@
 #mapid {
     width: 550px;
     height: 400px;
-    margin: 25px 50px 50px;
+    margin: 0px 50px 25px;  
     float: left;
     z-index: 0;
-
+    border: 1px none #198754;
 }
 
 #table {
@@ -73,9 +73,10 @@
 
 .detail-links {
     display: flex;
-    justify-content: space-around;
-    width: 40%;
-    margin-left: 80px;
+    width: 100%;
+    margin-left: 0px;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .detail-links li {

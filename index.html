@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <title>Klimakarte (DHBW Webproject)</title>
-    <link rel="icon" href="assets/images/favicon.ico">   
+    <link rel="icon" href="assets/images/favicon.ico">
     <!-- <link rel="shortcut icon" href="#"/> -->
     <!-- stylesheets -->
     <link rel="stylesheet" href="style/globalStyle.css">
     <link rel="stylesheet" href="style/indexStyle.css">
 
-    <!--pg: TODO die ganzen Quelldateien ggf ins eigene Projekt integrieren um Ladezeiten zu reduzieren-->    
+    <!--pg: TODO die ganzen Quelldateien ggf ins eigene Projekt integrieren um Ladezeiten zu reduzieren-->
     <!-- leaflet.css und leaflet.js von externer Quelle einbinden -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script> 
-    
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
     <!--Import mapbox css und js-->
     <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel='stylesheet' />
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
@@ -21,74 +22,98 @@
 
     <!--To Delete: MapBox API. Muss aber für die Vektor Tiles ggf nicht importiert werden -->
     <!--<script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />   -->
+        <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />   -->
 </head>
+
 <body>
-<nav>
-    <div class="logo">
-        <h4>The Nav</h4>
-    </div>
-    <ul class="nav-links">
-        <li>
-            <a class="active" href="./index.html">Home</a>
-        </li>
-        <li>
-            <a href="./xml/team/team.xml">About Us</a>
-        </li>
-        <li>
-            <a href="#">Projects</a>
-        </li>
-    </ul>
-    <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-    </div>
-</nav>
-<div class="card-boxing">
-    <div class="card" style="width: 18rem;">
-        <img src="assets/images/database.png" width="100%" height="180" alt="Database">
-
-        <div class="card-body">
-            <h5 class="card-title">Daten-Quelle</h5>
-            <p class="card-text">
-                Als Daten-Quelle haben wir uns für die Daten des <a href="https://www.ncei.noaa.gov/">NOAA (National Oceanic and Atmospheric Administration)</a> entschieden. Diese Organisation bietet
-                eine offene REST-API an.
-            </p>
-            <a href="https://www.ncei.noaa.gov/support/access-data-service-api-user-documentation" class="btn btn-primary">Go to it!</a>
+    <nav>
+        <!--Navigationsleiste/Menuebar der Seite-->
+        <div class="logo">
+            <h4>The Nav</h4>
         </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img src="assets/images/team.png" 100%" height="180" alt="Database">
-
-        <div class="card-body">
-            <h5 class="card-title">Projekt Team</h5>
-            <p class="card-text">
-                Unser Projektteam besteht aus 5 Bachelor-Studenten der Informatik aus dem 2. Semester an der DHBW Karlsruhe.
-            </p>
-            <a href="./xml/team/team.xml" class="btn btn-primary" style="margin-bottom: 5px">Go to it!</a>
+        <ul class="nav-links">
+            <li>
+                <a class="active" href="./index.html">Home</a>
+            </li>
+            <li>
+                <a href="./xml/team/team.xml">About Us</a>
+            </li>
+            <li>
+                <a href="./sites/project.html">Projects</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
         </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img src="assets/images/database.png" width="100%" height="180" alt="Database">
+    </nav>
+    <main>
+        <!--Hauptinhalt der Seite-->
+        <div class="card-boxing">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/images/database.png" height="200px" alt="Database">
 
-        <div class="card-body">
-            <h5 class="card-title">Daten-Quelle</h5>
-            <p class="card-text">
-                Als Daten-Quelle haben wir uns für die Daten des <a href="https://www.ncei.noaa.gov/">NOAA (National Oceanic and Atmospheric Administration)</a> entschieden. Diese Organisation bietet
-                eine offene REST-API an.
-            </p>
-            <a href="https://www.ncei.noaa.gov/support/access-data-service-api-user-documentation" class="btn btn-primary">Go to it!</a>
+                <div class="card-body">
+                    <h5 class="card-title">Daten-Quelle</h5>
+                    <p class="card-text">
+                        Als Daten-Quelle haben wir uns für die Daten des <a href="https://www.ncei.noaa.gov/">NOAA
+                            (National Oceanic and Atmospheric Administration)</a> entschieden. Diese Organisation bietet
+                        eine offene REST-API an.
+                    </p>
+                    <a href="https://www.ncei.noaa.gov/support/access-data-service-api-user-documentation"
+                        class="btn btn-primary">Go to it!</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="" src="assets/images/team.png" height="200px" alt="Database">
+
+                <div class="card-body">
+                    <h5 class="card-title">Projekt Team</h5>
+                    <p class="card-text">
+                        Unser Projektteam besteht aus 5 Bachelor-Studenten der Informatik aus dem 2. Semester an der
+                        DHBW Karlsruhe.
+                    </p>
+                    <a href="./xml/team/team.xml" class="btn btn-primary" style="margin-bottom: 5px">Go to it!</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="assets/images/database.png" height="200px" alt="Database">
+
+                <div class="card-body">
+                    <h5 class="card-title">Daten-Quelle</h5>
+                    <p class="card-text">
+                        Als Daten-Quelle haben wir uns für die Daten des <a href="https://www.ncei.noaa.gov/">NOAA
+                            (National Oceanic and Atmospheric Administration)</a> entschieden. Diese Organisation bietet
+                        eine offene REST-API an.
+                    </p>
+                    <a href="https://www.ncei.noaa.gov/support/access-data-service-api-user-documentation"
+                        class="btn btn-primary">Go to it!</a>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
+        <div id='mapid'></div>
+        <!--Wetterkarte-->
+    </main>
 
-<div id='mapid'></div>
-<!-- Import leaflet search fork -->
-<script src="https://reichmann-m.github.io/leaflet-search/src/leaflet-search.js"></script>
-<link rel="stylesheet" href="https://reichmann-m.github.io/leaflet-search/src/leaflet-search.css"></link>
-<!-- OSM-Basiskarte einfügen und zentrieren + Marker einfügen -->
-<script src="js/map.js" type="text/javascript"></script>
-<script src="js/app.js"></script>
+    <footer class="flexFlowX_SpaceBetween">
+        <!--Fußzeile der Seite-->
+        <p class="flexFlowX_CenterXY">Weathercard by students of DHBW Karlsruhe</p>
+        <div class="flexFlowX_CenterXY">
+            <a class="" href="https://github.com/Michael-Rienessl/dhbw-webproject" target="_blank"><img
+                    src="assets/icons/github.png" alt="Git Icon" /></a>
+            <a class="" href="https://www.karlsruhe.dhbw.de/bachelor/fakultaet-technik/allgemein.html"
+                target="_blank"><img src="assets/icons/DHBW.png" /></a>
+        </div>
+    </footer>
+
+    <!-- Import leaflet search fork -->
+    <script src="https://reichmann-m.github.io/leaflet-search/src/leaflet-search.js"></script>
+    <link rel="stylesheet" href="https://reichmann-m.github.io/leaflet-search/src/leaflet-search.css">
+    </link>
+    <!-- OSM-Basiskarte einfügen und zentrieren + Marker einfügen -->
+    <script src="js/map.js" type="text/javascript"></script>
+    <script src="js/app.js"></script>
 </body>
+
 </html>
