@@ -29,7 +29,7 @@
                             <a href="#">About Us</a>
                         </li>
                         <li>
-                            <a href="#">Projects</a>
+                            <a href="../../sites/project.html">Projects</a>
                         </li>
                     </ul>
                     <div class="burger">

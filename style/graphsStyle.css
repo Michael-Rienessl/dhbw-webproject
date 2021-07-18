@@ -2,6 +2,13 @@
     margin: 100px;
     width: auto;
 }
+.ct-chart{
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
 
 .graph-body {
     margin-left: 400px;
@@ -11,6 +18,7 @@
     background-color: #444;
     padding: 20px;
     border-radius: .25rem;
-    box-shadow: rgba(25, 135, 84, 0.4) -5px 5px, rgba(25, 135, 84, 0.3) -10px 10px, rgba(25, 135, 84, 0.2) -15px 15px, rgba(25, 135, 84, 0.1) -20px 20px, rgba(25, 135, 84, 0.05) -25px 25px;
+    box-shadow: inset 0px 33px 25px 0 rgba(25, 135, 84), inset 0 66px 15px 0px rgb(52, 122, 90) ,inset 0 99px 5px 0px rgb(94, 129, 113)
+    /*box-shadow: rgba(25, 135, 84, 0.4) -5px 5px, rgba(25, 135, 84, 0.3) -10px 10px, rgba(25, 135, 84, 0.2) -15px 15px, rgba(25, 135, 84, 0.1) -20px 20px, rgba(25, 135, 84, 0.05) -25px 25px;*/
 }
 
