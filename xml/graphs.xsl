@@ -81,7 +81,7 @@
                             <a href="../team/team.xml">About Us</a>
                         </li>
                         <li>
-                            <a href="../../sites/project.html">Projects</a>
+                            <a href="../../sites/project.html">About This Page</a>
                         </li>
                     </ul>
                     <div class="burger">
