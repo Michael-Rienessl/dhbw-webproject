@@ -215,43 +215,6 @@ a {
     color: #0078A8;
 }
 
-.card {
-    margin-left: 20px;
-    margin-right: 20px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    word-wrap: break-word;
-    background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: .25rem;
-    background: #444;
-    height: 20%;
-    color: white;
-}
-
-.card-body {
-    flex: 1 1 auto;
-    padding: 1rem 1rem;
-}
-
-.card-title {
-    margin-bottom: .5rem;
-}
-
-.card-subtitle {
-    margin-top: -.25rem;
-    margin-bottom: 0;
-}
-
-.card img {
-    margin-bottom: 1rem;
-}
-
-.card-img {
-    text-align: center;
-}
 
 .btn {
     display: inline-block;
@@ -282,21 +245,7 @@ a {
     border-color: #198754;
 }
 
-.card-boxing {
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3rem;
-    margin: 100px;
-    border-width: 1px;
-    border-top-left-radius: .25rem;
-    border-top-right-radius: .25rem;
-    background-image:    url("../assets/images/Desert-image-space.jpg");
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-}
+
 
 
 /*  */
