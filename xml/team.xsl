@@ -26,10 +26,10 @@
                             <a class="active" href="../../index.html">Home</a>
                         </li>
                         <li>
-                            <a href="#">About Us</a>
+                            <a href="#">Über Uns</a>
                         </li>
                         <li>
-                            <a href="../../sites/project.html">About This Page</a>
+                            <a href="../../sites/project.html">Über Diese Seite</a>
                         </li>
                     </ul>
                     <div class="burger">
@@ -109,7 +109,7 @@
                 </div>
                 <footer class="flexFlowX_SpaceBetween">
                     <!--Fußzeile der Seite-->
-                    <p class="flexFlowX_CenterXY">Climatic map by students of DHBW Karlsruhe</p>
+                    <p class="flexFlowX_CenterXY">Wetterkarte von DHBW Karlsruhe Studenten</p>
                     <div class="flexFlowX_CenterXY">
                         <a class="" href="https://github.com/Michael-Rienessl/dhbw-webproject" target="_blank"><img
                                 src="../../assets/icons/github.png" alt="Git Icon" /></a>
