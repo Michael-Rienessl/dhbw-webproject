@@ -54,6 +54,7 @@
                            target="_blank"><img src="../../assets/icons/DHBW.png" alt="DHBW Icon"/></a>
                     </div>
                 </footer>
+                <script src="../../js/app.js"></script>
             </body>
         </html>
     </xsl:template>
