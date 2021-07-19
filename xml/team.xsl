@@ -19,7 +19,7 @@
             <body>
                 <nav>
                     <div class="logo">
-                        <h4>The Nav</h4>
+                        <h4>Climatic Map</h4>
                     </div>
                     <ul class="nav-links">
                         <li>
@@ -107,6 +107,16 @@
                         </div>
                     </div>
                 </div>
+                <footer class="flexFlowX_SpaceBetween">
+                    <!--Fußzeile der Seite-->
+                    <p class="flexFlowX_CenterXY">Climatic map by students of DHBW Karlsruhe</p>
+                    <div class="flexFlowX_CenterXY">
+                        <a class="" href="https://github.com/Michael-Rienessl/dhbw-webproject" target="_blank"><img
+                                src="assets/icons/github.png" alt="Git Icon" /></a>
+                        <a class="" href="https://www.karlsruhe.dhbw.de/bachelor/fakultaet-technik/allgemein.html"
+                           target="_blank"><img src="assets/icons/DHBW.png" /></a>
+                    </div>
+                </footer>
                 <script src="../../js/app.js"/>
             </body>
         </html>
