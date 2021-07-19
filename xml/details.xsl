@@ -36,7 +36,7 @@
                             <a href="../team/team.xml">Über Uns</a>
                         </li>
                         <li>
-                            <a href="../sites/project.html">Über Diese Seite</a>
+                            <a href="../../xml/project/project.xml">Über Diese Seite</a>
                         </li>
                     </ul>
                     <div class="burger">
