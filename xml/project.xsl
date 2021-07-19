@@ -38,7 +38,7 @@
                     <!--Hauptinhalt der Seite-->
                     <article class="flexFlowY_CenterXY">
                         <img class="" src="../../assets/images/team.png" height="200px" alt="Team"/>
-                        <p style="text-align: justify; margin: 10px">Herzlich Willkommen bei unserem Web-Engineering / Projektmanagement Programmierprojekt. Unter HOME finden Sie eine Karte von allen 677 deutschen Wetterstationen als Marker. Wenn Sie eine Station auswählen, öffnet sich ein Popup mit einem Link zu der korrespondierenden Detailsseite mit den Temperaturdaten von 1970 bis heute. Auf dieser Detailseite befindet sich dann ein Link zum Diagramm für die Temperaturentwicklung.</p>
+                        <p style="text-align: justify; margin: 10px">Herzlich Willkommen bei unserem Web-Engineering / Projektmanagement - Programmierprojekt. Unter HOME finden Sie eine Karte von allen 677 deutschen Wetterstationen als Marker. Wenn Sie eine Station auswählen, öffnet sich ein Popup mit einem Link zu der korrespondierenden Detailsseite mit den Temperaturdaten von 1970 bis heute. Auf dieser Detailseite befindet sich dann ein Link zum Diagramm für die Temperaturentwicklung.</p>
                             <div class="card-link">
                                 <a href="../../index.html" class="btn btn-primary" style="margin-bottom: 5px">Home</a>
                             </div>
