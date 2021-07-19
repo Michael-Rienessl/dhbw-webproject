@@ -44,7 +44,7 @@ xhr.send();
 
 function markers(xml) {
 	const stations = xml.getElementsByTagName("station");
-	console.log(stations);
+	// console.log(stations);
 	const markArr = [];
 	for (let i = 0; i < stations.length; i++) {
 		const
