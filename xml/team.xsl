@@ -114,7 +114,7 @@
                         <a class="" href="https://github.com/Michael-Rienessl/dhbw-webproject" target="_blank"><img
                                 src="../../assets/icons/github.png" alt="Git Icon" /></a>
                         <a class="" href="https://www.karlsruhe.dhbw.de/bachelor/fakultaet-technik/allgemein.html"
-                           target="_blank"><img src="../../assets/icons/DHBW.png" /></a>
+                           target="_blank"><img src="../../assets/icons/DHBW.png" alt="DHBW Icon"/></a>
                     </div>
                 </footer>
                 <script src="../../js/app.js"/>

@@ -124,7 +124,7 @@
                     <p class="flexFlowX_CenterXY">Wetterkarte von DHBW Karlsruhe Studenten</p>
                     <div class="flexFlowX_CenterXY">                 
                         <a class="" href="https://github.com/Michael-Rienessl/dhbw-webproject" target="_blank"><img src="../../assets/icons/github.png" alt="Git Icon"/></a>  
-                        <a class="" href="https://www.karlsruhe.dhbw.de/bachelor/fakultaet-technik/allgemein.html" target="_blank"><img src="../../assets/icons/DHBW.png"/></a>   
+                        <a class="" href="https://www.karlsruhe.dhbw.de/bachelor/fakultaet-technik/allgemein.html" target="_blank"><img src="../../assets/icons/DHBW.png" alt="DHBW icon"/></a>
                     </div>                        
                 </footer> 
                 <script src="../../js/app.js"></script>
