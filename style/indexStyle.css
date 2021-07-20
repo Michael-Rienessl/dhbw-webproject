@@ -4,13 +4,20 @@
     margin: 100px;
     border-radius: .25rem;
     z-index: 0;
+    border-style: solid;
+    border-width: thick;
+    border-color: white;
 }
 
 .card-boxing {
     width: auto;
     display: flex;
     padding: 3rem;
-    margin: 100px;
+    /* margin: 100px; */
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 67px;
     border-width: 1px;
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
@@ -21,6 +28,10 @@
     flex-direction: row;
     align-items: stretch;
     justify-content: center;
+    
+    border-style: solid;
+    border-width: thick;
+    border-color: white;
 }
 
 .card {
