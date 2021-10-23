@@ -60,8 +60,8 @@
                         </div>
                         <div class="slide">
                             <div class="img-container">
-                            <a href="https://github.com/Niklas227">    
-                                <img class="slide-image" src="https://github.com/niklas227.png" title="Niklas Wagner"/>
+                            <a href="https://github.com/niklasWag">    
+                                <img class="slide-image" src="https://github.com/niklasWag.png" title="Niklas Wagner"/>
                                 <div class="img-overlay">
                                     <div class="git-name">Niklas Wagner</div>
                                 </div>
